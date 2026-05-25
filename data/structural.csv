@@ -1,0 +1,68 @@
+,Name_of_Project,Description,Adjust_label_strucutural
+100,2005_clarus_low,The Clarus system baseline data types shall be defined by the NTCIP ESS 1204 standard.,0
+104,2005_clarus_low,CS shall accept environmental data described by definitions defined by CMML version 2.,0
+106,2005_clarus_low,"The Clarus system shall accept only observations that include location, timestamp, and source metadata.",1
+109,2005_clarus_low,CS shall accept only observation of identified measurement types and units.,0
+112,2005_clarus_low,The Clarus system shall accept data through a Clarus standard interface.,0
+113,2005_clarus_low,CS shall implement the Clarus standard interface.,0
+114,2005_clarus_low,The Clarus system shall be able to communicate with environmental sensor stations through its collector using the NTCIP ESS 1204.,1
+142,2005_clarus_low,The EMC shall be able to maintain an equipment list for each station.,0
+154,2005_clarus_low,The Clarus system shall minimize the time for data dissemination.,0
+172,2005_clarus_low,The QEDC observation types shall be defined by NTCIP ESS 1204.,0
+357,2005_clarus_low,The Clarus program shall maintain information about data providers.,0
+358,2005_clarus_low,The Clarus program shall maintain metadata about each data provider's network.,0
+359,2005_clarus_low,The Clarus program shall maintain information about data provider redistribution restrictions.,1
+360,2005_clarus_low,The Clarus program shall maintain information about service providers.,0
+361,2005_clarus_low,The Clarus program shall maintain information about service provider communications.,0
+362,2005_clarus_low,The Clarus program shall maintain information about service provider access to data.,0
+363,2005_clarus_low,The Clarus program shall allow potential weather element data providers to request permission to submit weather information.,1
+364,2005_clarus_low,The Clarus system shall accept data only from sources which data sharing agreements have been established.,0
+406,2002_evla_back,Start Process – The BE shall be able to initiate a processing task on any Backend processor.,0
+407,2002_evla_back,Stop Process  – The BE shall be able to signal a kill for any Backend process.,0
+408,2002_evla_back,Alter Priority – The BE shall be able to alter the priority of any of the BE tasks.,0
+409,2002_evla_back,Reboot Processor – The BE shall be able to initiate a reboot of any Backend a physical processor.,1
+413,2002_evla_back,Input Data Queue – a memory buffer of lag frames. Data entry status queue to track each record in the buffer. The lag frames will contain all information necessary to properly assemble complete lag sets.,1
+496,1999_multi_mahjong,The MultiMahjongClient must inform the user if another player is fishing.,0
+501,1999_multi_mahjong,Users will be able to turn the sound on or off at any stage during the game.,0
+502,1999_multi_mahjong,Users will have access to the User's Documentation online at any stage during the game.,0
+505,1999_multi_mahjong,User's will be able to Undo their last move if playing in single player mode.,0
+506,1999_multi_mahjong,User's will be able to Save their game if playing in single player mode.,0
+507,1999_multi_mahjong,User's will be able to chat with each other in real time.,0
+510,1999_multi_mahjong,The user will be able to end the game at any stage of the game. ,0
+511,1999_multi_mahjong,The MultiMahjongServer will inform all MultiMahjongClients connected to the game that the game has ended. Users of any MultiMahjongClient previously connected to the game will have the choice to quit the program or to begin/join a new game.,0
+522,1999_multi_mahjong,The CO will be able to perform look ahead algorithms to determine its best move in the Intermediate and Advanced levels.,0
+525,1999_multi_mahjong,There will be CO's of different playing styles that the user can choose from.,0
+529,1999_multi_mahjong,"Prior knowledge of Mahjong rules is not necessary, as the product will be designed for both players with some or no experience.",0
+647,2001_hats,"[SRSreq 01] Any operation requiring the user to supply a file name shall allow the user either to select the files from a list derived from files in the currently open application or to key in a file name, a relative path name, or a complete path name.",1
+648,2001_hats,"[SRSreq 02] For any operation where the user is prompted to select from a list, the user shall be able to cancel the operation.",0
+649,2001_hats,"[SRSreq 03]When collecting generated output files from HATS-SML, the HATS-GUI shall overwrite any file whose name is generated automatically. For example, given a transformation language program X.tlp, the file X.tlp.parsed is generated when the parser is executed. If X.tlp.parsed existed prior to executing the parser, it shall be overwritten without prompting the user.",0
+671,2001_hats,"[SRSreq 25] The HATS-GUI shall allow the user to select the colors for types of displayed nodes in a displayed graph. At a minimum, the system shall provide eight colors (red, yellow, white, black, green, blue, orange, and violet) for displayed nodes.",1
+676,2001_hats,[SRSreq 30] The Run/Parse Target menu item shall provide an interface for selecting and parsing target programs.,0
+678,2001_hats,[SRSreq 32] The Run/Execute Transforms menu item shall provide an interface for selecting and executing transformation language programs.,1
+691,2001_hats,"[SRSreq 46] After initiating processes for editing files, the HATS-GUI is not responsible for communications with the process other than passing command line arguments.",0
+698,2001_hats,[SRSreq 53] There shall be exactly one file describing the lexical specification of inputs associated with an application. It shall have the file extension .spec.,1
+37,2005_clarus_low,The CAUI shall enable a quality manager to apply manual flags to a set of observations from an individual ESS.,1
+417,2002_evla_back,"Metadata – All internally and externally generated data about the processed time series and spectra including invalid data flags, processes applied, coordinates, etc.",1
+424,2002_evla_back,"Error Handling – the system shall be capable of flagging and marking corrupted data segments and proceeding without interruption or effect on other data. This includes, but is not limited to, partial data, zero data, underflows, overflows, infinities, and NaN’s whether obtained on input or arising during processing.",1
+427,2002_evla_back,CPU – The total processor capability of the BE System shall be (combination of numbers of processors and individual processor speed) sufficient to accomplish all processing tasks while avoiding loss or delay on the input and output data streams.,1
+429,2002_evla_back,Excess Storage – The BE System shall have sufficient storage (memory and/or disk) with sufficient access speeds to meet short duration Correlator bursting demands (level TBD) plus a standby reserve (amount TBD) to meet reliability needs and handle outage recovery demands.,1
+430,2002_evla_back," Applications – all math/science application software shall take optimal advantage of all language, compiler, and system computational features and resources to reduce run times to the minimum practical level.",1
+588,tachonet,REL-01 The system is to be designed as a robust and dependable operational system which is tolerant to operator errors and which will recover cleanly from power cuts or other disasters.,1
+589,tachonet,"REL-02  The system must function reliably, with few or no interruptions in its first operational year and fewer still thereafter.",1
+592,tachonet,PER-02  There will be no restriction in time or place for the use of the software built from the specifications produced under this contract.,1
+598,tachonet,SUP-03  The system must be designed so that it can migrate to upgraded hardware or new versions of the operating systems involved.,1
+600,tachonet,"SUP-05 The system must provide solutions/rules regarding data encoding problems such as supporting different character sets, name truncation rules, name matching in case of misspelling,...",1
+856,1999_tcs,The TCS mission planning function shall provide a graphical user interface that gives the operator the ability to define waypoints on a map based display using a pointing device with full keyset redundancy. [SSS059],1
+856,1999_tcs,The TCS mission planning function shall provide a graphical user interface that gives the operator the ability to define waypoints on a map based display using a pointing device with full keyset redundancy. [SSS059],1
+1265,1999_tcs,The TCS shall have an objective capability to be integrated and operated from tactical and command and control aircraft. [SSS531],1
+1266,1999_tcs,The TCS shall have an objective capability to be integrated and operated from submarines. [SSS532],0
+1244,1999_tcs,TCS transport and storage containers shall be reusable and enable the operators to set-up equipment within the established timelines in their ORDs. [SSS505],1
+1240,1999_tcs,TCS shall record operator and maintainer actions for self assessment and performance enhancement. [SSS502],1
+1239,1999_tcs,Training shall be adequate to maintain operator and maintainer skills and proficiencies. [SSS501],1
+1233,1999_tcs,"The TCS system shall provide, for the operator and maintainer, an embedded or add-on interactive training courseware with self-paced instruction, duplicating UAV flight performance characteristics, capabilities, and limitations. [SSS492] The OUTRIDER TCS system shall be compatible with the U.S. Army Intelligence and Electronic Warfare Tactical Proficiency Trainer as an objective. [SSS493]",1
+1230,1999_tcs,"The TCS HCI shall provide continuously-available, on-screen control functions for time and missioncritical operations, to include as a minimum print, freeze, declassification, mark VCR, declutter, cease RF transmission. [SSS489]",1
+1229,1999_tcs,"The TCS HCI shall provide for on-screen information to include, as a minimum, overlays, headers, cursors, alphanumeric annotation, waypoints, crosshairs, designed to be visible against the complete spectrum of map and payload video backgrounds. [SSS488]",1
+1222,1999_tcs,The TCS HCI shall display the SAR imaging swath on the map display. [SSS479] The TCS HCI shall provide the on-screen capability to select and efficiently move as well as reorient a previously defined SAR imaging swath. [SSS480],1
+1221,1999_tcs,The TCS HCI shall provide coarse and fine payload control capabilities directly on the payload screen. [SSS478],1
+1218,1999_tcs,"The TCS HCI shall provide unambiguous AV and payload control and status feedback indicators to ensure safe, efficient operations of two AVs and their payloads by a single TCS station. [SSS475]",1
+1095,1999_tcs,"The TCS safety requirements are intended to eliminate as well as control potential hazards to equipment and personnel involved in the TCS. The TCS shall comply with para 5.3 of MIL-STD 882C, “System Safety Program Requirements”, dated 19 January 1993 w/ Notice 1 dated 19 January 1996. [SSS346]",1

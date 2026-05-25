@@ -1,0 +1,92 @@
+Description,Scope_ambiguity
+The EMC shall be able to maintain an equipment list for each station.,1
+Each QChS shall produce a unique quality flag value.,1
+The Clarus system shall allocate each collector to a specific host.,1
+The Clarus system shall allocate each contributor to a specific host.,1
+The Clarus system shall be able to respond to 95% of all requests for environmental data 95% of the time.,1
+"The contributors shall provide the Clarus program with a timely notice of their intent to change, alter, replace, or eliminate any shared data and information as specified within this Clarus Data Sharing Agreement.",1
+"Any reference in the Clarus Data Sharing Agreement to statutes, regulations and rules shall be a reference to the amended, substituted, replaced or re-enacted statute, regulations and rules.",1
+Transfers – The transfer shall take place in such a manner that all data needed to perform any Fourier Transform shows-up on a single processor.,1
+Each QChS shall produce a unique quality value.,1
+Fourier Transform Processing – The BE shall be able to perform Fourier Transform the lag set time series. A power-of-two complex-to-complex Fast Fourier Transform with retention of all output positive and negative frequencies will be used. This process must be able to accept as input the output of any of the time domain processes.,1
+Start Process – The BE shall be able to initiate a processing task on any Backend processor.,1
+Stop Process  – The BE shall be able to signal a kill for any Backend process.,1
+Reboot Processor – The BE shall be able to initiate a reboot of any Backend a physical processor.,1
+Reboot network – The BE shall be able to initiate a reboot of any internal network.,1
+Output Data Queue – a memory buffer plus backup disk storage of all processed spectra. These will be converted to output AIPS++ Measurement Set entities prior to transfer to the e2e. Data entry status queue to track each record in the buffer.,1
+Loss of M&C – the system shall continue to operate during the absence of the M&C System until the first encounter of unavailable critical auxiliary data. The system will cache a predetermined amount (TBD) of correlator data after the first encounter of unavailable critical data and complete all requested operations on cached data once the unavailable critical data is obtained.,1
+"Seamlessness – 3.7.1, above, shall be accomplished in a manner that is seamless, in that it does not affect hardware modules or software functionality that it meets at interfaces.",1
+Each transaction must be approved by a manager.,1
+"All users of the system shall login using some form of unique identification. (e.g., username and password) ",1
+"All login attempts shall be done in a secure manner. (e.g., encrypted passwords) ",1
+"Each user shall have a set of system access properties that defines the user’s privileges within the system. (e.g., the subsystems a user may control or system tools the user may access). ",1
+The MultiMahjongServer will support an architecture whereby all Computer Opponents (CO) required will reside on it instead of on the MultiMahjongClient programs.,1
+"When the user begins the MultiMahjongClient program, they will be able to choose to create a new multi player game, to create a new single player game, to join an existing multi player game, or to quit the program. These options will be available at any stage while the program is running as long as there is no game currently being played by the user (see Section 4.4 for more details about quitting).",1
+"Users who create a new game will be able to change the ability level of any CO involved in the game. There will be 3 levels available: Beginner, Intermediate and Advanced.",1
+"Any user who creates or joins a game will be able to upload their own JPEG or GIF image that they wish to have displayed above their name, if they do not wish to use a preset icon.",1
+The MultiMahjongServer will inform all MultiMahjongClients connected to the game that the game has ended. Users of any MultiMahjongClient previously connected to the game will have the choice to quit the program or to begin/join a new game.,1
+The CO will not have access to the data containing the faces of any tiles in the wall or any concealed tiles in any other players' hands.,1
+The software will run on any machine that is capable of running a Java Virtual Machine that supports JDK 1.2 (see Section 5.3). These machines include: 1- A PC operated under Windows 95/98/NT 2- A Macintosh operated under OS 3- A Unix box operated under Solaris 2.6 or Solaris 7.,1
+"The user shall be able to view all data from any two inspections, for a single bridge, in a tiled14 presentation for easy comparison.",1
+The EMC shall be able to maintain an equipment list for all stations.,1
+FUN-01 The system must allow a member of the network to send requests to a particular or all the other members about possible delivery of a driver’s smart card to a similar person.,1
+FUN-02 The system must allow a member of the network to send a bulk request on all or a large part of its driver’s smart card holders to a particular or all members of the network.,1
+"REL-02  The system must function reliably, with few or no interruptions in its first operational year and fewer still thereafter.",1
+PER-01  The system should be able to cover more than one contact point per country depending on the administrative organisation adopted by each country and able to work in a multi hierarchical environment. This is no longer the case since everybody agrees upon having a single point of contact per Member State (even though the Member State is organized with several Card Issuing Authorities – up to the Member State to manage its own organisation).,1
+4.1 The system shall provide the ability to create any report that is bridge or project based by selecting the relevant “driver” records from a map display.,1
+"23.3 The system shall be capable of showing all screens, menus, user interface controls, prompts, error messages and information notices in native language, with some of these elements customizable.",1
+"The Pontis application server (ASP.NET) software will run on a server located within a (presumably) secure facility at each agency. Because it is an ASP.NET application, the end users can vary in location depending on the network accessibility of the server. The Pontis database, and any other databases to be accessed from Pontis may be co-located on the same server machine, but at a minimum must be accessible from the Pontis application server via standard database communication and connection protocols. ",1
+"5.4 The server machine will run Windows Server 2003 or, given technology evolution, a descendant target server environment identified in the implementation plan. The server machine must have all necessary software to run an ASP.NET application. This specifically includes, but may not be limited to, IIS 30, the .NET Framework and ASP.NET.(30 The TAG should strongly consider the need to support HTTP/www servers other than IIS. Apache and its variants are the most widely-used web servers on the net and a rich platform to exploit open source capabilities. However, many agencies rely on IIS, so this technology consideration must be resolved as part of the design. Other AASHTOWare products (Trans*port) already vary from the IIS standard.) Other web servers, appliances, and add-in technologies may also be necessary depending on the final application design.",1
+"Standalone capabilities will require a workstation running the latest .NET Framework, presumably Windows XP Professional (SP2) or its successor. Some capabilities may require a network connection. The workstation’s hardware requirements will be similar to those of the existing Pontis 4.4 application. There will continue to be a standalone/runtime database engine provided with the application for offline work. The offline database is assumed to be Sybase Adaptive Server Anywhere release 9 or above.",1
+"[SRSreq 01] Any operation requiring the user to supply a file name shall allow the user either to select the files from a list derived from files in the currently open application or to key in a file name, a relative path name, or a complete path name.",1
+"[SRSreq 02] For any operation where the user is prompted to select from a list, the user shall be able to cancel the operation.",1
+[SRSreq 21] The Application/Delete menu item shall provide an interface for deleting an application and all the files in the application directory. The HATS-GUI shall prompt the user to confirm deletion prior to completing this action.,1
+[SRSreq 51] All files associated with a given application shall be stored in one directory.,1
+[SRSreq 54] There shall be exactly one file describing the grammar of inputs associated with an application. It shall have the file extension .grm.,1
+"[SRSreq 65] Each active display window shall have a mouse cursor, which indicates the location of the pointing device in the window.",1
+[SRSreq 66] Each display window shall have a keyboard cursor to track the current location in the display.,1
+"[SRSreq 72] When a user selects the File/Edit menu item, the HATS-GUI shall request that the operating system start a process and load that process with the editor specified by the application configuration. The name of a selected file shall be passed to the editor as a command line argument. The editor started by the HATS-GUI shall be the editor associated with the file in the application configuration, or if there is no editor associated with the file, then the editor associated with the file type of the file in the application configuration. If no editor is associated with either the file or the file type, then the default editor shall be used. If no default editor has been selected, then the HATS-GUI shall present a list of the configured editors and allow the user to select an editor. If no editors have been configured, then the HATS-GUI shall inform the user that an editor must be configured before starting an editor.",1
+[SRSreq 105] The user shall be able to deselect all selected displayed nodes by • clicking either the right or left mouse buttons while the mouse cursor is not pointed at any displayed nodes and the shift key is not depressed; or • by pressing the escape key.,1
+[SRSreq 123] The user shall be able to issue an unhide instruction that reverses the hide instruction for all displayed nodes.,1
+[SRSreq 150] The HATS-GUI shall not halt as a result of any error messages received from HATS-SML.,1
+"[SRSreq 159] The HATS-GUI shall allow a user to navigate through the display of an SDT with 10,000 nodes so that scrolling a screen width with any portion of the SDT displayed takes less than 3 seconds.",1
+"Upon completion of radar cross section analysis and characterization by the Government for each UAV type, TCS shall utilize a UAV signature versus threat lookup table (database) that identities the lethality of the threat to the UAV [SSS065], and shall provide the capability of displaying aircraft signature versus threat, before and during flight. [SSS066]",1
+"At every waypoint and every 5 minutes, the TCS shall compute the AV's flight range based on remaining fuel. [SSS076]",1
+The algorithmic accuracy of all flight planning calculations shall not deviate by more than 10% when compared with a mission flown by a validated 6 degree-of-freedom air vehicle simulator. [SSS090],1
+"The TCS shall have the functionality necessary to manage all aspects of C4I system interfaces to include receiving, processing, and transmitting tactical information to include but not limited to character based text messages, NITF 2.0 imagery files, and RS-170A video. [SSS210]",1
+All erroneous messages that cannot be corrected by TCS shall be flagged to the operator. [SSS235],1
+The TCS shall be designed such that no single software error results in an unsafe command to be transmitted to the air vehicle. [SSS556],1
+"Each control console shall have, at a minimum, the capability to display the following four display windows: (1) display to provide aircraft position, TCS position, flight path, and a waypoint graphics in the foreground which are positioned in relation to a map displayed in the background, (2) display to provide aircraft flight data or payload data in the foreground, and downlinked video in the background. (3) A display to provide graphic presentations of downlinked telemetry data, and (4) display to present the interface menus for workstation software. [SSS405]",1
+"The TCS operator shall be required to enter an acknowledgment prior to disabling the display of critical warning flags for any AV, Payload, ADT, GDT, and TCS faults. [SSS450]",1
+All TCS operator inputs shall be error checked such that any erroneous operator entry will not cause current processing to terminate. [SSS457] The HCI shall prompt the operator for a valid input. [SSS458],1
+"The HCI shall provide redundancy in all operations, so that the loss of any one HCI input device does not prohibit operation of any TCS function. [SSS463]",1
+"To the maximum extent possible, general purpose test equipment (GPTE) and common tools resident in each service shall be used to perform all corrective and preventative maintenance at all authorized levels of maintenance. [SSS512]",1
+It shall be possible to implement one or more of the ETCS application levels on a line.,1
+"If an ETCS equipped train passes a level transition to a line fitted with more than one level, the onboard shall switch to the highest level, according to the priority given by trackside, for which it is equipped.",1
+"If an ETCS equipped train passes a level transition to one or more levels for which it is not equipped, ETCS shall initiate a brake application.",1
+"When the ETCS trainborne equipment is isolated, the system shall not show any ETCS information other than the fact that the system is isolated.",1
+Each railway shall have the possibility of allowing a different release speed for every signal.,1
+When using more than one traction unit this function shall be disabled in all but the leading traction unit.,1
+"All data entered, received or indicated to the driver shall be recorded onboard. All data shall be related to UTC (Universal Time Corrected) and a reference point.",1
+If supervised by an RBC it shall be possible to command an emergency stop to all trains in a particular area or to a specific train.,1
+"A handshake procedure is required for all commands that start or stop a mechanical component, influence the status or operation mode of the wind turbine or change the software.",1
+All other control commands shall give a response with the result of the command.,1
+NPAC SMS shall send all SOA notifications for an associated Service Provider over the SOA to NPAC SMS interface association for the primary service provider.,1
+NPAC SMS shall require a single password entry for each userId.,1
+SOA to NPAC SMS interface and the NPAC SMS to Local SMS interface shall verify that each party maintains a separate sequence number counter for each association it uses to send messages.,1
+"NPAC SMS shall ensure that during a security key exchange, each party provide the other with a list of keys.",1
+"NPAC SMS shall provide each Service Provider with a numbered list of encryption keys, numbered from 1 to 1000.",1
+Any Service Provider can request an audit of another Service Provider’s LSMS.,1
+"NPAC SMS shall provide a capability to review a summary of the actions of any one or more users, including other NPAC users, based on individual user identity.",1
+A task-pane will be available in all workflow scenarios to allow easy access to on-line help and next-step options. The navigation options in every screen will be similar to lower or eliminate the application learning curve.,1
+All equipment shall support a programmed adjustment and maintenance interval of 30 days or longer.,1
+All telescope and instrument parameters are kept in an on line database to permit easy implementation of table-driven applications. The interface between software control packages is normally done via interface calls to the on-line database.,1
+All additional data that is not required on line are stored in a relational DBMS.,1
+"All errors should be reported using a common, system-wide procedure.",1
+Each record type has a fixed set of fields. ,1
+"Some fields are common to all record types and others are specific to particular record types. Every record has a record name and every field has a field name. The first field of every database record holds the record name, which must be unique across all IOCs attached to the same TCP/IP subnet.",1
+Each IOC provides a channel access server which is willing to establish communication with an arbitrary number of clients.,1
+Each monitor and control element has an associated process variable.,1
+All systems are appropriately interlocked. This interlock must not depend on any software for reliable operation.,1
+"All telescope, instrument, and detector control information is to be available at any operation level.",1
+Any compression on a transport medium is to be done using a standard commonly available algorithm and archives are to be in tar format.,1

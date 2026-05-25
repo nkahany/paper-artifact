@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Experiment artifacts
+results/
+chroma_db_*/
+*.log
+*.tmp
+
+# HuggingFace / model caches
+.cache/
+*.safetensors
+*.bin
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.lof
+*.lol
+*.lot

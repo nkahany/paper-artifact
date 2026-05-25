@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: >-
+  Authorship withheld during double-blind review.
+  Please cite the accompanying paper once it is published.
+title: "Software Requirements Ambiguity Resolution Using Large Language Models"
+type: software
+authors:
+  - name: "Anonymous Authors"
+year: 2026
+license: MIT
+keywords:
+  - requirements engineering
+  - ambiguity resolution
+  - large language models
+  - chain-of-thought
+  - retrieval-augmented generation
+  - prompt engineering
