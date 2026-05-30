@@ -1,0 +1,24 @@
+UNIFIED STRUCTURAL AMBIGUITY RESOLUTION - APPROACH COMPARISON
+================================================================================
+
+METRIC COMPARISON TABLE:
+--------------------------------------------------------------------------------
+Metric         Zeroshot    Oneshot     Fewshot     Zeroshot_ragOneshot_rag Fewshot_rag Best
+--------------------------------------------------------------------------------
+Exact Match    0.0200      0.0300      0.0000      0.0800      0.0700      0.0700      Zeroshot_rag
+BLEU-1         0.7044      0.7059      0.6852      0.7136      0.7266      0.7344      Fewshot_rag
+BLEU-2         0.5920      0.5926      0.5730      0.6151      0.6226      0.6345      Fewshot_rag
+BLEU-4         0.4478      0.4524      0.4251      0.4879      0.4923      0.4974      Fewshot_rag
+Semantic Sim   0.9564      0.9580      0.9526      0.9504      0.9530      0.9578      Oneshot
+Accuracy       0.8200      0.8600      0.9500      0.7800      0.8700      0.9600      Fewshot_rag
+Precision      1.0000      0.9885      0.9896      0.9873      1.0000      0.9897      Zeroshot
+Recall         0.8182      0.8687      0.9596      0.7879      0.8687      0.9697      Fewshot_rag
+F1-Score       0.9000      0.9247      0.9744      0.8764      0.9297      0.9796      Fewshot_rag
+--------------------------------------------------------------------------------
+
+SUMMARY:
+Best Overall (F1): FEWSHOT_RAG (0.9796)
+Best Exact Match: ZEROSHOT_RAG (0.0800)
+Best BLEU-4: FEWSHOT_RAG (0.4974)
+
+Generated: 2025-08-20T15:57:46.932090

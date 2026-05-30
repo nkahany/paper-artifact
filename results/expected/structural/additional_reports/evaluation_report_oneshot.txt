@@ -1,0 +1,50 @@
+STRUCTURAL AMBIGUITY RESOLUTION EVALUATION REPORT
+Approach: ONESHOT
+================================================================================
+
+OVERALL METRICS:
+Exact Match Score: 0.0091
+BLEU-1 Score: 0.8342
+BLEU-2 Score: 0.7758
+BLEU-3 Score: 0.7285
+BLEU-4 Score: 0.6793
+Semantic Similarity: 0.9827
+Classification Accuracy: 0.9909
+Classification Precision: 0.0000
+Classification Recall: 0.0000
+Classification F1-Score: 0.0000
+
+DETECTION STATISTICS:
+Ground Truth Ambiguous: 109
+Predicted Ambiguous: 110
+Total Requirements: 110
+
+SAMPLE EXACT MATCHES:
+
+Match 1 (ID: 1236):
+  Ground Truth: The student view shall contain two sections: (1) a problem display section, and (2) an instructions ...
+  Prediction:   The student view shall contain two sections: (1) a problem display section, and (2) an instructions ...
+
+SAMPLE EXACT MISMATCHES:
+
+Mismatch 1 (ID: 106):
+  Ground Truth: The Clarus system shall accept only observations that include location, timestamp, and source metada...
+  Prediction:   The Clarus system shall accept only observations that include location, timestamp, and source metada...
+
+Mismatch 2 (ID: 114):
+  Ground Truth: The Clarus system shall be able to communicate with environmental sensor stations using the NTCIP ES...
+  Prediction:   The Clarus system shall be able to communicate with environmental sensor stations using the NTCIP ES...
+
+Mismatch 3 (ID: 359):
+  Ground Truth: The Clarus program shall maintain information about restrictions on data providers' redistribution....
+  Prediction:   The Clarus program shall maintain information about the restrictions on the data providers' redistri...
+
+Mismatch 4 (ID: 363):
+  Ground Truth: The Clarus program shall allow potential providers of weather element data to request permission to ...
+  Prediction:   The Clarus program shall allow potential providers, who are providers of weather element data, to re...
+
+Mismatch 5 (ID: 409):
+  Ground Truth: Reboot Processor â€“ The BE shall be able to initiate a reboot of any physical processor in the Back...
+  Prediction:   The BE shall be able to initiate a reboot of any physical processor that is in the Backend....
+
+Report generated: 2025-07-31T04:59:48.413372

@@ -1,0 +1,66 @@
+FIXED ANAPHORIC AMBIGUITY RESOLUTION EVALUATION REPORT
+Approach: ZEROSHOT
+================================================================================
+
+OVERALL METRICS:
+Exact Match Score: 0.1667
+BLEU-1 Score: 0.8787
+BLEU-2 Score: 0.8537
+BLEU-3 Score: 0.8326
+BLEU-4 Score: 0.8089
+Semantic Similarity: 0.9619
+Classification Accuracy: 0.8509
+Classification Precision: 0.0000
+Classification Recall: 0.0000
+Classification F1-Score: 0.0000
+
+DETECTION STATISTICS:
+Ground Truth Ambiguous: 114
+Predicted Ambiguous: 97
+Total Requirements: 114
+
+SAMPLE EXACT MATCHES:
+
+Match 1 (ID: 2):
+  Ground Truth: The Clarus system shall be able to use multiple algorithms for the Clarus system's quality checking ...
+  Prediction:   The Clarus system shall be able to use multiple algorithms for the Clarus system's quality checking ...
+
+Match 2 (ID: 10):
+  Ground Truth: The Clarus system shall be able to communicate with environmental sensor stations through the Clarus...
+  Prediction:   The Clarus system shall be able to communicate with environmental sensor stations through the Clarus...
+
+Match 3 (ID: 12):
+  Ground Truth: CS shall be able to accept data from an RWIS database in the RWIS database's native output format....
+  Prediction:   CS shall be able to accept data from an RWIS database in the RWIS database's native output format....
+
+Match 4 (ID: 13):
+  Ground Truth: The Clarus system shall be able to communicate with an individual ESS through the ESS's native inter...
+  Prediction:   The Clarus system shall be able to communicate with an individual ESS through the ESS's native inter...
+
+Match 5 (ID: 15):
+  Ground Truth: The DOG shall be able to record the DOG's activities....
+  Prediction:   The DOG shall be able to record the DOG's activities....
+
+SAMPLE EXACT MISMATCHES:
+
+Mismatch 1 (ID: 1):
+  Ground Truth: The Clarus system shall be able to base the Clarus system's quality checking process on historical e...
+  Prediction:   The Clarus system shall be able to base its quality checking process on historical environmental dat...
+
+Mismatch 2 (ID: 3):
+  Ground Truth: The CAS shall be configurable to allow new observation types to be implemented as the new observatio...
+  Prediction:   The CAS shall be configurable to allow new observation types to be implemented as new observation ty...
+
+Mismatch 3 (ID: 4):
+  Ground Truth: The Clarus system shall record statistics about the Clarus system's operation....
+  Prediction:   The Clarus system shall record statistics about the operation of the Clarus system....
+
+Mismatch 4 (ID: 5):
+  Ground Truth: CS shall collect environmental data based on CS's configured schedule....
+  Prediction:   CS shall collect environmental data based on the system's configured schedule....
+
+Mismatch 5 (ID: 6):
+  Ground Truth: CS shall be able to be implemented to collect new observation types as the new observation types bec...
+  Prediction:   CS shall be able to be implemented to collect new observation types as they become available....
+
+Report generated: 2025-07-23T06:41:18.199835

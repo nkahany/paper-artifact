@@ -1,0 +1,20 @@
+STRUCTURAL AMBIGUITY RESOLUTION - APPROACH COMPARISON
+================================================================================
+
+METRIC COMPARISON TABLE:
+--------------------------------------------------------------------------------
+Metric         Zeroshot    Oneshot     Fewshot     Fewshot_rag Best
+--------------------------------------------------------------------------------
+Exact Match    0.0455      0.0091      0.0182      0.0091      Zeroshot
+BLEU-1         0.7768      0.8342      0.7796      0.7867      Oneshot
+BLEU-2         0.7159      0.7758      0.7203      0.7241      Oneshot
+BLEU-4         0.6206      0.6793      0.6252      0.6252      Oneshot
+Semantic Sim   0.9606      0.9827      0.9738      0.9741      Oneshot
+--------------------------------------------------------------------------------
+
+SUMMARY:
+Best Overall (F1): FEWSHOT_RAG (0.9908)
+Best Exact Match: ZEROSHOT (0.0455)
+Best BLEU-4: ONESHOT (0.6793)
+
+Generated: 2025-07-31T05:03:14.865043

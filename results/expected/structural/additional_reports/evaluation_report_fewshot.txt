@@ -1,0 +1,54 @@
+STRUCTURAL AMBIGUITY RESOLUTION EVALUATION REPORT
+Approach: FEWSHOT
+================================================================================
+
+OVERALL METRICS:
+Exact Match Score: 0.0182
+BLEU-1 Score: 0.7796
+BLEU-2 Score: 0.7203
+BLEU-3 Score: 0.6726
+BLEU-4 Score: 0.6252
+Semantic Similarity: 0.9738
+Classification Accuracy: 0.9727
+Classification Precision: 0.9907
+Classification Recall: 0.9817
+Classification F1-Score: 0.9862
+
+DETECTION STATISTICS:
+Ground Truth Ambiguous: 109
+Predicted Ambiguous: 108
+Total Requirements: 110
+
+SAMPLE EXACT MATCHES:
+
+Match 1 (ID: 1434):
+  Ground Truth: The database server shall assign room numbers and building names to all course sections....
+  Prediction:   The database server shall assign room numbers and building names to all course sections....
+
+Match 2 (ID: 1524):
+  Ground Truth: The database server shall assign room numbers and building names to all course sections....
+  Prediction:   The database server shall assign room numbers and building names to all course sections....
+
+SAMPLE EXACT MISMATCHES:
+
+Mismatch 1 (ID: 106):
+  Ground Truth: The Clarus system shall accept only observations that include location, timestamp, and source metada...
+  Prediction:   The Clarus system shall accept only observations that include location, timestamp, and source metada...
+
+Mismatch 2 (ID: 114):
+  Ground Truth: The Clarus system shall be able to communicate with environmental sensor stations using the NTCIP ES...
+  Prediction:   The Clarus system shall be able to communicate with environmental sensor stations using the NTCIP ES...
+
+Mismatch 3 (ID: 359):
+  Ground Truth: The Clarus program shall maintain information about restrictions on data providers' redistribution....
+  Prediction:   The Clarus program shall maintain information about restrictions that apply to data providers' redis...
+
+Mismatch 4 (ID: 363):
+  Ground Truth: The Clarus program shall allow potential providers of weather element data to request permission to ...
+  Prediction:   The Clarus program shall allow potential providers to request permission to submit weather informati...
+
+Mismatch 5 (ID: 409):
+  Ground Truth: Reboot Processor â€“ The BE shall be able to initiate a reboot of any physical processor in the Back...
+  Prediction:   The BE shall be able to initiate a reboot of any physical processor in the Backend....
+
+Report generated: 2025-07-31T05:01:31.402272

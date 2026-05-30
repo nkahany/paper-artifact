@@ -1,0 +1,133 @@
+STRUCTURAL AMBIGUITY ANALYSIS REPORT - ZERO-SHOT + RAG
+================================================================================
+
+OVERALL STATISTICS:
+Total requirements processed: 110
+Requirements changed: 110 (100.0%)
+Processing errors: 0 (0.0%)
+Success rate: 100.0%
+
+AMBIGUITY TYPE BREAKDOWN:
+  ** PP Attachment: 52 (47.3%)
+  PP Attachment: 17 (15.5%)
+  None: 13 (11.8%)
+  ** Coordination Scope: 6 (5.5%)
+  Coordination Scope: 2 (1.8%)
+  ** Modifier Scope: 2 (1.8%)
+  ** PP Attachment, Coordination Scope, Relative Clause Attachment: 2 (1.8%)
+  ** Modifier Scope, Coordination Scope: 2 (1.8%)
+  ** PP Attachment, Coordination Scope, Modifier Scope: 1 (0.9%)
+  ** PP Attachment, Coordination Scope: 1 (0.9%)
+  PP Attachment
+Problem Found: In the phrase "datasets of the same type as specified in the project", it's unclear whether "specified" modifies "type" or "project".
+Fixed Requirement: The system shall only allow the user to reference datasets of the same type as specified in the project.: 1 (0.9%)
+  PP Attachment
+Problem Found: In the phrase "counts of both correct responses and incorrect responses", it's unclear whether "correct" and "incorrect" modify "responses" or "counts".
+Fixed Requirement: The student shall see counts of responses that are both correct and incorrect.: 1 (0.9%)
+  PP Attachment
+Problem Found: The phrase "as required by the observational mode and correlator output parameters" could be attached to either "time stamp adjustments" or "make".
+Fixed Requirement: Make time stamp adjustments according to the requirements specified by the observational mode and correlator output parameters.: 1 (0.9%)
+  PP Attachment
+Problem Found: In the phrase "acquire, process, and disseminate environmental metadata", it's unclear whether "environmental" modifies "metadata" or "acquire".
+Fixed Requirement: The Clarus system shall acquire environmental metadata, process it, and disseminate the processed metadata.: 1 (0.9%)
+  Coordination Scope, Modifier Scope: 1 (0.9%)
+  ** Coordination Scope and Modifier Scope: 1 (0.9%)
+  PP Attachment
+	* Problem Found: It's unclear whether "via Dijkstra's shortest path algorithm" modifies "perform searches" or "the system".
+	* Fixed Requirement: The system shall perform searches using Dijkstra's shortest path algorithm.
+	* Explanation: Changed "via" to "using" to clarify that the algorithm is used for performing searches.
+2. **For returning customers, the system shall validate 'existing' credit card in system after each log in.**
+	* Ambiguity Type: Coordination Scope
+	* Problem Found: It's unclear whether "in system" applies to both "validate" and "credit card" or just "validate".
+	* Fixed Requirement: For returning customers, the system shall validate their existing credit card in the system after each log in.
+	* Explanation: Added "their" to clarify that the credit card belongs to the customer, and added "the" to specify the system where the validation occurs.
+3. **The system shall automatically compress image files that are too large in size.**
+	* Ambiguity Type: Modifier Scope
+	* Problem Found: It's unclear whether "too large in size" modifies "image files" or "compress".
+	* Fixed Requirement: The system shall automatically compress image files that are too large in size.
+	* Explanation: No change needed; the original requirement is clear.
+4. **The system will employ on demand asynchronous loading for faster execution of pages.**
+	* Ambiguity Type: PP Attachment
+	* Problem Found: It's unclear whether "on demand" modifies "asynchronous loading" or "faster execution".
+	* Fixed Requirement: The system will employ asynchronous loading on demand for faster execution of pages.
+	* Explanation: Moved "on: 1 (0.9%)
+  ** Coordination Scope, Modifier Scope: 1 (0.9%)
+  PP Attachment, Coordination Scope: 1 (0.9%)
+  PP Attachment
+Problem Found: The phrase "within a specific domain" could be attached to either "display document names and links" or "alphabetical order".
+Fixed Requirement: The system will allow analysts and guests to view policies in the system in alphabetical order, within a specific domain.: 1 (0.9%)
+  PP Attachment
+Problem Found: The phrase "originating in the process" could be attached to either "value accumulated in time" or "such as hour counters".
+Fixed Requirement: Counters shall be understood as any value accumulated in time, which originates in the process, such as hour counters, production counters, counters for operational modes, timers, etc.: 1 (0.9%)
+  PP Attachment
+Problem Found: In the phrase "check for existing building names and room numbers", it's unclear whether "existing" modifies "building names" or "room numbers".
+Fixed Requirement: The database server shall check for existing building names and for existing room numbers.: 1 (0.9%)
+
+LENGTH ANALYSIS:
+Average original length: 93.8 characters
+Average fixed length: 167.9 characters
+Average length increase: 74.1 characters
+
+SAMPLE SUCCESSFUL CHANGES:
+
+Example 1:
+  ORIGINAL: The Clarus system shall accept only observations that include location, timestamp, and source metada...
+  FIXED:    ** The Clarus system shall accept only observations that have location, timestamp, and source metada...
+  TYPE:     ** PP Attachment
+  REASON:   ** I changed "include" to "have included within them" to clarify that the metada...
+
+Example 2:
+  ORIGINAL: The Clarus system shall be able to communicate with environmental sensor stations using the NTCIP ES...
+  FIXED:    ** The Clarus system shall communicate with environmental sensor stations through the Clarus system'...
+  TYPE:     ** PP Attachment, Coordination Scope
+  REASON:   ** I moved "through the Clarus system's collector" to immediately follow "commun...
+
+Example 3:
+  ORIGINAL: The Clarus program shall maintain information about restrictions on data providers' redistribution....
+  FIXED:    ** The Clarus program shall maintain information about restrictions on the redistribution of data pr...
+  TYPE:     ** Modifier Scope
+  REASON:   ** I changed the phrase to make it clear that the restrictions are on the act of...
+
+Example 4:
+  ORIGINAL: The Clarus program shall allow potential providers of weather element data to request permission to ...
+  FIXED:    ** The Clarus program shall allow potential providers who provide weather element data to request pe...
+  TYPE:     ** PP Attachment
+  REASON:   ** I moved the phrase "who provide weather element data" to clarify that it modi...
+
+Example 5:
+  ORIGINAL: Reboot Processor â€“ The BE shall be able to initiate a reboot of any physical processor in the Back...
+  FIXED:    ** The BE shall be able to initiate a reboot of any physical processor located in the Backend....
+  TYPE:     ** PP Attachment, Coordination Scope, Modifier Scope
+  REASON:   ** I rephrased the requirement to make it clear that the reboot is initiated on ...
+
+Example 6:
+  ORIGINAL: Input Data Queue â€“ a memory buffer for lag frames. A data entry status queue shall track each reco...
+  FIXED:    Input Data Queue – a memory buffer that stores lag frames. A data entry status queue shall track eac...
+  TYPE:     PP Attachment
+  REASON:   I added the word "that" to make it clear that "for lag frames" is a subordinate ...
+
+Example 7:
+  ORIGINAL: [SRSreq 01] For any operation requiring a file name, the user shall be able to either: (a) select fr...
+  FIXED:    For any operation that requires a file name, the user shall be able to either: (a) select from a lis...
+  TYPE:     None
+  REASON:   I added the word "that" to clarify that the options apply specifically to operat...
+
+Example 8:
+  ORIGINAL: [SRSreq 25] The HATS-GUI shall allow the user to select colors for different types of nodes in displ...
+  FIXED:    ** The HATS-GUI shall allow the user to select colors for different types of nodes, which will be ap...
+  TYPE:     ** PP Attachment
+  REASON:   ** I moved the phrase "in displayed graphs" to the end of the sentence to clarif...
+
+Example 9:
+  ORIGINAL: [SRSreq 32] The 'Run/Execute Transforms' menu item shall provide an interface for selecting transfor...
+  FIXED:    ** The 'Run/Execute Transforms' menu item shall provide an interface for selecting transformation la...
+  TYPE:     ** PP Attachment
+  REASON:   ** I added the word "those" to clarify that the transformation language programs...
+
+Example 10:
+  ORIGINAL: [SRSreq 53] There shall be exactly one file per application describing the lexical specification of ...
+  FIXED:    ** There shall be exactly one file per application that describes the lexical specification of input...
+  TYPE:     ** PP Attachment
+  REASON:   ** I added the word "for that application" to clarify that the description of th...
+
+Report generated: 2025-07-31T05:38:41.130800

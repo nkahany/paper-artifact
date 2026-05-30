@@ -1,0 +1,12 @@
+QUICK PERFORMANCE SUMMARY
+==================================================
+
+Best Exact Match: fewshot (0.0208)
+Best BLEU-4: oneshot (0.3257)
+Best F1-Score: zeroshot (1.0000)
+Best Similarity: zeroshot (0.9291)
+
+RAG Enhancement Effect:
+  With RAG: 1.0000 average F1
+  Without RAG: 1.0000 average F1
+  Improvement: +0.0000

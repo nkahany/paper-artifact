@@ -1,0 +1,46 @@
+UNIFIED STRUCTURAL AMBIGUITY RESOLUTION EVALUATION REPORT
+Approach: FEWSHOT
+================================================================================
+
+OVERALL METRICS:
+Exact Match Score: 0.0000
+BLEU-1 Score: 0.6852
+BLEU-2 Score: 0.5730
+BLEU-3 Score: 0.4963
+BLEU-4 Score: 0.4251
+Semantic Similarity: 0.9526
+Classification Accuracy: 0.9500
+Classification Precision: 0.9896
+Classification Recall: 0.9596
+Classification F1-Score: 0.9744
+
+DETECTION STATISTICS:
+Ground Truth Ambiguous: 99
+Predicted Ambiguous: 96
+Total Requirements: 100
+
+SAMPLE EXACT MATCHES:
+
+SAMPLE EXACT MISMATCHES:
+
+Mismatch 1 (ID: 1477):
+  Ground Truth: The student shall be able to pause a session and to restart it....
+  Prediction:   The student shall be able to pause and restart a specific session....
+
+Mismatch 2 (ID: 1518):
+  Ground Truth: For a given set of department name and course number, the database server shall return all related c...
+  Prediction:   The database server shall return all course sections for a given department name and for a given cou...
+
+Mismatch 3 (ID: 1396):
+  Ground Truth: For a given entry, the database server shall return an instructor name and the corresponding departm...
+  Prediction:   The database server shall return an instructor's name and the corresponding department for a given e...
+
+Mismatch 4 (ID: 106):
+  Ground Truth: The Clarus system shall accept only observations that include location, timestamp, and source metada...
+  Prediction:   The Clarus system shall accept only observations that include location, timestamp, and source metada...
+
+Mismatch 5 (ID: 118):
+  Ground Truth: The Clarus system shall be able to communicate with an individual ESS by using the native interface ...
+  Prediction:   The Clarus system shall be able to communicate with a single ESS through the ESS's native interface....
+
+Report generated: 2025-08-20T15:57:44.214076

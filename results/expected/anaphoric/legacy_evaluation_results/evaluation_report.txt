@@ -1,0 +1,14 @@
+ANAPHORIC RESOLUTION EVALUATION REPORT
+Generated: 2025-07-22 23:58:05
+======================================================================
+
+APPROACH COMPARISON:
+ approach  total_evaluated  exact_match_rate  avg_bleu_score  avg_char_similarity  avg_token_precision  avg_token_recall  avg_token_f1  pronoun_resolution_accuracy  correct_change_decision_rate  made_changes_rate                                                                                        per_project_metrics
+zero-shot              108          0.148148        0.723093             0.860897             0.893217          0.863333      0.871252                     0.759259                      0.888889           0.888889  {'Unknown': {'count': 108, 'exact_match_rate': 0.14814814814814814, 'avg_bleu_score': 0.723092688677797}}
+ one-shot              108          0.240741        0.723284             0.845567             0.832250          0.887837      0.846838                     0.592593                      0.842593           0.842593 {'Unknown': {'count': 108, 'exact_match_rate': 0.24074074074074073, 'avg_bleu_score': 0.7232843877027464}}
+ few-shot              108          0.055556        0.654915             0.815950             0.812659          0.876742      0.834105                     0.240741                      0.444444           0.444444 {'Unknown': {'count': 108, 'exact_match_rate': 0.05555555555555555, 'avg_bleu_score': 0.6549149681941527}}
+
+BEST PERFORMERS:
+  exact_match_rate: one-shot (0.241)
+  avg_bleu_score: one-shot (0.723)
+  avg_token_f1: zero-shot (0.871)

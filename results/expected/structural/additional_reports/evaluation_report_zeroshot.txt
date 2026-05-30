@@ -1,0 +1,66 @@
+STRUCTURAL AMBIGUITY RESOLUTION EVALUATION REPORT
+Approach: ZEROSHOT
+================================================================================
+
+OVERALL METRICS:
+Exact Match Score: 0.0455
+BLEU-1 Score: 0.7768
+BLEU-2 Score: 0.7159
+BLEU-3 Score: 0.6687
+BLEU-4 Score: 0.6206
+Semantic Similarity: 0.9606
+Classification Accuracy: 0.9545
+Classification Precision: 1.0000
+Classification Recall: 0.9541
+Classification F1-Score: 0.9765
+
+DETECTION STATISTICS:
+Ground Truth Ambiguous: 109
+Predicted Ambiguous: 104
+Total Requirements: 110
+
+SAMPLE EXACT MATCHES:
+
+Match 1 (ID: 106):
+  Ground Truth: The Clarus system shall accept only observations that include location, timestamp, and source metada...
+  Prediction:   The Clarus system shall accept only observations that include location, timestamp, and source metada...
+
+Match 2 (ID: 1206):
+  Ground Truth: The user shall be able to hide or show the character count....
+  Prediction:   The user shall be able to hide or show the character count....
+
+Match 3 (ID: 1274):
+  Ground Truth: The application shall save student data when either: (a) the student stops the session, or (b) the s...
+  Prediction:   The application shall save student data when either: (a) the student stops the session, or (b) the s...
+
+Match 4 (ID: 1409):
+  Ground Truth: For a given department name and course number, the database server shall return all related course s...
+  Prediction:   For a given department name and course number, the database server shall return all related course s...
+
+Match 5 (ID: 1527):
+  Ground Truth: The database server shall organize building and room information....
+  Prediction:   The database server shall organize building and room information....
+
+SAMPLE EXACT MISMATCHES:
+
+Mismatch 1 (ID: 114):
+  Ground Truth: The Clarus system shall be able to communicate with environmental sensor stations using the NTCIP ES...
+  Prediction:   The Clarus system shall be able to communicate using the NTCIP ESS 1204 protocol, which is transmitt...
+
+Mismatch 2 (ID: 359):
+  Ground Truth: The Clarus program shall maintain information about restrictions on data providers' redistribution....
+  Prediction:   The Clarus program shall maintain information about restrictions on data providers' redistribution, ...
+
+Mismatch 3 (ID: 363):
+  Ground Truth: The Clarus program shall allow potential providers of weather element data to request permission to ...
+  Prediction:   The Clarus program shall allow potential providers of weather element data to request permission to ...
+
+Mismatch 4 (ID: 409):
+  Ground Truth: Reboot Processor â€“ The BE shall be able to initiate a reboot of any physical processor in the Back...
+  Prediction:   The BE shall be able to initiate a reboot of any physical processor, including those in the Backend....
+
+Mismatch 5 (ID: 413):
+  Ground Truth: Input Data Queue â€“ a memory buffer for lag frames. A data entry status queue shall track each reco...
+  Prediction:   A data entry status queue shall track each record within the buffer....
+
+Report generated: 2025-07-31T04:58:05.934836

@@ -1,0 +1,704 @@
+requirement_id,project_name,original_requirement,fixed_requirement,explanation,ambiguity_type,problem_found,was_changed,approach,timestamp,original_length,fixed_length,raw_response
+1,2005_clarus_low,The Clarus system shall be able to base its quality checking process on historical environmental data.,The Clarus system shall be able to base the Clarus system's quality checking process on historical environmental data.,"Replaced ""its"" with ""the Clarus system's"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:15:34.310170,102,118,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""The Clarus system"", ""the quality checking process"", ""historical environmental data"", or other entities
+3. Ambig..."
+2,2005_clarus_low,The Clarus system shall be able to use multiple algorithms for its quality checking process.,The Clarus system shall be able to use multiple algorithms for the Clarus system's quality checking process.,"Replaced ""its"" with ""the Clarus system's"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:15:39.887800,92,108,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""The Clarus system"", ""the quality checking process"", or ""multiple algorithms""
+3. Ambiguity: Yes, ""its"" is unclea..."
+3,2005_clarus_low,The CAS shall be configurable to allow new observation types to be implemented as they become available.,The CAS shall be configurable to allow new observation types to be implemented as new observation types become available.,"Replaced ""they"" with ""new observation types"" to clarify the subject.",Pronoun ambiguity,they,True,one-shot,2025-07-23T06:15:45.198082,104,121,"Here's the step-by-step process:
+
+1. Pronouns found: ""they""
+2. ""they"" refers to: could be ""new observation types"", ""observation types"", ""the CAS"", or ""the system""
+3. Ambiguity: Yes, ""they"" is unclear
+..."
+4,2005_clarus_low,The Clarus system shall record statistics about its operation.,The Clarus system shall record statistics about the Clarus system.,"Replaced ""its"" with ""the Clarus system"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:15:50.445656,62,66,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""The Clarus system"", ""the statistics"", ""the operation"", or ""the system""
+3. Ambiguity: Yes, ""its"" is unclear
+4. F..."
+5,2005_clarus_low,CS shall collect environmental data based on its configured schedule.,CS shall collect environmental data based on CS's configured schedule.,"Replaced ""its"" with ""CS's configured schedule"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:15:55.359065,69,70,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""CS"", ""schedule"", or ""environmental data""
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fix: Replace ""its"" with ""CS's c..."
+6,2005_clarus_low,CS shall be able to be implemented to collect new observation types as they become available.,CS shall be able to be implemented to collect new observation types as new observation types become available.,"Replaced ""they"" with ""new observation types"" to clarify the subject.",Pronoun ambiguity,they,True,one-shot,2025-07-23T06:16:00.498513,93,110,"Here's the step-by-step process:
+
+1. Pronouns found: ""they""
+2. ""they"" refers to: could be ""new observation types"", ""CS"", or ""the observation types""
+3. Ambiguity: Yes, ""they"" is unclear
+4. Fix: Replace..."
+7,2005_clarus_low,CS shall be able to dynamically adjust its retrieval schedules when environmental data is expected to be ready but is temporarily delayed.,CS shall be able to dynamically adjust its retrieval schedules when environmental data is expected to be ready but is temporarily delayed.,"Replaced ""its"" with ""retrieval schedules"" to clarify the subject.",Pronoun ambiguity,its,False,one-shot,2025-07-23T06:16:06.042365,138,138,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""CS"", ""retrieval schedules"", ""environmental data"", or ""data""
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fix: Replace..."
+8,2005_clarus_low,The Clarus system shall process data as they are received.,The Clarus system shall process data as data are received.,"Replaced ""they"" with ""data"" to clarify the subject.",Pronoun ambiguity,they,True,one-shot,2025-07-23T06:16:10.782714,58,58,"Here's the step-by-step process:
+
+1. Pronouns found: ""they""
+2. ""they"" refers to: could be ""data"", ""requests"", ""users"", or ""inputs""
+3. Ambiguity: Yes, ""they"" is unclear
+4. Fix: Replace ""they"" with ""dat..."
+9,2005_clarus_low,CS shall process environmental data as they are received.,CS shall process environmental data as environmental data are received.,"Replaced ""they"" with ""environmental data"" to clarify the subject.",Pronoun ambiguity,they,True,one-shot,2025-07-23T06:16:15.718286,57,71,"Here's the step-by-step process:
+
+1. Pronouns found: ""they""
+2. ""they"" refers to: could be ""environmental data"", ""requests"", ""data"", or ""CS""
+3. Ambiguity: Yes, ""they"" is unclear
+4. Fix: Replace ""they"" ..."
+10,2005_clarus_low,The Clarus system shall be able to communicate with environmental sensor stations through its collector using the NTCIP ESS 1204.,The Clarus system shall be able to communicate with environmental sensor stations through the Clarus system's collector using the NTCIP ESS 1204.,"Replaced ""its"" with ""the Clarus system's"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:16:21.526933,129,145,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" could refer to: ""The Clarus system"", ""environmental sensor stations"", or ""collector""
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fix: Rep..."
+11,2005_clarus_low,The Clarus system shall be able to communicate with RWIS databases through their native interfaces.,The Clarus system shall be able to communicate with RWIS databases through their native interfaces.,"Replaced ""their"" with ""RWIS databases"" to clarify the subject.",Pronoun ambiguity,their,False,one-shot,2025-07-23T06:16:26.724201,99,99,"Here's the step-by-step process:
+
+1. Pronouns found: ""their""
+2. ""their"" refers to: could be ""RWIS databases"", ""interfaces"", or ""the Clarus system""
+3. Ambiguity: Yes, ""their"" is unclear
+4. Fix: Replace..."
+12,2005_clarus_low,CS shall be able to accept data from an RWIS database in its native output format.,CS shall be able to accept data from an RWIS database in CS's native output format.,"Replaced ""its"" with ""CS's native output format"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:16:32.031266,82,83,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""CS"", ""RWIS database"", or ""output format""
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fix: Replace ""its"" with ""CS's n..."
+13,2005_clarus_low,The Clarus system shall be able to communicate with an individual ESS through its native interface.,The Clarus system shall be able to communicate with an individual ESS through the Clarus system's native interface.,"Replaced ""its"" with ""the Clarus system's"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:16:37.581574,99,115,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""the Clarus system"", ""the ESS"", or ""the interface""
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fix: Replace ""its"" wit..."
+14,2005_clarus_low,The DOG shall be able to monitor new environmental data services as they are added.,The DOG shall be able to monitor new environmental data services as new environmental data services are added.,"Replaced ""they"" with ""new environmental data services"" to clarify the subject.",Pronoun ambiguity,they,True,one-shot,2025-07-23T06:16:42.947468,83,110,"Here's the step-by-step process:
+
+1. Pronouns found: ""they""
+2. ""they"" refers to: could be ""new environmental data services"", ""the DOG"", or ""the system""
+3. Ambiguity: Yes, ""they"" is unclear
+4. Fix: Rep..."
+15,2005_clarus_low,The DOG shall be able to record its activities.,The DOG shall be able to record the DOG's activities.,"Replaced ""its"" with ""the DOG's"" to clarify the subject.",Anaphoric ambiguity,its,True,one-shot,2025-07-23T06:16:48.212113,47,53,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""the DOG"", ""the system"", ""the user"", or ""the activity""
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fix: Replace ""its""..."
+16,2005_clarus_low,The EMC shall be configurable to allow new observation types to be implemented as they become available.,The EMC shall be configurable to allow new observation types to be implemented as new observation types become available.,"Replaced ""they"" with ""new observation types"" to clarify the subject.",Pronoun ambiguity,they,True,one-shot,2025-07-23T06:16:53.514937,104,121,"Here's the step-by-step process:
+
+1. Pronouns found: ""they""
+2. ""they"" refers to: could be ""new observation types"", ""EMC"", ""users"", or ""developers""
+3. Ambiguity: Yes, ""they"" is unclear
+4. Fix: Replace ..."
+17,2005_clarus_low,The Clarus system shall allow new EMS to be implemented that disseminate new observation types to be implemented as they become available.,The Clarus system shall allow new EMS to be implemented that disseminate new observation types to be implemented as new observation types become available.,"Replaced ""they"" with ""new observation types"" to clarify the subject.",Pronoun ambiguity,they,True,one-shot,2025-07-23T06:16:59.099397,138,155,"Here's the step-by-step process:
+
+1. Pronouns found: ""they""
+2. ""they"" refers to: could be ""new EMS"", ""new observation types"", or ""observation types to be implemented""
+3. Ambiguity: Yes, ""they"" is uncl..."
+18,2005_clarus_low,The QEDC shall be configurable to allow new observation types to be implemented as they become available.,The QEDC shall be configurable to allow new observation types to be implemented as new observation types become available.,"Replaced ""they"" with ""new observation types"" to clarify the subject.",Pronoun ambiguity,they,True,one-shot,2025-07-23T06:17:04.553211,105,122,"Here's the step-by-step process:
+
+1. Pronouns found: ""they""
+2. ""they"" refers to: could be ""new observation types"", ""new features"", ""new requirements"", or ""new components""
+3. Ambiguity: Yes, ""they"" is ..."
+19,2005_clarus_low,The QEDC shall maintain observations and their associated quality flags for seven days.,The QEDC shall maintain observations and their associated quality flags for seven days.,"Replaced ""their"" with ""observations' associated quality flags"" to clarify the subject.",Pronoun ambiguity,their,False,one-shot,2025-07-23T06:17:09.753521,87,87,"Here's the step-by-step process:
+
+1. Pronouns found: ""their""
+2. ""their"" refers to: could be ""observations"", ""quality flags"", or ""QEDC""
+3. Ambiguity: Yes, ""their"" is unclear
+4. Fix: Replace ""their"" wit..."
+20,2005_clarus_low,The QEDC shall support queries for its observations.,The QEDC shall support queries for the QEDC's observations.,"Replaced ""its"" with ""the QEDC's"" to clarify ownership.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:17:15.121359,52,59,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""The QEDC"", ""queries"", ""observations"", or something else
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fix: Replace ""it..."
+21,2005_clarus_low,The QEDC shall support queries against all of its available observation datasets.,The QEDC shall support queries against all of the QEDC's available observation datasets.,"Replaced ""its"" with ""the QEDC's available observation datasets"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:17:20.745229,81,88,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""QEDC"", ""queries"", ""datasets"", or ""observation datasets""
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fix: Replace ""it..."
+22,2005_clarus_low,QEDS shall be able to disseminate new observation types as they become available.,QEDS shall be able to disseminate new observation types as new observation types become available.,"Replaced ""they"" with ""new observation types"" to clarify the subject.",Pronoun ambiguity,they,True,one-shot,2025-07-23T06:17:25.996454,81,98,"Here's the step-by-step process:
+
+1. Pronouns found: ""they""
+2. ""they"" refers to: could be ""new observation types"", ""QEDS"", or ""the observation types""
+3. Ambiguity: Yes, ""they"" is unclear
+4. Fix: Repla..."
+23,2005_clarus_low,QEDS shall log their activities.,"Result: Complete requirement with ""their"" replaced Pronoun ambiguity their Fixed Requirement: QEDS shall log its activities.","Replaced ""their"" with ""QEDS"" to clarify the subject.",Pronoun ambiguity,their,True,one-shot,2025-07-23T06:17:30.896329,32,124,"Here's the step-by-step process:
+
+1. Pronouns found: ""their""
+2. ""their"" refers to: could be ""QEDS"", ""activities"", ""users"", ""the system"", etc.
+3. Ambiguity: Yes, ""their"" is unclear
+4. Fix: Replace ""the..."
+24,2005_clarus_low,The Clarus system shall be able to base its quality checking process on values from multiple observations.,The Clarus system shall be able to base The Clarus system's quality checking process on values from multiple observations.,"Replaced ""its"" with ""The Clarus system's"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:17:36.524253,106,122,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""The Clarus system"", ""quality checking process"", ""values"", or ""observations""
+3. Ambiguity: Yes, ""its"" is unclear..."
+25,2005_clarus_low,The Clarus system shall be able to base its quality checking process on values distributed in time.,The Clarus system shall be able to base the Clarus system's quality checking process on values distributed in time.,"Replaced ""its"" with ""the Clarus system"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:17:42.106821,99,115,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""The Clarus system"", ""the quality checking process"", or ""values distributed in time""
+3. Ambiguity: Yes, ""its"" is..."
+26,2005_clarus_low,QChS shall be able to base its quality checking process on values distributed in time.,QChS shall be able to base its quality checking process on values distributed in time.,"Replaced ""its"" with ""QChS"" to clarify the subject.",Pronoun ambiguity,its,False,one-shot,2025-07-23T06:17:47.357059,86,86,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""QChS"", ""quality checking process"", ""values"", or ""time""
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fix: Replace ""its..."
+27,2005_clarus_low,QChS shall be able to use historical environmental data in their quality checking algorithms.,QChS shall be able to use historical environmental data in QChS's quality checking algorithms.,"Replaced ""their"" with ""QChS's"" to clearly indicate ownership.",Pronoun ambiguity,their,True,one-shot,2025-07-23T06:17:53.096407,93,94,"Here's the step-by-step process:
+
+1. Pronouns found: ""their""
+2. ""their"" refers to: could be ""QChS"", ""algorithms"", ""historical environmental data"", or ""quality checking algorithms""
+3. Ambiguity: Yes, ""..."
+28,2005_clarus_low,QChS shall be implemented to quality check new observation types as they become available.,QChS shall be implemented to quality check new observation types as new observation types become available.,"Replaced ""they"" with ""new observation types"" to clarify the subject.",Pronoun ambiguity,they,True,one-shot,2025-07-23T06:17:58.347069,90,107,"Here's the step-by-step process:
+
+1. Pronouns found: ""they""
+2. ""they"" refers to: could be ""new observation types"", ""QChS"", or ""the system""
+3. Ambiguity: Yes, ""they"" is unclear
+4. Fix: Replace ""they"" w..."
+29,2005_clarus_low,QChS shall apply quality flags to data as they are received.,QChS shall apply quality flags to data as the data are received.,"Replaced ""they"" with ""the data"" to clarify the subject of the sentence.",Pronoun ambiguity,they,True,one-shot,2025-07-23T06:18:03.573826,60,64,"Here's the step-by-step process:
+
+1. Pronouns found: ""they""
+2. ""they"" refers to: could be ""quality flags"", ""data"", ""QChS"", or ""the system""
+3. Ambiguity: Yes, ""they"" is unclear
+4. Fix: Replace ""they"" w..."
+30,2005_clarus_low,The SS shall record when it initiates actions.,The SS shall record when The SS initiates actions.,"Replaced ""it"" with ""The SS"" to clarify the subject.",Pronoun ambiguity,"""it""",True,one-shot,2025-07-23T06:18:08.444655,46,50,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""The SS"", ""actions"", or something else in the system
+3. Ambiguity: Yes, ""it"" is unclear
+4. Fix: Replace ""it"" with ..."
+31,2005_clarus_low,The Clarus system shall track its constituent hosts.,The Clarus system shall track the Clarus system.,"Replaced ""its"" with ""the Clarus system"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:18:13.432892,52,48,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""the Clarus system"", ""the hosts"", or something else
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fix: Replace ""its"" wi..."
+32,2005_clarus_low,The Clarus system shall be able to publish environmental data at three times the volume rate that it collects it.,The Clarus system shall be able to publish environmental data at three times the volume rate that environmental data collects.,"Replaced ""it"" with ""environmental data"" to clarify the subject.",Anaphoric ambiguity,"""it""",True,one-shot,2025-07-23T06:18:18.930850,113,126,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""The Clarus system"", ""environmental data"", or ""the volume rate""
+3. Ambiguity: Yes, ""it"" is unclear
+4. Fix: Replace..."
+33,2005_clarus_low,The contributors shall identify the intended use of their shared data and information.,The contributors shall identify the intended use of the contributors' shared data and information.,"Replaced ""their"" with ""the contributors'"" to clarify the subject.",Pronoun ambiguity,their,True,one-shot,2025-07-23T06:18:23.997824,86,98,"Here's the step-by-step process:
+
+1. Pronouns found: ""their""
+2. ""their"" could refer to: ""contributors"", ""data"", ""information"", or ""shared data and information""
+3. Ambiguity: Yes, ""their"" is unclear
+4...."
+34,2005_clarus_low,The contributors shall identify the categories of recipients of their shared data and information.,The contributors shall identify the categories of recipients of the contributors' shared data and information.,"Replaced ""their"" with ""the contributors"" to clarify the subject.",Pronoun ambiguity,their,True,one-shot,2025-07-23T06:18:29.169488,98,110,"Here's the step-by-step process:
+
+1. Pronouns found: ""their""
+2. ""their"" refers to: could be ""contributors"", ""categories"", ""recipients"", ""data"", or ""information""
+3. Ambiguity: Yes, ""their"" is unclear
+4..."
+35,2005_clarus_low,The contributors shall define the units of measurements of their shared data and information.,The contributors shall define the units of measurements of the contributors' shared data and information.,"Replaced ""their"" with ""the contributors"" to clarify the subject.",Pronoun ambiguity,their,True,one-shot,2025-07-23T06:18:34.494257,93,105,"Here's the step-by-step process:
+
+1. Pronouns found: ""their""
+2. ""their"" refers to: could be ""contributors"", ""units of measurements"", ""data"", ""information"", or ""shared data and information""
+3. Ambiguit..."
+36,2005_clarus_low,The Clarus program shall determine how it will provide data and information to contributors.,The Clarus program shall determine how the Clarus program will provide data and information to contributors.,"Replaced ""it"" with ""the Clarus program"" to clarify the subject.",Pronoun ambiguity,it,True,one-shot,2025-07-23T06:18:39.966746,92,108,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""The Clarus program"", ""data and information"", ""contributors"", or ""the system""
+3. Ambiguity: Yes, ""it"" is unclear
+4..."
+37,2005_clarus_low,The Clarus program shall provide data and information statistics on its operation to contributors.,The Clarus program shall provide data and information statistics on the Clarus program's operation to contributors.,"Replaced ""its"" with ""the Clarus program"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:18:45.476668,98,115,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""the Clarus program"", ""data and information statistics"", ""contributors"", or something else
+3. Ambiguity: Yes, ""i..."
+38,2005_clarus_low,"The Clarus program shall inform contributors of the ""acceptance and use"" of their data and information.","The Clarus program shall inform contributors of the ""acceptance and use"" of contributors' data and information.","Replaced ""their"" with ""contributors"" to clarify the subject.",Pronoun ambiguity,their,True,one-shot,2025-07-23T06:18:50.475488,103,111,"Here's the step-by-step process:
+
+1. Pronouns found: ""their""
+2. ""their"" could refer to: contributors, data, information, or something else
+3. Ambiguity: Yes, ""their"" is unclear
+4. Fix: Replace ""their""..."
+39,2005_clarus_low,The contributors shall inform the Clarus program of known error(s) and modifications in its data and information.,The contributors shall inform the Clarus program of known error(s) and modifications in the contributors' data and information.,"Replaced ""its"" with ""the contributors' data and information"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:18:56.169451,113,127,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""contributors"", ""data"", ""information"", or ""program""
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fix: Replace ""its"" wi..."
+40,2005_clarus_low,The Clarus program shall determine its redistribution of shared data from contributors based upon Clarus Data Sharing Agreements.,The Clarus program shall determine the Clarus program's redistribution of shared data from contributors based upon Clarus Data Sharing Agreements.,"Replaced ""its"" with ""the Clarus program's"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:19:01.914311,129,146,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""The Clarus program"", ""the redistribution"", ""the data"", or ""the contributors""
+3. Ambiguity: Yes, ""its"" is unclea..."
+41,2005_clarus_low,The Clarus program shall report successes and failures in data and information transmission to its contributors.,The Clarus program shall report successes and failures in data and information transmission to the contributors.,"Replaced ""its"" with ""the contributors"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:19:07.109014,112,112,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""contributors"", ""data"", ""information transmission"", or ""the Clarus program""
+3. Ambiguity: Yes, ""its"" is unclear
+..."
+42,2005_clarus_low,The Clarus program shall maintain information about requestors and their access to data and information.,The Clarus program shall maintain information about requestors and requestors' access to data and information.,"Replaced ""their"" with ""requestors'"" to clarify the subject.",Pronoun ambiguity,their,True,one-shot,2025-07-23T06:19:12.321033,104,110,"Here's the step-by-step process:
+
+1. Pronouns found: ""their""
+2. ""their"" refers to: could be ""requestors"", ""access to data and information"", or something else
+3. Ambiguity: Yes, ""their"" is unclear
+4. F..."
+43,2005_clarus_low,"The contributors shall provide the Clarus program with a timely notice of their intent to change, alter, replace, or eliminate any shared data and information as specified within this Clarus Data Sharing Agreement.","The contributors shall provide the Clarus program with a timely notice of the contributors' intent to change, alter, replace, or eliminate any shared data and information as specified within this Clarus Data Sharing Agreement.","Replaced ""their"" with ""the contributors"" to clarify the subject of the possessive pronoun.",Pronoun ambiguity,their,True,one-shot,2025-07-23T06:19:18.199593,214,226,"Here's the step-by-step process:
+
+1. Pronouns found: ""their""
+2. ""their"" could refer to: contributors, Clarus program, or the data and information
+3. Ambiguity: Yes, ""their"" is unclear
+4. Fix: Replace ..."
+44,2005_clarus_low,The Clarus program shall operate the Clarus system according to its published IT Security Plan.,The Clarus program shall operate the Clarus system according to the Clarus system's published IT Security Plan.,"Replaced ""its"" with ""the Clarus system's"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:19:23.854776,95,111,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""the Clarus program"", ""the Clarus system"", or ""the IT Security Plan""
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fix:..."
+45,2002_evla_back,Data Integrity Verification – The BE shall ensure that time series data is correctly ordered and contains valid data values along its entire extent.,The BE shall ensure that time series data is correctly ordered and contains valid data values along the time series data's entire extent.,"Replaced ""its"" with ""the time series data"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:19:29.546527,148,137,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""time series data"", ""the BE"", ""the extent"", or ""the data values""
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fix: Rep..."
+46,2002_evla_back,Offload – The BE shall be able to redistribute internal workload among its processors. This may involve change of destination IP address(es) for the Correlator network.,The BE shall be able to redistribute internal workload among the BE's processors. This may involve change of destination IP address(es) for the Correlator network.,"Replaced ""its"" with ""the BE"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:19:35.316495,168,163,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""Offload"", ""the BE"", ""processors"", or ""Correlator network""
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fix: Replace ""..."
+47,2002_evla_back,"Auto-correction – the Backend System shall be self-monitoring.  It will be capable of detecting, reporting on and automatically taking action to remedy or lessen the impact of, at a minimum, the following types of abnormal conditions: processor hardware failure, operating system hangs or crashes, computational performance below minimum specifications, computational error rates above maximum specification, internal communications failures, and external (with the Correlator and E2E) communications disruptions.","The Backend System shall be self-monitoring. The Backend System will be capable of detecting, reporting on and automatically taking action to remedy or lessen the impact of, at a minimum, the following types of abnormal conditions: processor hardware failure, operating system hangs or crashes, computational performance below minimum specifications, computational error rates above maximum specification, internal communications failures, and external (with the Correlator and E2E) communications disruptions.","Replaced ""it"" with ""the Backend System"" to clarify the subject of the sentence.",Pronoun ambiguity,"""it""",True,one-shot,2025-07-23T06:19:43.327478,513,510,"Here's the step-by-step process:
+
+1. Pronouns found: ""It""
+2. ""It"" could refer to: ""the Backend System"", ""the System"", ""the Auto-correction"", or ""the requirement""
+3. Ambiguity: Yes, ""it"" is unclear
+4. ..."
+48,2002_evla_back,Software Accessibility – all systems and application source code shall be available to or on the systems that execute it.,Software Accessibility – all systems and application source code shall be available to or on the systems that execute the systems that execute the application source code.,"Replaced ""it"" with ""the systems that execute the application source code"" to clarify the intended meaning.",Anaphoric ambiguity,"""it""",True,one-shot,2025-07-23T06:19:49.561619,121,171,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""systems"", ""application source code"", or ""systems that execute it"" (creating a loop)
+3. Ambiguity: Yes, ""it"" is un..."
+49,2002_evla_back,"Seamlessness – 3.7.1, above, shall be accomplished in a manner that is seamless, in that it does not affect hardware modules or software functionality that it meets at interfaces.","Seamlessness – 3.7.1, above, shall be accomplished in a manner that is seamless, in that it does not affect hardware modules or software functionality that interfaces.",Replaced ambiguous pronouns with specific nouns to clarify the requirement.,Pronoun ambiguity,"it, it",True,one-shot,2025-07-23T06:19:56.858553,179,167,"Here's the step-by-step process:
+
+1. Pronouns found: ""it"" (twice)
+2. ""it"" refers to: could be ""Seamlessness – 3.7.1"", ""hardware modules"", ""software functionality"", or ""interfaces""
+3. Ambiguity: Yes, ""..."
+50,2002_evla_back,Performance – the Backend system shall ultimately be scaleable to an extent that it will be capable of handling up to two Gbytes per second per Correlator output channel in real-time.,The Backend system shall ultimately be scaleable to an extent that the Backend system will be capable of handling up to two Gbytes per second per Correlator output channel in real-time.,"Replaced ""it"" with ""the Backend system"" to clarify the subject.",Pronoun ambiguity,"""it""",True,one-shot,2025-07-23T06:20:02.924740,183,185,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""the Backend system"", ""the Correlator output channel"", or ""the extent""
+3. Ambiguity: Yes, ""it"" is unclear
+4. Fix: ..."
+51,1999_multi_mahjong,The MultiMahjongServer will allow connections from MultiMahjongClients and communicate with them using IP.,The MultiMahjongServer will allow connections from MultiMahjongClients and communicate with MultiMahjongClients using IP.,"Replaced ""them"" with ""MultiMahjongClients"" to clarify the subject.",Pronoun ambiguity,them,True,one-shot,2025-07-23T06:20:08.339848,106,121,"Here's the step-by-step process:
+
+1. Pronouns found: ""them""
+2. ""them"" refers to: could be ""MultiMahjongClients"", ""IP"", or something else
+3. Ambiguity: Yes, ""them"" is unclear
+4. Fix: Replace ""them"" wit..."
+52,1999_multi_mahjong,"The MultiMahjongServer will serve as a node for MultiMahjongClients. That is, it will be able to relay data received from one MultiMahjongClient to other MultiMahjongClients that request it.","The MultiMahjongServer will serve as a node for MultiMahjongClients. That is, it will be able to relay data received from one MultiMahjongClient to other MultiMahjongClients that request data.","Replaced ""it"" with ""data"" to clarify the subject.",Pronoun ambiguity,"""it""",True,one-shot,2025-07-23T06:20:14.380898,190,192,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""MultiMahjongServer"", ""MultiMahjongClient"", or ""data""
+3. Ambiguity: Yes, ""it"" is unclear
+4. Fix: Replace ""it"" with..."
+53,1999_multi_mahjong,"The MultiMahjongServer will automate the game initialisation functions (as opposed to the MultiMahjongClient doing them), such as: randomising tile order, randomising seating position and storing the ""Game Info"" database.","The MultiMahjongServer will automate the game initialisation functions (as opposed to the MultiMahjongClient doing the game initialisation functions), such as: randomising tile order, randomising seating position and storing the ""Game Info"" database.","Replaced ""them"" with ""the game initialisation functions"" to clarify the subject.",Pronoun ambiguity,them,True,one-shot,2025-07-23T06:20:21.017087,221,250,"Here's the step-by-step process:
+
+1. Pronouns found: ""them""
+2. ""them"" could refer to: ""game initialisation functions"", ""tile order"", ""seating position"", or ""Game Info database""
+3. Ambiguity: Yes, ""the..."
+54,1999_multi_mahjong,The MultiMahjongServer will allow players on MultiMahjongClient programs to modify their own names and icons during gameplay (as opposed to only at the beginning).,The MultiMahjongServer will allow players on MultiMahjongClient programs to modify players' names and icons during gameplay (as opposed to only at the beginning).,"Replaced ""their"" with ""players' names and icons"" to clarify the subject.",Pronoun ambiguity,their,True,one-shot,2025-07-23T06:20:26.818741,163,162,"Here's the step-by-step process:
+
+1. Pronouns found: ""their""
+2. ""their"" refers to: could be ""players"", ""names"", ""icons"", or ""programs""
+3. Ambiguity: Yes, ""their"" is unclear
+4. Fix: Replace ""their"" wit..."
+55,1999_multi_mahjong,The MultiMahjongServer will support an architecture whereby all Computer Opponents (CO) required will reside on it instead of on the MultiMahjongClient programs.,The MultiMahjongServer will support an architecture whereby all Computer Opponents (CO) required will reside on the MultiMahjongServer instead of on the MultiMahjongClient programs.,"Replaced ""it"" with ""the MultiMahjongServer"" to clarify the subject.",Pronoun ambiguity,it,True,one-shot,2025-07-23T06:20:33.162200,161,181,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""the MultiMahjongServer"", ""the CO"", ""the MultiMahjongClient programs"", or ""the architecture""
+3. Ambiguity: Yes, ""i..."
+56,1999_multi_mahjong,"When the user begins the MultiMahjongClient program, they will be able to choose to create a new multi player game, to create a new single player game, to join an existing multi player game, or to quit the program. These options will be available at any stage while the program is running as long as there is no game currently being played by the user (see Section 4.4 for more details about quitting).","When the user begins the MultiMahjongClient program, the user will be able to choose to create a new multi player game, to create a new single",No changes made,Pronoun ambiguity,"they, it",False,one-shot,2025-07-23T06:20:47.917565,402,142,"Here's the step-by-step process:
+
+1. Pronouns found: ""they"" in the first sentence
+2. ""they"" refers to: could be ""the user"", ""the options"", ""the program"", or ""the user's choices""
+3. Ambiguity: Yes, ""th..."
+57,1999_multi_mahjong,"When a user creates a new multi player game, they must: 1-Enter their name. 2- Choose an icon from a predetermined list. 3- Decide the number of human and computer opponents they want. As any game of Mahjong requires 4 players, the MultiMahjongClient will limit the user to choosing 4 players in total. 4- Set the score limit for winning a hand of Mahjong. 5- When all the necessary human players have joined the game, the user may choose to begin the game.","When a user creates a new multi player game, the user must: 1-Enter the user's name. 2- Choose an icon from a predetermined list. 3- Decide the number of human and computer opponents the user wants. As any game of Mahjong requires 4 players, the MultiMahjongClient will limit the user to choosing 4 players in total. 4- Set the score limit for winning a hand of Mahjong. 5- When all the necessary human players have joined the game, the user may choose to begin the game.",Replaced ambiguous pronouns with specific nouns/phrases.,Pronoun ambiguity,"they, their",True,one-shot,2025-07-23T06:20:58.143600,457,471,"Here's the step-by-step process:
+
+1. Pronouns found: ""they"", ""their""
+2. ""they"" refers to: could be ""a user"", ""the user"", ""the game"", or ""the players""
+   ""their"" refers to: could be ""name"", ""icon"", ""nu..."
+58,1999_multi_mahjong,"When a user creates a new single player game, they must: 1- Enter their name. 2- Choose an icon from a predetermined list. 3- Set the score limit for winning a hand of Mahjong.","When a user creates a new single player game, the user must: 1- Enter their name. 2- Choose an icon from a predetermined list. 3- Set the score limit for winning a hand of Mahjong.","Replaced ""they"" with ""the user"" and ""their"" with ""their name"" to clarify the subject and object of the verb.",Pronoun ambiguity,"they, their",True,one-shot,2025-07-23T06:21:06.360109,176,180,"Here's the step-by-step process:
+
+1. Pronouns found: ""they"", ""their""
+2. ""they"" refers to: could be ""a user"", ""the user"", ""the system"", or ""the game""
+   ""their"" refers to: could be ""name"", ""icon"", ""sco..."
+59,1999_multi_mahjong,"When a user wishes to join a multi player game, they must: 1- Enter their name. 2- Choose an icon from a predetermined list. 3- Choose which of the available games they wish to join.","When a user wishes to join a multi-player game, the user must: 1- Enter the user's name. 2- Choose an icon from a predetermined list. 3- Choose which of the available games the user wishes to join.",Replaced ambiguous pronouns with specific nouns/phrases.,Pronoun ambiguity,"they, their",True,one-shot,2025-07-23T06:21:13.865416,182,197,"Here's the step-by-step process:
+
+1. Pronouns found: ""they"", ""their""
+2. ""they"" refers to: could be ""a user"", ""the user"", ""the game"", or ""the players""
+   ""their"" refers to: could be ""name"", ""icon"", or ..."
+60,1999_multi_mahjong,"In a multi player game, each MultiMahjongClient must retrieve the following data from the MultiMahjongServer: 1- Whether it must support a CO. 2- The score limit for a hand. 3- All players' names, icons and seating positions. 4- The tiles of the human and CO (optional) player supported on the MultiMahjongClient.","In a multi player game, each MultiMahjongClient must retrieve the following data from the MultiMahjongServer: 1- Whether the MultiMahjongServer must support a CO. 2- The score limit for a hand. 3- All players' names, icons and seating positions. 4- The tiles of the human and CO (optional) player supported on the MultiMahjongClient.","Replaced ""it"" with ""the MultiMahjongServer""",Pronoun ambiguity,"""it""",True,one-shot,2025-07-23T06:21:21.585739,313,333,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""MultiMahjongClient"", ""MultiMahjongServer"", ""CO"", or ""hand""
+3. Ambiguity: Yes, ""it"" is unclear
+4. Fix: Replace ""it..."
+61,1999_multi_mahjong,The MultiMahjongClient will save the user preferences in a file and read them in when the program begins.,The MultiMahjongClient will save the user preferences in a file and read the user preferences in when the program begins.,"Replaced ""them"" with ""the user preferences"" to clarify the subject.",Pronoun ambiguity,them,True,one-shot,2025-07-23T06:21:26.846506,105,121,"Here's the step-by-step process:
+
+1. Pronouns found: ""them""
+2. ""them"" refers to: could be ""user preferences"", ""file"", or ""program""
+3. Ambiguity: Yes, ""them"" is unclear
+4. Fix: Replace ""them"" with ""use..."
+62,1999_multi_mahjong,"Any user who creates or joins a game will be able to upload their own JPEG or GIF image that they wish to have displayed above their name, if they do not wish to use a preset icon.","Any user who creates or joins a game will be able to upload the user's own JPEG or GIF image that the user wishes to have displayed above the user's name, if the user does not wish to use a preset icon.","Replaced ""their"" with ""the user's"" and ""they"" with ""the user"" to clarify the subject.",Pronoun ambiguity,"their, they",True,one-shot,2025-07-23T06:21:34.675645,180,202,"Here's the step-by-step process:
+
+1. Pronouns found: ""their"", ""they""
+2. ""their"" refers to: could be ""user"", ""game"", ""image"", or ""name""
+   ""they"" refers to: could be ""user"", ""game"", ""image"", or ""name""
+..."
+63,1999_multi_mahjong,The MultiMahjongClient will inform the user whose turn it is to pick up a tile.,The MultiMahjongClient will inform the user whose turn the user is to pick up a tile.,"Replaced ""it"" with ""the user"" to clarify the subject.",Pronoun ambiguity,"""it""",True,one-shot,2025-07-23T06:21:40.131787,79,85,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""the user"", ""the turn"", ""the tile"", or ""the MultiMahjongClient""
+3. Ambiguity: Yes, ""it"" is unclear
+4. Fix: Replace..."
+64,1999_multi_mahjong,"User's will be able to pick up a tile from the wall if it is their turn. If they choose to pick up, the MultiMahjongClient must send this information to the MultiMahjongServer.","Users will be able to pick up a tile from the wall if it is the User's turn. If they choose to pick up, the MultiMahjongClient must send the information to the MultiMahjongServer.","Replaced ""it"" with ""the tile"", ""their"" with ""the User's"", and ""this"" with ""the information"".",Multiple pronouns,"it, their, this",True,one-shot,2025-07-23T06:21:50.729815,176,179,"Here's the step-by-step process:
+
+1. Pronouns found: ""it"", ""their"", ""this""
+2. ""it"" could refer to: the tile, the wall, the turn
+   ""their"" could refer to the User's, the tile, the turn
+   ""this"" could..."
+65,1999_multi_mahjong,"User's will be able to discard a tile if they have picked one up. When they choose to discard, the MultiMahjongClient must send this information to the MultiMahjongServer.","Users will be able to discard a tile if users have picked one up. When users choose to discard, the MultiMahjongClient must send this information to the MultiMahjongServer.","Replaced ambiguous pronouns with the specific noun ""users"".",Pronoun ambiguity,"they, they",True,one-shot,2025-07-23T06:21:57.816844,171,172,"Here's the step-by-step process:
+
+1. Pronouns found: ""they"" in two places
+2. ""they"" in the first sentence refers to: could be ""users"", ""tiles"", or ""players""
+   ""they"" in the second sentence refers to:..."
+66,1999_multi_mahjong,User's will be able to Undo their last move if playing in single player mode.,The user will be able to Undo the user's last move if playing in single player mode.,"Replaced ""User's"" with ""the user"" and ""their"" with ""the user's"" to clarify the subject and object.",Pronoun ambiguity,"User's, their",True,one-shot,2025-07-23T06:22:04.299035,77,84,"Here's the step-by-step process:
+
+1. Pronouns found: ""User's"", ""their""
+2. ""User's"" refers to: the person playing the game (subject)
+   ""their"" refers to: the user (object)
+3. Ambiguity: Yes, ""User's"" ..."
+67,1999_multi_mahjong,User's will be able to Save their game if playing in single player mode.,The user will be able to save the user's game if playing in single-player mode.,Replaced ambiguous pronouns with specific nouns.,Pronoun ambiguity,"User's, their",True,one-shot,2025-07-23T06:22:10.030955,72,79,"Here's the step-by-step process:
+
+1. Pronouns found: ""User's"", ""their""
+2. ""User's"" refers to: the person playing the game (subject)
+   ""their"" refers to: the user (object)
+3. Ambiguity: Yes, ""User's"" ..."
+68,1999_multi_mahjong,User's will be able to change their icons/pictures and names during the game.,Users' will be able to change their icons/pictures and names during the game.,"Replaced ""their"" with ""users'"" to clarify the possessive relationship.",Possessive ambiguity,their,True,one-shot,2025-07-23T06:22:16.170271,77,77,"Here's the step-by-step process:
+
+1. Pronouns found: ""their""
+2. ""their"" could refer to: ""User's"" (possessive form) or ""icons/pictures and names"" (possessive form of the noun phrase)
+3. Ambiguity: Yes,..."
+69,1999_multi_mahjong,"If a user leaves the game prematurely, a new CO is created on another user's machine to fill their place. This CO will take over the user's current position and circumstance within the game. This CO will play at an ability level as defined in the Level 2 Requirements for the CO (see Section 4.5.6).","If a user leaves the game prematurely, a new CO is created on another user's machine to fill the user's place. This CO will take over the user's current position and circumstance within the game. This CO will play at an ability level as defined in the Level 2 Requirements for the CO (see Section 4.5.6).","Replaced ""their"" with ""the user's"" and ""this"" with ""the CO's position and circumstance""",Pronoun ambiguity,"their, this",True,one-shot,2025-07-23T06:22:25.376425,299,304,"Here's the step-by-step process:
+
+1. Pronouns found: ""their"", ""this""
+2. ""their"" refers to: could be ""the user"", ""the CO"", ""the game"", or ""the machine""
+   ""this"" refers to: could be ""CO"", ""game"", ""posi..."
+70,1999_multi_mahjong,"If a user leaves the game prematurely, a new CO is created on another user's machine to fill their place. The user who created the game will decide at what level (see Section 4.5.8) the CO will play at.","If a user leaves the game prematurely, a new CO is created on another user's machine to fill the user who created the game's place. The user who created the game will decide at what level (see Section 4.5.8) the CO will play at.","Replaced ""their"" and ""they"" with ""the user who created the game"" to clarify the subject.",Pronoun ambiguity,"their, they",True,one-shot,2025-07-23T06:22:38.709838,202,228,"Here's the step-by-step process:
+
+1. Pronouns found: ""their"", ""they"", ""the user who created the game"" (this is not a pronoun, but a noun phrase, so we'll ignore it for now), and ""the CO"" (this is not ..."
+71,1999_multi_mahjong,The CO will be able to perform look ahead algorithms to determine its best move in the Intermediate and Advanced levels.,The CO will be able to perform look ahead algorithms to determine the CO's best move in the Intermediate and Advanced levels.,"Replaced ""its"" with ""the CO's"" to clarify ownership.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:22:44.621322,120,125,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""the CO"", ""the algorithms"", ""the Intermediate level"", ""the Advanced level"", or ""the move""
+3. Ambiguity: Yes, ""it..."
+72,1999_multi_mahjong,The coding standard will be the same as that suggested by Sun Microsystems. This document is available in PDF in our repository at: MultiMahjong/doc/SQAP/CodeConventions.pdf or online at: ftp://ftp.javasoft.com/docs/codeconv/CodeConventions.pdf,The coding standard will be the same as that suggested by Sun Microsystems. The document is available in PDF in our repository at: MultiMahjong/doc/SQAP/CodeConventions.pdf or online at: ftp://ftp.javasoft.com/docs/codeconv/CodeConventions.pdf,"Replaced ""this"" with ""the document"" to clarify the subject of the sentence.",Pronoun ambiguity,this,True,one-shot,2025-07-23T06:22:51.306924,244,243,"Here's the step-by-step process:
+
+1. Pronouns found: ""this""
+2. ""this"" refers to: could be ""document"", ""repository"", ""PDF"", ""online resource"", or ""repository at ftp site""
+3. Ambiguity: Yes, ""this"" is u..."
+73,1999_multi_mahjong,"A section added to the manual which details some technical information on the MultiMahjong product, including: 1- The languages we used to write the MultiMahjong product and a history of how it developed. 2- A brief description of how the MultiMahjongServer and MultiMahjongClients interact.","A section added to the manual which details some technical information on the MultiMahjong product, including: 1- The languages we used to write the MultiMahjong product and a history of how the MultiMahjong product developed. 2- A brief description of how the MultiMahjongServer and MultiMahjongClients interact.","Replaced ""it"" with ""the MultiMahjong product""",Pronoun ambiguity,"""it""",True,one-shot,2025-07-23T06:22:58.829609,291,313,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""the section"", ""the manual"", ""the MultiMahjong product"", ""the MultiMahjongServer"", or ""the MultiMahjongClients""
+3...."
+74,1999_multi_mahjong,The manual will contain the following sections: 1- How to install the MultiMahjongClient program. 2- How to begin a single/multi player game or join a multi player game (see Section 4.2) 3. How to play a game of MultiMahjong (which describes the rules and scoring in a game of Chinese Mahjong).  4- An explanation of what all parts of the GUI do (see Section 6.3) and how to use them. 5- Troubleshooting guide,The manual will contain the following sections: 1- How to install the MultiMahjongClient program. 2- How to begin a single/multi player game or join a multi player game (see Section 4.2) 3. How to play a game of MultiMahjong (which describes the rules and scoring in a game of Chinese Mahjong).  4- An explanation of what all parts of the GUI do (see Section 6.3) and how to use them. 5- Troubleshooting guide,No changes made,None,No ambiguities detected,False,one-shot,2025-07-23T06:23:13.553991,409,409,"Here's the step-by-step process:
+
+1. Pronouns found: ""it"" is not present, but ""them"" is not present either, however, ""a game"" and ""them"" are not present, but ""a game"" is not the issue, but ""a game of ..."
+75,tachonet,FUN-02 The system must allow a member of the network to send a bulk request on all or a large part of its driver’s smart card holders to a particular or all members of the network.,The system must allow a member of the network to send a bulk request on all or a large part of the system's driver’s smart card holders to a particular or all members of the network.,"Replaced ""its"" with ""the system's"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:23:19.782824,180,182,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" could refer to: ""the system"", ""a member of the network"", ""driver's smart card holders"", or ""the network""
+3. Ambiguity: Yes, ""its"" is..."
+76,tachonet,FUN-03 The system must allow a member to do statistics on messages issued and received from/to his system.,The system must allow a member to do statistics on messages issued and received from/to the member's system.,"Replaced ""his"" with ""the member's"" to clarify the subject.",Anaphoric ambiguity,"""his""",True,one-shot,2025-07-23T06:23:25.081137,106,108,"Here's the step-by-step process:
+
+1. Pronouns found: ""his""
+2. ""his"" could refer to: ""a member"", ""the system"", or ""messages""
+3. Ambiguity: Yes, ""his"" is unclear
+4. Fix: Replace ""his"" with ""the member's..."
+77,tachonet,"FUN-14  The system must allow a Member State (through its Card Issuing Authority) to ask for the status of card (lost, stolen,…) to the corresponding Card Issuing Authority of the Member State having issued the card.","The system must allow a Member State (through the Card Issuing Authority) to ask for the status of the card (lost, stolen,…) to the corresponding Card Issuing Authority of the Member State having issued the card.",Replaced ambiguous pronouns with specific nouns/phrases.,Pronoun ambiguity,"its, the, it",True,one-shot,2025-07-23T06:23:33.911566,216,212,"Here's the step-by-step process:
+
+1. Pronouns found: ""its"", ""the"", ""it""
+2. ""its"" refers to: could be ""Member State"", ""Card Issuing Authority"", or ""card""
+   ""the"" refers to: could be ""Member State"", ""C..."
+78,tachonet,"FUN-15  The system must allow a Member State (through its Card Issuing Authority) to send card status modification requests (lost, stolen,…) to the corresponding Card Issuing Authority of the Member State having issued the card.","The system must allow a Member State (through the Card Issuing Authority) to send card status modification requests (lost, stolen,…) to the corresponding Card Issuing Authority of the Member State having issued the card.","Replaced ""its"" with ""the Card Issuing Authority""",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:23:39.918063,228,220,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""Member State"", ""Card Issuing Authority"", or ""card""
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fix: Replace ""its"" wi..."
+79,tachonet,"FUN-16 The system must allow enforcement authorities (through its Card Issuing Authority) to ask for driver’s card status (based on either card number + issuing Member State code or driver’s surname, first names, date of birth and issuing Member State code) to the corresponding Card Issuing Authority of the Member State having issued the card.","The system must allow enforcement authorities (through the Card Issuing Authority) to ask for driver’s card status (based on either card number + issuing Member State code or driver’s surname, first names, date of birth and issuing Member State code) to the corresponding Card Issuing Authority of the Member State having issued the card.","Replaced ""its"" with ""the Card Issuing Authority""",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:23:46.785031,345,338,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""enforcement authorities"", ""Card Issuing Authority"", or ""Member State""
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fi..."
+80,tachonet,FUN-17 The system must allow enforcement authorities (through its Card Issuing Authority) to ask for workshop card status (based on workshop card number + issuing Member State code) to the corresponding Card Issuing Authority of the Member State having issued the card.,The system must allow enforcement authorities (through the Card Issuing Authority) to ask for workshop card status (based on workshop card number + issuing Member State code) to the Card Issuing Authority of the Member State having issued the card.,"Replaced ""its"" with ""the Card Issuing Authority"" and ""the"" with ""the Card Issuing Authority of the Member State having issued the card""",Pronoun ambiguity,"its, the",True,one-shot,2025-07-23T06:23:55.719818,269,248,"Here's the step-by-step process:
+
+1. Pronouns found: ""its"", ""the""
+2. ""its"" refers to: could be ""enforcement authorities"", ""Card Issuing Authority"", or ""Member State""
+   ""the"" refers to: could be ""work..."
+81,tachonet,USA-03  The system must make it easy to correct mistakes.,The system must make mistakes easy to correct.,"Replaced ""it"" with ""mistakes"" to clarify the subject.",Pronoun ambiguity,"""it""",True,one-shot,2025-07-23T06:24:00.614007,57,46,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""mistakes"", ""the system"", ""the user"", or ""the process""
+3. Ambiguity: Yes, ""it"" is unclear
+4. Fix: Replace ""it"" wit..."
+82,tachonet,"REL-02  The system must function reliably, with few or no interruptions in its first operational year and fewer still thereafter.","The system must function reliably, with few or no interruptions in the system's first operational year and fewer still thereafter.","Replaced ""its"" with ""the system"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:24:05.853288,129,130,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""the system"", ""the interruptions"", or ""the year""
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fix: Replace ""its"" with ..."
+83,tachonet,PER-01  The system should be able to cover more than one contact point per country depending on the administrative organisation adopted by each country and able to work in a multi hierarchical environment. This is no longer the case since everybody agrees upon having a single point of contact per Member State (even though the Member State is organized with several Card Issuing Authorities – up to the Member State to manage its own organisation).,The system should be able to cover more than one contact point per country depending on the administrative organisation adopted by each country and able to work in a multi hierarchical environment. This is no longer the case since everybody agrees upon having a single point of contact per Member State (even though the Member State is organized with several Card Issuing Authorities – up to the Member State to manage its organisation).,"Replaced ""it"" with ""the Member State"" and ""its"" with ""its organisation""",Pronoun ambiguity,"it, its",True,one-shot,2025-07-23T06:24:14.783064,449,437,"Here's the step-by-step analysis:
+
+1. Pronouns found: ""it"", ""its""
+2. ""it"" refers to: could be ""the system"", ""the country"", ""the administrative organisation"", or ""the Member State""
+   ""its"" refers to: ..."
+84,tachonet,PER-03  The system must be able to establish and keep the dialog with the Members systems despite the various technical environments and technologies used on their sites.,The system must be able to establish and keep the dialog with the Members systems despite the various technical environments and technologies used on the Members systems' sites.,"Replaced ""their"" with ""the Members systems' sites"" to clarify the intended meaning.",Pronoun ambiguity,their,True,one-shot,2025-07-23T06:24:20.649144,170,177,"Here's the step-by-step process:
+
+1. Pronouns found: ""their""
+2. ""their"" refers to: could be ""Members systems"", ""technical environments"", ""technologies"", or ""sites""
+3. Ambiguity: Yes, ""their"" is unclea..."
+85,tachonet,SUP-03  The system must be designed so that it can migrate to upgraded hardware or new versions of the operating systems involved.,The system must be designed so that the system can migrate to upgraded hardware or new versions of the operating systems involved.,"Replaced ""it"" with ""the system"" to clarify the subject.",Pronoun ambiguity,"""it""",True,one-shot,2025-07-23T06:24:26.002482,130,130,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""the system"", ""hardware"", ""operating systems"", or ""versions""
+3. Ambiguity: Yes, ""it"" is unclear
+4. Fix: Replace ""i..."
+86,tachonet,DES-01  The system must be designed and documented with the expectation that its operational lifetime will be many years.,The system must be designed and documented with the expectation that the system's operational lifetime will be many years.,"Replaced ""its"" with ""the system"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:24:31.315912,121,122,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""the system"", ""the design"", ""the documentation"", or ""the expectation""
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fix..."
+87,tachonet,DES-02  Each Member of this network will organise its data about smart card holders with no constraints or recommendations on operating system and/or technology used. The system will be able to dialog with these environments or specify a generic interface to dialog with the Member’s applications.,Each Member of this network will organise the member's data about smart card holders with no constraints or recommendations on operating system and/or technology used. The system will be able to dialog with the environments or specify a generic interface to dialog with the Member’s applications.,"Replaced ""its"" with ""the member's"" and ""these"" with ""the environments""",Pronoun ambiguity,"its, these",True,one-shot,2025-07-23T06:24:38.977109,297,296,"Here's the step-by-step process:
+
+1. Pronouns found: ""this"", ""its"", ""these""
+2. ""this"" refers to: the network
+""its"" refers to: the network or the member (ambiguous)
+""these"" refers to: the environments ..."
+88,2005_pontis,6.19 Privileged users shall be able to delete an existing inspection unless it is “locked down”.,Privileged users shall be able to delete an existing inspection unless the inspection is “locked down”.,"Replaced ""it"" with ""the inspection"".",Pronoun ambiguity,"""it""",True,one-shot,2025-07-23T06:24:43.945559,96,103,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""the inspection"", ""the user"", or ""the record""
+3. Ambiguity: Yes, ""it"" is unclear
+4. Fix: Replace ""it"" with ""the in..."
+89,2005_pontis,22.4 The administrator shall be able to edit the DATADICT table or its successor(s) through a GUI window.,The administrator shall be able to edit the DATADICT table or the DATADICT table's successor(s) through a GUI window.,"Replaced ""its"" with ""the DATADICT table"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:24:49.540205,105,117,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""the DATADICT table"" or ""the GUI window""
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fix: Replace ""its"" with ""the DAT..."
+90,2005_pontis,21.8 The system shall be capable of operating with a single-sign-on authentication mechanism based on Active Directory Services or the LDAP standard.( It should be recognized that the Virtis/Opis application authentication/security control approach may need to be revised to accomplish this capability globally in the AASHTO BRIDGEWare software suite.),The system shall be capable of operating with a single-sign-on authentication mechanism based on Active Directory Services or the LDAP standard. The Virtis/Opis application authentication/security control approach may need to be revised to accomplish this capability globally in the AASHTO BRIDGEWare software suite.,"Replaced ""it"" with ""the Virtis/Opis application authentication/security control approach""",Pronoun ambiguity,"""It""",True,one-shot,2025-07-23T06:24:57.054411,352,316,"Here's the step-by-step process:
+
+1. Pronouns found: ""It""
+2. ""It"" could refer to: ""the Virtis/Opis application authentication/security control approach"", ""the capability"", ""the AASHTO BRIDGEWare softw..."
+91,2005_pontis,"5.1 The software, through its user interface, will clearly identify the product name (Pontis 5.0.x), the licensee, the connected user, and the organization that developed the system (AASHTO). Additional session identification information will be available on demand.27(27 Pontis 4.x Help About and SysInfo windows provide examples.) The overall look and feel of the product will be that of a professional and conservative application.","The software, through the software's user interface, will clearly identify the product name (Pontis 5.0.x), the licensee, the connected user, and the organization that developed the system (AASHTO). Additional session identification information will be available on demand.27(27 Pontis 4.x Help About and SysInfo windows provide examples.) The overall look and feel of the product will be that of a professional and conservative application.","Replaced ""its"" with ""the software's user interface"" and ""that"" with ""the organization that developed the system (AASHTO)""",Pronoun ambiguity,"its, that",True,one-shot,2025-07-23T06:25:08.019626,434,441,"Here's the step-by-step analysis:
+
+1. Pronouns found: ""its"", ""that""
+2. ""its"" refers to: The software, the user interface, the product name, the licensee, the connected user, or the organization that d..."
+92,2005_pontis,"5.2 The application should look and feel consistent in the web and standalone operating environments, therefore it will conform to standard .NET standalone and web application conventions with necessary accommodations for the deployment environment only where these prove necessary and appropriate.","The application should look and feel consistent in the web and standalone operating environments, therefore the application will conform to standard.NET standalone and web application conventions with necessary accommodations for the deployment environment only where these prove necessary and appropriate.","Replaced ""it"" with ""the application"" and ""these"" with ""conventions""",Pronoun ambiguity,"it, these",True,one-shot,2025-07-23T06:25:16.287473,298,306,"Here's the step-by-step process:
+
+1. Pronouns found: ""it"", ""these""
+2. ""it"" refers to: could be ""the application"", ""the web environment"", ""the standalone operating environment"", or ""the deployment envi..."
+93,2005_pontis,"5.2 The system developer shall consider supporting existing custom forms and reports developed in PowerBuilder 9. It shall decide on a development tool for users so that they can continue to customize Pontis and extend its capability. For example, custom forms and reports created with PowerBuilder 9 may be migrated to a .NET application by using the Sybase DataWindow .NET technology which is available in PowerBuilder 10.","The system developer shall consider supporting existing custom forms and reports developed in PowerBuilder 9. The system developer shall decide on a development tool for users so that users can continue to customize Pontis and extend its capability. For example, custom forms and reports created with PowerBuilder 9 may be migrated to a.NET application by using the Sybase DataWindow.NET technology which is available in PowerBuilder 10.",Replaced ambiguous pronouns with specific nouns/phrases to clarify the requirement.,Pronoun ambiguity,"it, they, its",True,one-shot,2025-07-23T06:25:33.552638,424,437,"Here's the step-by-step process:
+
+1. Pronouns found: ""it"", ""they"", ""its""
+2. ""it"" refers to: could be ""the system developer"", ""the development tool"", or ""the Sybase DataWindow.NET technology""
+   ""they""..."
+94,2005_pontis,"The Pontis application server (ASP.NET) software will run on a server located within a (presumably) secure facility at each agency. Because it is an ASP.NET application, the end users can vary in location depending on the network accessibility of the server. The Pontis database, and any other databases to be accessed from Pontis may be co-located on the same server machine, but at a minimum must be accessible from the Pontis application server via standard database communication and connection protocols.",Result: The Pontis application server (ASP.NET) software will run on a server located within a (presumably) secure facility at each agency.,No changes made,None,No ambiguities detected,False,one-shot,2025-07-23T06:25:52.218103,509,139,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""the Pontis application server"", ""the server"", ""the facility"", or ""the network""
+3. Ambiguity: Yes, ""it"" is unclear..."
+95,2005_pontis,"Pontis 5.0 will be designed to be used with Internet Explorer; it may work correctly with other browsers but this cannot be guaranteed. Given the predominance of IE in the browser market, it does not appear to be necessary to consider support for other browsers, although this may need to be reconsidered if external customers are running the application(s) and need to employ different browser technology such as Netscape or Mozilla FireFox.","Pontis 5.0 will be designed to be used with Internet Explorer; Pontis 5.0 may work correctly with other browsers but this cannot be guaranteed. Given the predominance of IE in the browser market, Pontis 5.0 does not appear to be necessary to consider support for other browsers, although this may need to be reconsidered if external customers are running the application(s) and need to employ different browser technology such as Netscape or Mozilla FireFox.","Replaced ""it"" with ""Pontis 5.0"" and ""this"" with ""the predominance of IE in the browser market""",Pronoun ambiguity,"it, this",True,one-shot,2025-07-23T06:26:06.503735,442,458,"Here's the step-by-step process:
+
+1. Pronouns found: ""it"", ""this""
+2. ""it"" refers to: could be ""Pontis 5.0"", ""Internet Explorer"", ""other browsers"", or ""the application(s)""
+   ""this"" refers to: could be..."
+96,2005_pontis,"Standalone capabilities will require a workstation running the latest .NET Framework, presumably Windows XP Professional (SP2) or its successor. Some capabilities may require a network connection. The workstation’s hardware requirements will be similar to those of the existing Pontis 4.4 application. There will continue to be a standalone/runtime database engine provided with the application for offline work. The offline database is assumed to be Sybase Adaptive Server Anywhere release 9 or above.","Standalone capabilities will require a workstation running the latest.NET Framework, presumably Windows XP Professional (SP2) or its successor. Some capabilities may require a network connection. The workstation’s hardware requirements will be similar to those of the existing Pontis 4.4 application. There will continue to be a standalone/runtime database engine provided with the application for offline work. The offline database is assumed to be Sybase Adaptive Server Anywhere release 9 or above.","Replaced ""it"" with ""the workstation"" and ""its"" with ""its successor""",Pronoun ambiguity,"it, its",True,one-shot,2025-07-23T06:26:18.688408,502,501,"Here's the step-by-step analysis:
+
+1. Pronouns found: ""it"", ""its""
+2. ""it"" refers to: could be ""workstation"", ""network connection"", ""database engine"", or ""application""
+   ""its"" refers to: could be ""suc..."
+97,2005_pontis,"5.6 Pontis 5.0 in production is intended to be supported through complete and sufficient on-line help and documentation and equivalent printed documentation, with occasional additional assistance provided through the Pontis Support Center. Pontis 5.0 will also continue to provide field-level help where applicable. As with the existing Pontis 4.x product, it is assumed that support will be provided by telephone, via e-mail, and through an on-line issues tracking system.",The Clarus system shall be able to base the Clarus system's quality checking process on historical environmental data.,"Replaced ""it"" with ""the existing Pontis 4.x product""",Pronoun ambiguity,"""it""",False,one-shot,2025-07-23T06:26:37.380019,473,118,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""Pontis 5.0"", ""Pontis 4.x product"", ""support"", or ""the existing Pontis 4.x product""
+3. Ambiguity: Yes, ""it"" is unc..."
+98,2001_hats,"[SRSreq 03]When collecting generated output files from HATS-SML, the HATS-GUI shall overwrite any file whose name is generated automatically. For example, given a transformation language program X.tlp, the file X.tlp.parsed is generated when the parser is executed. If X.tlp.parsed existed prior to executing the parser, it shall be overwritten without prompting the user.","When collecting generated output files from HATS-SML, the HATS-GUI shall overwrite any file whose name is generated automatically. For example, given a transformation language program X.tlp, the file X.tlp.parsed is generated when the parser is executed. If X.tlp.parsed existed prior to executing the parser, X.tlp.parsed shall be overwritten without prompting the user.","Replaced ""it"" with ""X.tlp.parsed"" to clarify the subject of the sentence.",Pronoun ambiguity,it,True,one-shot,2025-07-23T06:26:47.528120,372,371,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""X.tlp.parsed"", ""the parser"", ""the file"", or ""the user""
+3. Ambiguity: Yes, ""it"" is unclear
+4. Fix: Replace ""it"" wi..."
+99,2001_hats,[SRSreq 20] The Application/Save-as menu item shall provide an interface for saving an application and its associated files under a different name.,The Application/Save-as menu item shall provide an interface for saving an application and the associated files under a different name.,"Replaced ""its"" with ""the associated files"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:26:54.652884,147,135,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""the Application/Save-as menu item"", ""the associated files"", or ""the different name""
+3. Ambiguity: Yes, ""its"" is..."
+100,2001_hats,[SRSreq 54] There shall be exactly one file describing the grammar of inputs associated with an application. It shall have the file extension .grm.,There shall be exactly one file describing the grammar of inputs associated with an application. The file shall have the file extension.grm.,"Replaced ""it"" with ""the file"" to clarify the subject.",Pronoun ambiguity,"""It""",True,one-shot,2025-07-23T06:27:01.434502,147,140,"Here's the step-by-step process:
+
+1. Pronouns found: ""It""
+2. ""It"" could refer to: the file, the application, the grammar, the inputs, or the file extension
+3. Ambiguity: Yes, ""it"" is unclear
+4. Fix: R..."
+101,2001_hats,[SRSreq 58] An application shall have associated with it an application configuration. The application configuration elements are given in Table 6.,An application shall have associated with the application an application configuration. The application configuration elements are given in Table 6.,"Replaced ""it"" with ""the application"" to clarify the subject.",Pronoun ambiguity,"""it""",True,one-shot,2025-07-23T06:27:07.762593,147,148,"Here's the step-by-step analysis:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""application"", ""application configuration"", or something else
+3. Ambiguity: Yes, ""it"" is unclear
+4. Fix: Replace ..."
+102,2001_hats,"[SRSreq 78] When a user selects the Application/Delete menu item, the HATS-GUI shall prompt the user to confirm the deletion operation. If the user confirms, all files in the application directory shall be deleted and the application directory itself shall be deleted. No application is currently selected at the end of this operation.","When a user selects the Application/Delete menu item, the HATS-GUI shall prompt the user to confirm the deletion operation. If the user confirms, all files in the application directory shall be deleted and the application directory itself shall be deleted. No application is currently selected at the end of this operation.","Replaced ""it"" with ""the application directory"" to clarify the subject.",Pronoun ambiguity,"""it""",True,one-shot,2025-07-23T06:27:16.296231,335,323,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" could refer to: ""the application directory"", ""the user"", ""the operation"", or ""the application""
+3. Ambiguity: Yes, ""it"" is unclear
+4. F..."
+103,2001_hats,"[SRSreq 96] To perform a transformation in an application, the HATS-GUI shall execute the following sequence of actions: • The HATS-GUI shall confirm that the transformation language program exists. (It is an error if the program does not exist.) • The HATS-GUI shall check that the parser file is younger than the grammar and lexical specification files and that the parser file was generated from the grammar and lexical specification files. If this is not the case, the HATS-GUI shall generate a new parser file. • The HATS-GUI shall check that a parsed version of the transformation language program exists and is younger than the parser file and the transformation language program file. If it is not, the HATS-GUI shall generate a new parsed version of the transformation language program. • The HATS-GUI shall start the FindTarget program using the transformation language program as input. • The HATS-GUI shall take the list of target program files generated by FindTarget, and for each file in the list it shall check that a parsed version of the target program exists and is younger than the target parser file and the target program file. If it is not, the HATS-GUI shall generate a new parsed version of the target program. • The HATS-GUI shall start the ApplyTransformation program in HATS-SML and pass the parsed transformation language program file name, the user defined library file name, and the output file name to the ApplyTransformation program. The HATS-GUI shall redirect the standard output and standard error streams and capture any text written to those streams.","The HATS-GUI shall start the FindTarget program using the transformation language program as input. The HATS-GUI shall take the list of target program files generated by FindTarget, and for each file in the list the HATS-GUI shall check that a parsed version of the target program exists and is younger than the target parser file and the target program file. If it is not, the HATS-GUI shall generate a new parsed version of the target program. The HATS-GUI shall start the ApplyTransformation program in HATS-SML and pass the parsed transformation language program file name, the user defined library file name, and the output file name to the ApplyTransformation program. The HATS-GUI shall redirect the standard output and standard error streams and capture any text written to those streams.","Replaced ""it"" with ""the list of target program files"" in the second sentence.",Pronoun ambiguity,"it, it",False,one-shot,2025-07-23T06:27:32.461736,1588,796,"Here's the step-by-step analysis:
+
+1. Pronouns found: ""it"" in two sentences
+2. ""it"" in the first sentence could refer to: the parser file, the grammar and lexical specification files, or the transform..."
+104,2001_hats,"[SRSreq 111] The text displayed in the text display area shall correspond to the concatenation of the node labels (separated by spaces) of the leaf nodes of the displayed graph (in-order traversal, left to right). If a leaf displayed node corresponds to a non-terminal SDT node, the label in the text window shall be surrounded by pointed brackets (<>). For example, if a non-terminal TERM appears in a leaf node, its text representation shall be <TERM>. Appendix G gives an example of the display of text associated with an SDT.","The text displayed in the text display area shall correspond to the concatenation of the node labels (separated by spaces) of the leaf nodes of the displayed graph (in-order traversal, left to right). If a leaf displayed node corresponds to a non-terminal SDT node, the label in the text window shall be surrounded by pointed brackets (<>). For example, if a non-terminal TERM appears in a leaf node, the text representation shall be <TERM>. Appendix G gives an example of the display of text associated with an SDT.","Replaced ""it"" with ""the text representation"" and ""its"" with ""text representation""",Pronoun ambiguity,"it, its",True,one-shot,2025-07-23T06:27:46.909845,529,516,"Here's the step-by-step process:
+
+1. Pronouns found: ""it"", ""its""
+2. ""it"" refers to: could be ""text"", ""node"", ""label"", ""displayed graph"", ""SDT"", ""example"", ""Appendix G"", or ""text representation""
+   ""it..."
+105,2001_hats,"[SRSreq 117] When a displayed node and its children are displayed simultaneously, the parent node shall be displayed higher than the children.","When a displayed node and the displayed node's children are displayed simultaneously, the parent node shall be displayed higher than the children.","Replaced ""its"" with ""the displayed node"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:27:53.823075,142,146,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""a displayed node"", ""children"", or ""parent node""
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fix: Replace ""its"" with ..."
+106,2001_hats,[SRSreq 120] The user shall be able to expand displayed nodes (provided it is possible to expand the selected nodes). The HATS-GUI shall change the graph display by adding the descendant nodes to the displayed graph (thus changing the expandable nodes to internal nodes).,The user shall be able to expand displayed nodes (provided the selected nodes are possible to expand). The HATS-GUI shall change the graph display by adding the descendant nodes to the displayed graph (thus changing the expandable nodes to internal nodes).,"Replaced ""it"" with ""the selected nodes"" to clarify the subject.",Pronoun ambiguity,"""it""",True,one-shot,2025-07-23T06:28:02.117555,271,256,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""the user"", ""the HATS-GUI"", or ""the selected nodes""
+3. Ambiguity: Yes, ""it"" is unclear
+4. Fix: Replace ""it"" with ""..."
+107,2001_hats,"[SRSreq 130] If a displayed graph or a text display is too large to fit inside its window, the windows shall have scroll bars attached to them. Dragging scrollbar buttons shall scroll the display. Pressing the arrow keys of the keyboard shall also scroll the display.","If a displayed graph or a text display is too large to fit inside the graph or text display's window, the windows shall have scroll bars attached to the scrollbar buttons. Dragging scrollbar buttons shall scroll the display. Pressing the arrow keys of the keyboard shall also scroll the display.","Replaced ""its"" with ""the graph or text display"" and ""them"" with ""the scrollbar buttons""",Pronoun ambiguity,"its, them",True,one-shot,2025-07-23T06:28:12.935526,267,295,"Here's the step-by-step process:
+
+1. Pronouns found: ""its"", ""them""
+2. ""its"" refers to: could be ""graph"", ""text display"", ""window"", or ""scrollbar""
+   ""them"" refers to: could be ""graph"", ""text display"",..."
+108,2001_hats,"[SRSreq 133] For displayed graph windows, the keyboard cursor location shall move according the following rules: • A left arrow key moves the cursor to the next unhidden node to the left. The node to the left does not need to be a sibling of the current node, but it does need to be at the same level as the current node. If there are no nodes to the left, the cursor does not move. • A right arrow key moves the cursor to the next unhidden node to the right. The node to the right does not need to be a sibling of the current node, but it does need to be at the same level as the current node. If there are no nodes to the right, the cursor does not move. • An up arrow key moves the cursor to the closest ancestor that is not hidden. If there is no such node, the cursor does not move. • An down arrow key moves the cursor to the leftmost, nearest descendant that is not hidden. If there is no such node, the cursor does not move.","For displayed graph windows, the keyboard cursor location shall move according to the following rules: • A left arrow key moves the cursor to the next unhidden node to the left. The node to the left does not need to be a sibling of the current node, but it does need to be at the same level as the current node. If there are no nodes to the left, the cursor does not move. • A right arrow key moves the cursor to the next unhidden node to the right. The node to the right does not need to be a sibling of the current node, but it does need to be at the same level as the current node. If there are no nodes to the right, the cursor does not move. • An up arrow key moves the cursor to the closest ancestor that is not hidden. If there is no such node, the cursor does",No changes made,None,No ambiguities detected,True,one-shot,2025-07-23T06:28:31.841691,932,767,"Here's the step-by-step process:
+
+1. Pronouns found: ""it"", ""it"", ""it"", ""it""
+2. ""it"" in the first bullet point refers to: could be ""cursor"", ""node"", or ""key""
+   ""it"" in the second bullet point refers t..."
+109,2001_hats,"[SRSreq 157] The HATS-GUI shall display 1,000,000 node SDTs in the same amount of time, plus or minus two seconds, as it takes to display a 10,000 node SDT.","The HATS-GUI shall display 1,000,000 node SDTs in the same amount of time, plus or minus two seconds, as the HATS-GUI takes to display a 10,000 node SDT.","Replaced ""it"" with ""the HATS-GUI"" to clarify the subject.",Pronoun ambiguity,"""it""",True,one-shot,2025-07-23T06:28:40.558622,156,153,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""the HATS-GUI"", ""a 10,000 node SDT"", or ""the amount of time""
+3. Ambiguity: Yes, ""it"" is unclear
+4. Fix: Replace ""i..."
+110,MDOT,"DD-100 The DUAP System shall cache data only if the data record associates the data with its source, a geo-referenced location, and a timestamp.","The DUAP System shall cache data only if the data record associates the data with the data record's source, a geo-referenced location, and a timestamp.","Replaced ""its"" with ""the data record"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:28:47.484552,144,151,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" could refer to: ""data record"", ""data"", or ""source""
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fix: Replace ""its"" with ""the data record""
+..."
+111,MDOT,PS-020-060 The system map display shall support each type of traffic item to be displayed in its own layer.,The system map display shall support each type of traffic item to be displayed in its own layer.,"Replaced ""its"" with ""each type of traffic item"" to clarify the subject.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:28:54.495610,107,96,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""the system map display"", ""each type of traffic item"", or ""layer""
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fix: Re..."
+112,MDOT,"PS-200-020 The DUAP Presentation Services shall require users to confirm their identity. (comment: Could be implemented, for example, through a password associated with that username.)",The DUAP Presentation Services shall require users to confirm users' identity.,"Replaced ""their"" with ""users"" to clarify the subject.",Pronoun ambiguity,their,False,one-shot,2025-07-23T06:29:00.509500,184,78,"Here's the step-by-step process:
+
+1. Pronouns found: ""their""
+2. ""their"" could refer to: users, username, or something else (but most likely refers to users)
+3. Ambiguity: Yes, ""their"" is unclear
+4. Fi..."
+113,1999_tcs,"When executing in the Normal Startup Mode, the TCS shall provide the system functionality necessary to initialize the system to place it in the Operations State within 60 seconds from the time power is supplied and the TCS application is launched. [SSS024]","When executing in the Normal Startup Mode, the TCS shall provide the system functionality necessary to initialize the system to place the system in the Operations State within 60 seconds from the time power is supplied and the TCS application is launched.","Replaced ""it"" with ""the system"" to clarify the subject.",Pronoun ambiguity,"""it""",True,one-shot,2025-07-23T06:29:08.678100,256,255,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""the system"", ""the TCS"", ""the application"", or ""the Operations State""
+3. Ambiguity: Yes, ""it"" is unclear
+4. Fix: R..."
+114,1999_tcs,The TCS shall allow the operator to set the LOL delay timer(s) during mission planning. [SSS075] The LOL delay is the time from when the AV detects an unplanned LOL to the time it initiates LOL procedures.,The TCS shall allow the operator to set the LOL delay timer(s) during mission planning. The LOL delay is the time from when the AV detects an unplanned LOL to the time the LOL delay initiates LOL procedures.,"Replaced ""it"" with ""the LOL delay"" to clarify the subject.",Pronoun ambiguity,"""it""",True,one-shot,2025-07-23T06:29:16.452927,205,207,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""LOL delay"", ""LOL procedures"", ""AV"", or ""the AV detects""
+3. Ambiguity: Yes, ""it"" is unclear
+4. Fix: Replace ""it"" w..."
+115,1999_tcs,The TCS shall provide adequate capability to allow the operator to operate each UAV within its certified operational flight envelope. [SSS348],The TCS shall provide adequate capability to allow the operator to operate each UAV within the TCS's certified operational flight envelope.,"Replaced ""its"" with ""the TCS's"" to clarify ownership.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:29:23.791137,142,139,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""TCS"", ""operator"", ""UAV"", or ""operational flight envelope""
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fix: Replace ""..."
+116,1999_tcs,The TCS shall monitor the uplink and downlink to each UAV under its control. [SSS355],The TCS shall monitor the uplink and downlink to each UAV under the TCS control.,"Replaced ""its"" with ""the TCS"" to clarify the subject.",Pronoun ambiguity,"""its""",True,one-shot,2025-07-23T06:29:30.168682,85,80,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""TCS"", ""UAV"", or ""control""
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fix: Replace ""its"" with ""the TCS""
+5. Result: C..."
+117,1999_tcs,"The TCS data sensitivities shall be determined by the data sensitivities of the systems with which it interfaces, to including the air vehicles, payloads, and C4I systems. [SSS364]","The TCS data sensitivities shall be determined by the data sensitivities of the systems with which the TCS data sensitivities are determined, to including the air vehicles, payloads, and C4I systems.","Replaced ""it"" with a more specific phrase to clarify the subject.",Pronoun ambiguity,"""it""",True,one-shot,2025-07-23T06:29:38.681335,180,199,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""TCS data sensitivities"", ""the systems"", ""the air vehicles"", ""the payloads"", or ""the C4I systems""
+3. Ambiguity: Ye..."
+118,1999_tcs,"The TCS shall be designed to protect its communication and data links against enemy Electronic Warfare (EW) threats, physical anti-radiation weaponry and physical destruction. [SSS366]","The TCS shall be designed to protect the TCS's communication and data links against enemy Electronic Warfare (EW) threats, physical anti-radiation weaponry and physical destruction.","Replaced ""its"" with ""the TCS's"" to clarify ownership.",Pronoun ambiguity,its,True,one-shot,2025-07-23T06:29:46.449387,184,181,"Here's the step-by-step process:
+
+1. Pronouns found: ""its""
+2. ""its"" refers to: could be ""The TCS"", ""communication"", ""data links"", or ""enemy EW threats""
+3. Ambiguity: Yes, ""its"" is unclear
+4. Fix: Repl..."
+119,1999_tcs,The TCS shall be approved for operation at the same level as the systems with which it interfaces. [SSS368],The TCS shall be approved for operation at the same level as the systems with which the systems interface.,"Replaced ""it"" with ""the systems"" to clarify the subject.",Pronoun ambiguity,"""it""",True,one-shot,2025-07-23T06:29:53.097986,107,106,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""the TCS"", ""the systems"", or ""the level""
+3. Ambiguity: Yes, ""it"" is unclear
+4. Fix: Replace ""it"" with ""the systems..."
+120,1999_tcs,Software written for other systems shall be used in TCS where it is determined that the existing software is suitable for use within the TCS software. [SSS438],Software written for other systems shall be used in TCS where the existing software is determined that the existing software is suitable for use within the TCS software.,"Replaced ""it"" with ""the existing software""",Pronoun ambiguity,"""it""",True,one-shot,2025-07-23T06:30:00.207927,159,169,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""software"", ""TCS"", ""TCS software"", or ""existing software""
+3. Ambiguity: Yes, ""it"" is unclear
+4. Fix: Replace ""it"" ..."
+121,1999_tcs,Visual alerts to the TCS operator shall be in the form of a displayed message box that has a display priority greater than other existing windows to ensure that it is viewable immediately by the operator. [SSS452] The position of the displayed message window shall be easily adjustable by the operator to ensure that important mission data is not obscured. [SSS453],Visual alerts to the TCS operator shall be in the form of a displayed message box that has a display priority greater than other existing windows to ensure that the displayed message box is viewable immediately by the operator. The position of the displayed message window shall be easily adjustable by the operator to ensure that important mission data is not obscured.,"Replaced ""it"" with ""the displayed message box"" to clarify the subject.",Pronoun ambiguity,"""it""",True,one-shot,2025-07-23T06:30:09.182591,365,370,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""the displayed message box"", ""the window"", or ""the alert""
+3. Ambiguity: Yes, ""it"" is unclear
+4. Fix: Replace ""it"" ..."
+122,1999_tcs,"The TCS HCI shall provide unambiguous AV and payload control and status feedback indicators to ensure safe, efficient operations of two AVs and their payloads by a single TCS station. [SSS475]","The TCS HCI shall provide unambiguous AV and payload control and status feedback indicators to ensure safe, efficient operations of two AVs and two AVs' payloads by a single TCS station.","Replaced ""their"" with ""two AVs' payloads"" to clarify the intended meaning.",Pronoun ambiguity,their,True,one-shot,2025-07-23T06:30:16.098080,192,186,"Here's the step-by-step process:
+
+1. Pronouns found: ""their""
+2. ""their"" refers to: could be ""two AVs"", ""payloads"", or ""TCS station""
+3. Ambiguity: Yes, ""their"" is unclear
+4. Fix: Replace ""their"" with ""..."
+123,1999_tcs,"The TCS shall provide for a specific icon shape on a constant contrast background, as well as other visual information coding mechanisms, to cue the TCS operator regarding which UAVs are under his or her primary control. [SSS476]","The TCS shall provide for a specific icon shape on a constant contrast background, as well as other visual information coding mechanisms, to cue the TCS operator regarding which UAVs are under the TCS operator's primary control.","Replaced ""his or her"" with ""the TCS operator"" to clarify the subject.",None,No ambiguities detected,True,one-shot,2025-07-23T06:30:22.847122,229,228,"Here's the step-by-step process:
+
+1. Pronouns found: ""his"" and ""her""
+2. ""his"" refers to: could be the TCS operator, the UAVs, or another entity
+   ""her"" refers to: could be the TCS operator, the UAVs,..."
+124,1999_tcs,TCS transport and storage containers shall be reusable and enable the operators to set-up equipment within the established timelines in their ORDs. [SSS505],TCS transport and storage containers shall be reusable and enable the operators to set-up equipment within the established timelines in their ORDs.,"Replaced ""their"" with ""operators'"" to clarify the subject.",Pronoun ambiguity,their,True,one-shot,2025-07-23T06:30:28.396272,156,147,"Here's the step-by-step process:
+
+1. Pronouns found: ""their""
+2. ""their"" could refer to: TCS transport and storage containers, operators, ORDs (Operational Readiness Documents), or something else
+3. Am..."
+125,1999_tcs,Each Service shall support the TCS as part of the UAV system which is organic to them. [SSS508],Each Service shall support the TCS as part of the UAV system which is organic to the UAV system.,"Replaced ""them"" with ""the UAV system"" to clarify the subject.",Pronoun ambiguity,them,True,one-shot,2025-07-23T06:30:33.776205,95,96,"Here's the step-by-step analysis:
+
+1. Pronouns found: ""them""
+2. ""them"" refers to: could be ""Service"", ""TCS"", ""UAV system"", or ""each Service""
+3. Ambiguity: Yes, ""them"" is unclear
+4. Fix: Replace ""them""..."
+126,1999_tcs,The TCS shall meet the deployment criteria for the organic unit to which it is assigned. [SSS516],The TCS shall meet the deployment criteria for the organic unit to which the TCS is assigned.,"Replaced ""it"" with a specific phrase to clarify the subject.",Pronoun ambiguity,"""it""",True,one-shot,2025-07-23T06:30:39.347885,97,93,"Here's the step-by-step process:
+
+1. Pronouns found: ""it""
+2. ""it"" refers to: could be ""the TCS"", ""the deployment criteria"", ""the organic unit"", or ""the criteria""
+3. Ambiguity: Yes, ""it"" is unclear
+4. ..."

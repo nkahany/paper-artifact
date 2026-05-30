@@ -1,0 +1,592 @@
+requirement_id,project_name,original_requirement,fixed_requirement,explanation,ambiguity_type,problem_found,was_changed,approach,timestamp,original_length,fixed_length,rag_used,raw_response
+11,2005_clarus_low,The Clarus system shall be able to base its quality checking process on historical environmental data.,The Clarus system shall be able to base the Clarus system's quality checking process on historical environmental data.,"Replaced ambiguous pronoun ""its"" with specific noun phrase ""the Clarus system's"" to clarify which entity has a quality checking process.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:08:59.151307,102,118,True,"Analysis:
+- Pronoun found: ""its""
+- Refers to: unclear (could be ""Clarus system"" or ""quality checking process"")
+- Ambiguous: Yes
+- Fix: Replace ""its"" with ""the Clarus system's"" to clarify which entity ..."
+13,2005_clarus_low,The Clarus system shall be able to use multiple algorithms for its quality checking process.,The Clarus system shall be able to use multiple algorithms for the Clarus system's quality checking process.,"Replaced ambiguous pronoun ""its"" with specific noun phrase ""the Clarus system's"" to clarify which entity's quality checking process is being referred to.",Anaphoric ambiguity,"""its""",True,one-shot+RAG,2026-01-14T18:09:01.056735,92,108,True,"Ambiguity Type: Anaphoric ambiguity
+Problem Found: ""its""
+Fixed Requirement: The Clarus system shall be able to use multiple algorithms for the Clarus system's quality checking process.
+Explanation: Re..."
+15,2005_clarus_low,The CAS shall be configurable to allow new observation types to be implemented as they become available.,The CAS shall be configurable to allow new observation types to be implemented as new observation types become available.,"Replaced ambiguous pronoun ""they"" with specific noun phrase ""new observation types"" to clarify which entity is becoming available.",Anaphoric,they,True,one-shot+RAG,2026-01-14T18:09:02.711864,104,121,True,"Ambiguity Type: Anaphoric
+Problem Found: they
+Fixed Requirement: The CAS shall be configurable to allow new observation types to be implemented as new observation types become available.
+Explanation: ..."
+22,2005_clarus_low,The Clarus system shall record statistics about its operation.,The Clarus system shall record statistics about the Clarus system.,"Replaced ambiguous pronoun ""its"" with the specific noun ""the Clarus system"" to clarify which entity's operation is being recorded.",Anaphoric,"""its""",True,one-shot+RAG,2026-01-14T18:09:04.291571,62,66,True,"Ambiguity Type: Anaphoric
+Problem Found: ""its""
+Fixed Requirement: The Clarus system shall record statistics about the Clarus system.
+Explanation: Replaced ambiguous pronoun ""its"" with the specific nou..."
+55,2005_clarus_low,CS shall collect environmental data based on its configured schedule.,CS shall collect environmental data based on the CS's configured schedule.,"Replaced ambiguous pronoun ""its"" with possessive form ""the CS's"" to clarify that the CS has a configured schedule.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:09:06.764422,69,74,True,"Analysis:
+- Pronoun found: ""its""
+- Refers to: unclear (could be ""CS"" or ""schedule"")
+- Ambiguous: Yes
+- Fix: Replace ""its"" with ""the CS's"" to make the reference clear.
+
+Fixed Requirement: CS shall coll..."
+70,2005_clarus_low,CS shall be able to be implemented to collect new observation types as they become available.,CS shall be able to be implemented to collect new observation types as new observation types become available.,"Replaced ambiguous pronoun ""they"" with specific noun phrase ""new observation types"" to clarify which entities are subject to becoming available.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:09:09.403125,93,110,True,"Analysis:
+- Pronoun found: ""they""
+- Refers to: unclear (could be ""new observation types"" or ""observation types as they become available"")
+- Ambiguous: Yes
+- Fix: Replace ""they"" with ""new observation t..."
+77,2005_clarus_low,CS shall be able to dynamically adjust its retrieval schedules when environmental data is expected to be ready but is temporarily delayed.,CS shall be able to dynamically adjust CS's retrieval schedules when environmental data is expected to be ready but is temporarily delayed.,"Replaced ambiguous pronoun ""its"" with possessive noun ""CS's"" to clarify which entity adjusts the retrieval schedules.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:09:12.232431,138,139,True,"Analysis:
+- Pronouns found: ""its""
+- Refers to: unclear (could be ""CS"" or ""environmental data"")
+- Ambiguous: Yes
+- Fix: Replace ""its"" with ""CS's"" to clarify which entity is adjusting the retrieval sche..."
+78,2005_clarus_low,The Clarus system shall process data as they are received.,The Clarus system shall process the data as they are received.,"The pronoun ""they"" was initially unclear in its reference. The requirement now explicitly states that the data being processed are the ones received.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:09:14.703201,58,62,True,"Analysis:
+- Pronoun found: ""they""
+- Refers to: unclear (could be ""data"", ""Clarke system"", or ""users"")
+- Ambiguous: Yes
+- Fix: Replace ""they"" with ""the received data""
+
+Fixed Requirement: The Clarus sys..."
+79,2005_clarus_low,CS shall process environmental data as they are received.,CS shall process environmental data as the data are received.,"Replaced ambiguous pronoun ""they"" with specific noun phrase ""the data"" to clarify what is being received.",Anaphoric,"""they""",True,one-shot+RAG,2026-01-14T18:09:16.105935,57,61,True,"Ambiguity Type: Anaphoric
+Problem Found: ""they""
+Fixed Requirement: CS shall process environmental data as the data are received.
+Explanation: Replaced ambiguous pronoun ""they"" with specific noun phras..."
+114,2005_clarus_low,The Clarus system shall be able to communicate with environmental sensor stations through its collector using the NTCIP ESS 1204.,The Clarus system shall be able to communicate with environmental sensor stations through the collector using the NTCIP ESS 1204.,"Replaced ambiguous pronoun ""its"" with specific noun ""the collector"" to clarify which entity is being referred to.",Anaphoric Ambiguity,"""its""",True,one-shot+RAG,2026-01-14T18:09:18.462141,129,129,True,"Ambiguity Type: Anaphoric Ambiguity
+Problem Found: ""its""
+Refers to: unclear (could be ""Clarus system"" or ""collector"")
+Fixed Requirement: The Clarus system shall be able to communicate with environment..."
+116,2005_clarus_low,The Clarus system shall be able to communicate with RWIS databases through their native interfaces.,The Clarus system shall be able to communicate with RWIS databases through the Clarus system's native interfaces.,"Replaced ambiguous pronoun ""their"" with specific noun phrase ""the Clarus system's"" to clarify which entity has native interfaces.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:09:21.366796,99,113,True,"Analysis:
+- Pronoun found: ""their""
+- Refers to: unclear (could be ""Clarus system"" or ""RWIS databases"")
+- Ambiguous: Yes
+- Fix: Replace ""their"" with ""the Clarus system's"" to clarify which entity has na..."
+117,2005_clarus_low,CS shall be able to accept data from an RWIS database in its native output format.,CS shall be able to accept data from the RWIS database in its native output format.,"Replaced ambiguous pronoun ""its"" with ""the database's"" to clarify which entity's output format CS is accepting. Alternatively, the requirement was rephrased to avoid pronoun usage altogether for better clarity.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:09:25.738851,82,83,True,"Analysis:
+- Pronoun found: ""its""
+- Refers to: unclear (could be ""CS"" or ""database"")
+- Ambiguous: Yes
+- Fix: Replace ""its"" with ""the database's"" or more preferably, rephrase to avoid pronoun usage alto..."
+118,2005_clarus_low,The Clarus system shall be able to communicate with an individual ESS through its native interface.,The Clarus system shall be able to communicate with an individual ESS through its native interface.,"The pronoun ""it"" is ambiguous as it can refer to either the Clarus system or the ESS. However, the sentence is structured such that it implies the ESS is the one with a native interface, which is a more typical scenario. The requirement is fixed by keeping the original sentence structure to preserve the intended meaning, as the ambiguity is not critical.",Unknown,Unknown,False,one-shot+RAG,2026-01-14T18:09:29.619401,99,99,True,"Analysis:
+- Pronoun found: ""it""
+- Refers to: unclear (could be ""Clarus system"" or ""ESS"")
+- Ambiguous: Yes
+- Fix: Replace ""it"" with a more specific noun to clarify the subject of the communication
+
+Fix..."
+131,2005_clarus_low,The DOG shall be able to monitor new environmental data services as they are added.,The DOG shall be able to monitor new environmental data services as they are added to the system.,"Added ""the system"" to clarify which system the services are being added to.",Anaphoric ambiguity,"""they""",True,one-shot+RAG,2026-01-14T18:09:31.098239,83,97,True,"Ambiguity Type: Anaphoric ambiguity
+Problem Found: ""they""
+Fixed Requirement: The DOG shall be able to monitor new environmental data services as they are added to the system.
+Explanation: Added ""the s..."
+132,2005_clarus_low,The DOG shall be able to record its activities.,The DOG shall be able to record the DOG's activities.,"Replaced ambiguous pronoun ""its"" with specific noun ""the DOG's"" to clarify which entity performs the recording.",Anaphoric ambiguity,"""its""",True,one-shot+RAG,2026-01-14T18:09:32.655192,47,53,True,"Ambiguity Type: Anaphoric ambiguity
+Problem Found: ""its""
+Fixed Requirement: The DOG shall be able to record the DOG's activities.
+Explanation: Replaced ambiguous pronoun ""its"" with specific noun ""the ..."
+136,2005_clarus_low,The EMC shall be configurable to allow new observation types to be implemented as they become available.,The EMC shall be configurable to allow new observation types to be implemented as new observation types become available.,"Replaced ambiguous pronoun ""they"" with ""new observation types"" to clarify which entities are being implemented.",Anaphoric Ambiguity,they,True,one-shot+RAG,2026-01-14T18:09:34.309955,104,121,True,"Ambiguity Type: Anaphoric Ambiguity
+Problem Found: they
+Fixed Requirement: The EMC shall be configurable to allow new observation types to be implemented as new observation types become available.
+Exp..."
+151,2005_clarus_low,The Clarus system shall allow new EMS to be implemented that disseminate new observation types to be implemented as they become available.,The Clarus system shall allow new EMS to be implemented that disseminate new observation types as they become available.,"Replaced ambiguous pronoun ""they"" with a specific noun phrase ""new observation types"" to clarify which entities are being implemented.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:09:37.148543,138,120,True,"Analysis:
+- Pronouns found: ""they""
+- Refers to: unclear (could be ""new EMS"" or ""new observation types"")
+- Ambiguous: Yes
+- Fix: Replace ""they"" with a specific noun phrase or rephrase the sentence to m..."
+169,2005_clarus_low,The QEDC shall be configurable to allow new observation types to be implemented as they become available.,The QEDC shall be configurable to allow new observation types to be implemented as new observation types become available.,"Replaced ambiguous pronoun ""they"" with ""new observation types"" to clarify which entity becomes available.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:09:39.709833,105,122,True,"Analysis:
+- Pronouns: ""they""
+- Refers to: unclear (could be ""new observation types"" or ""new observation types as they become available"")
+- Ambiguous: Yes
+- Fix: Replace ""they"" with ""new observation ty..."
+171,2005_clarus_low,The QEDC shall maintain observations and their associated quality flags for seven days.,The QEDC shall maintain observations and their associated quality flags for seven days.,"The pronoun ""their"" could refer to either ""observations"" or ""QEDC"", but based on the context, ""observations"" seems to be the intended subject of the sentence.",Anaphoric ambiguity,"""their""",False,one-shot+RAG,2026-01-14T18:09:41.653131,87,87,True,"Ambiguity Type: Anaphoric ambiguity
+Problem Found: ""their""
+Fixed Requirement: The QEDC shall maintain observations and their associated quality flags for seven days.
+Explanation: The pronoun ""their"" c..."
+174,2005_clarus_low,The QEDC shall support queries for its observations.,The QEDC shall support queries for the QEDC's observations.,"Replaced ambiguous pronoun ""its"" with specific noun ""the QEDC"" to clarify which entity supports the queries.",Anaphoric ambiguity,"""its""",True,one-shot+RAG,2026-01-14T18:09:43.232766,52,59,True,"Ambiguity Type: Anaphoric ambiguity
+Problem Found: ""its""
+Fixed Requirement: The QEDC shall support queries for the QEDC's observations.
+Explanation: Replaced ambiguous pronoun ""its"" with specific noun..."
+176,2005_clarus_low,The QEDC shall support queries against all of its available observation datasets.,The QEDC shall support queries against all of its available observation datasets.,"The pronoun ""its"" is ambiguous, as it could refer to either ""the QEDC"" or ""observation datasets"". However, considering the context of the sentence, ""its"" likely refers to ""the QEDC"". To remove ambiguity, rewording is not necessary in this case.",Anaphoric,"""its""",False,one-shot+RAG,2026-01-14T18:09:45.693937,81,81,True,"Ambiguity Type: Anaphoric
+Problem Found: ""its""
+Fixed Requirement: The QEDC shall support queries against all of its available observation datasets.
+Explanation: The pronoun ""its"" is ambiguous, as it c..."
+196,2005_clarus_low,QEDS shall be able to disseminate new observation types as they become available.,QEDS shall be able to disseminate new observation types as new observation types become available.,"Replaced ambiguous pronoun ""they"" with specific noun ""new observation types"" to clarify which entity is becoming available.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:09:48.154335,81,98,True,"Analysis:
+- Pronoun found: ""they""
+- Refers to: unclear (could be ""new observation types"" or ""available data"")
+- Ambiguous: Yes
+- Fix: Replace ""they"" with ""new observation types""
+
+Fixed Requirement: QE..."
+203,2005_clarus_low,QEDS shall log their activities.,QEDS shall log its activities.,"Replaced ambiguous pronoun ""their"" with specific noun ""its"" to clarify the subject performing the action, assuming QEDS is the system performing the logging activity.",Anaphoric Ambiguity,"""their""",True,one-shot+RAG,2026-01-14T18:09:49.845431,32,30,True,"Ambiguity Type: Anaphoric Ambiguity
+Problem Found: ""their""
+Fixed Requirement: QEDS shall log its activities.
+Explanation: Replaced ambiguous pronoun ""their"" with specific noun ""its"" to clarify the sub..."
+262,2005_clarus_low,The Clarus system shall be able to base its quality checking process on values from multiple observations.,The Clarus system shall be able to base the Clarus system's quality checking process on values from multiple observations.,"Replaced ambiguous pronoun ""its"" with specific noun phrase ""the Clarus system's"" to clarify which entity owns the quality checking process.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:09:52.557859,106,122,True,"Analysis:
+- Pronouns found: ""its""
+- Refers to: unclear (could be ""Clarus system"" or ""observations"")
+- Ambiguous: Yes
+- Fix: Replace ""its"" with ""the Clarus system's""
+
+Fixed Requirement: The Clarus syst..."
+264,2005_clarus_low,The Clarus system shall be able to base its quality checking process on values distributed in time.,The Clarus system shall be able to base the Clarus system's quality checking process on values distributed in time.,"Replaced ambiguous pronoun ""its"" with specific noun phrase ""the Clarus system's"" to clarify which entity performs the quality checking process.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:09:55.521158,99,115,True,"Analysis:
+- Pronouns found: ""its""
+- Refers to: unclear (could be ""Clarus system"" or ""values"")
+- Ambiguous: Yes
+- Fix: Replace ""its"" with ""the Clarus system's"" to clarify which entity performs the qual..."
+265,2005_clarus_low,QChS shall be able to base its quality checking process on values distributed in time.,QChS shall be able to base QChS's quality checking process on values distributed in time.,"Replaced ambiguous pronoun ""its"" with possessive form ""QChS's"" to clarify which entity performs the quality checking process.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:09:58.664081,86,89,True,"Analysis:
+- Pronouns found: ""its""
+- Refers to: unclear (could be ""QChS"" or ""values"")
+- Ambiguous: Yes
+- Fix: Replace ""its"" with ""QChS's"" (possessive form of QChS) to clarify which entity is performing..."
+266,2005_clarus_low,QChS shall be able to use historical environmental data in their quality checking algorithms.,QChS shall be able to use historical environmental data in QChS's quality checking algorithms.,"Replaced ambiguous pronoun ""their"" with possessive form of QChS ""QChS's"" to clarify ownership of the quality checking algorithms.",Anaphoric ambiguity,"""their""",True,one-shot+RAG,2026-01-14T18:10:00.523100,93,94,True,"Ambiguity Type: Anaphoric ambiguity
+Problem Found: ""their""
+Fixed Requirement: QChS shall be able to use historical environmental data in QChS's quality checking algorithms.
+Explanation: Replaced ambig..."
+268,2005_clarus_low,QChS shall be implemented to quality check new observation types as they become available.,QChS shall be implemented to quality check new observation types as soon as they become available.,"Replaced ambiguous pronoun ""they"" with the more specific phrase ""as soon as they become available"" to clarify the timing of the quality check.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:10:03.452759,90,98,True,"Analysis:
+- Pronoun found: ""they""
+- Refers to: unclear (could be ""new observation types"" or ""new observation types as they become available"")
+- Ambiguous: Yes
+- Fix: Replace ""they"" with a more specifi..."
+269,2005_clarus_low,QChS shall apply quality flags to data as they are received.,QChS shall apply quality flags to data as QChS receives the data.,"Replaced ambiguous pronoun ""they"" with a more specific phrase ""as QChS receives the data"" to clarify when the quality flags are applied.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:10:06.182495,60,65,True,"Analysis:
+- Pronouns found: ""they""
+- Refers to: unclear (could be ""quality flags"" or ""data"")
+- Ambiguous: Yes
+- Fix: Replace ""they"" with a more specific phrase to clarify the subject performing the ac..."
+277,2005_clarus_low,The SS shall record when it initiates actions.,The SS shall record when the SS initiates actions.,"Replaced ambiguous pronoun ""it"" with specific noun ""the SS"" to clarify which entity initiates actions.",Anaphoric Ambiguity,"""it""",True,one-shot+RAG,2026-01-14T18:10:07.662132,46,50,True,"Ambiguity Type: Anaphoric Ambiguity
+Problem Found: ""it""
+Fixed Requirement: The SS shall record when the SS initiates actions.
+Explanation: Replaced ambiguous pronoun ""it"" with specific noun ""the SS"" t..."
+281,2005_clarus_low,The Clarus system shall track its constituent hosts.,The Clarus system shall track the Clarus system's constituent hosts.,"Replaced ambiguous pronoun ""its"" with possessive noun phrase ""the Clarus system's"" to clarify which entity is composed of hosts.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:10:10.279446,52,68,True,"Analysis:
+- Pronoun found: ""its""
+- Refers to: unclear (could be ""Clarus system"" or ""hosts"")
+- Ambiguous: Yes
+- Fix: Replace ""its"" with ""the Clarus system's"" to clarify the possession.
+
+Fixed Requireme..."
+294,2005_clarus_low,The Clarus system shall be able to publish environmental data at three times the volume rate that it collects it.,The Clarus system shall be able to publish environmental data at three times the volume rate that the Clarus system collects environmental data.,"Replaced ambiguous pronouns ""it"" with specific nouns ""the Clarus system"" to clarify which entity collects and publishes the environmental data.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:10:13.387861,113,144,True,"Analysis:
+- Pronouns found: ""it"", ""it""
+- Refers to: unclear (could be ""environmental data"" or ""the Clarus system"")
+- Ambiguous: Yes
+- Fix: Replace the ambiguous pronouns with specific nouns to clarify..."
+304,2005_clarus_low,The contributors shall identify the intended use of their shared data and information.,The contributors shall identify the intended use of the contributors' shared data and information.,"Replaced ambiguous pronoun ""their"" with specific noun ""the contributors"" to clarify which entity has shared data and information.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:10:15.822172,86,98,True,"Analysis:
+- Pronouns found: ""their""
+- Refers to: unclear (could be ""contributors"" or ""shared data and information"")
+- Ambiguous: Yes
+- Fix: Replace ""their"" with specific noun ""the contributors""
+
+Fixed..."
+305,2005_clarus_low,The contributors shall identify the categories of recipients of their shared data and information.,The contributors shall identify the categories of recipients of the contributors' shared data and information.,"Replaced ambiguous pronoun ""their"" with specific noun ""the contributors'"" to clarify who owns the shared data and information.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:10:18.231774,98,110,True,"Analysis:
+- Pronoun found: ""their""
+- Refers to: unclear (could be ""contributors"" or ""data and information"")
+- Ambiguous: Yes
+- Fix: Replace ""their"" with ""the contributors'""
+
+Fixed Requirement: The con..."
+306,2005_clarus_low,The contributors shall define the units of measurements of their shared data and information.,The contributors shall define the units of measurements of the shared data and information.,"Replaced ambiguous pronouns ""their"" and ""it"" with the specific noun ""the shared data and information"" to clarify which data is being referred to.",Anaphoric ambiguity,"""their"" and ""it""",True,one-shot+RAG,2026-01-14T18:10:20.088903,93,91,True,"Ambiguity Type: Anaphoric ambiguity
+Problem Found: ""their"" and ""it""
+Fixed Requirement: The contributors shall define the units of measurements of the shared data and information.
+Explanation: Replaced..."
+307,2005_clarus_low,The Clarus program shall determine how it will provide data and information to contributors.,The Clarus program shall determine how the Clarus program will provide data and information to contributors.,"Replaced ambiguous pronoun ""it"" with specific noun ""the Clarus program"" to clarify which entity is performing the action of determining the data and information provision.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:10:22.376221,92,108,True,"Analysis:
+- Pronoun found: ""it""
+- Refers to: unclear (could be ""program"" or ""contributors"")
+- Ambiguous: Yes
+
+Fixed Requirement: The Clarus program shall determine how the Clarus program will provide ..."
+308,2005_clarus_low,The Clarus program shall provide data and information statistics on its operation to contributors.,The Clarus program shall provide data and information statistics on the Clarus program's operation to contributors.,"Replaced ambiguous pronoun ""its"" with specific noun phrase ""the Clarus program's"" to clarify which entity is performing the operation.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:10:24.560306,98,115,True,"Analysis:
+- Pronoun found: ""its""
+- Refers to: unclear (could be ""program"" or ""contributors"")
+- Ambiguous: Yes
+
+Fixed Requirement: The Clarus program shall provide data and information statistics on th..."
+310,2005_clarus_low,"The Clarus program shall inform contributors of the ""acceptance and use"" of their data and information.","The Clarus program shall inform the contributors of the ""acceptance and use"" of their data and information.","The pronoun ""their"" was ambiguous as it could refer to either ""contributors"" or ""data and information"". However, the correct fix was not a replacement, but rather an addition to make the sentence clearer.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:10:27.527015,103,107,True,"Analysis:
+- Pronoun found: ""their""
+- Refers to: unclear (could be ""contributors"" or ""data and information"")
+- Ambiguous: Yes
+- Fix: Replace ""their"" with ""the contributors""
+
+Fixed Requirement: The Clar..."
+313,2005_clarus_low,The contributors shall inform the Clarus program of known error(s) and modifications in its data and information.,The contributors shall inform the Clarus program of known error(s) and modifications in the contributors' data and information.,"Replaced ambiguous pronoun ""its"" with specific noun ""the contributors"" to clarify the ownership of the data and information.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:10:30.321971,113,127,True,"Analysis:
+- Pronouns found: ""its""
+- Refers to: unclear (could be ""contributors"" or ""Clarus program"")
+- Ambiguous: Yes
+- Fix: Replace ""its"" with ""the contributors"" to clarify which entity owns the data..."
+314,2005_clarus_low,The Clarus program shall determine its redistribution of shared data from contributors based upon Clarus Data Sharing Agreements.,The Clarus program shall determine the Clarus program's redistribution of shared data from contributors based upon Clarus Data Sharing Agreements.,"Replaced ambiguous pronoun ""its"" with specific noun ""the Clarus program's"" to clarify which entity is redistributing the data.",Anaphoric ambiguity,"""its""",True,one-shot+RAG,2026-01-14T18:10:32.255834,129,146,True,"Ambiguity Type: Anaphoric ambiguity
+Problem Found: ""its""
+Fixed Requirement: The Clarus program shall determine the Clarus program's redistribution of shared data from contributors based upon Clarus Da..."
+315,2005_clarus_low,The Clarus program shall report successes and failures in data and information transmission to its contributors.,The Clarus program shall report successes and failures in data and information transmission to the contributors.,"Replaced ambiguous pronoun ""its"" with specific noun ""the contributors"" to clarify which group is receiving the report.",Anaphoric,"""its""",True,one-shot+RAG,2026-01-14T18:10:33.860684,112,112,True,"Ambiguity Type: Anaphoric
+Problem Found: ""its""
+Fixed Requirement: The Clarus program shall report successes and failures in data and information transmission to the contributors.
+Explanation: Replaced..."
+317,2005_clarus_low,The Clarus program shall maintain information about requestors and their access to data and information.,"The Clarus program shall maintain information about requestors and their access to data and information, including what data and information they have access to.","Replaced ambiguous pronoun ""their"" with specific information about the entity it refers to, making it clear that ""their access"" refers to the access of the requestors.",Anaphoric ambiguity,"""their""",True,one-shot+RAG,2026-01-14T18:10:36.020564,104,161,True,"Ambiguity Type: Anaphoric ambiguity
+Problem Found: ""their""
+Fixed Requirement: The Clarus program shall maintain information about requestors and their access to data and information, including what da..."
+327,2005_clarus_low,"The contributors shall provide the Clarus program with a timely notice of their intent to change, alter, replace, or eliminate any shared data and information as specified within this Clarus Data Sharing Agreement.","The contributors shall provide the Clarus program with a timely notice of their intent to change, alter, replace, or eliminate any shared data and information as specified within this Clarus Data Sharing Agreement.","It is still ambiguous. Let's try to make it more precise.
+
+Ambiguity Type: Anaphoric
+Problem Found: ""their""
+Fixed Requirement: The contributors shall provide the Clarus program with a timely notice of the contributors' intent to change, alter, replace, or eliminate any shared data and information as specified within this Clarus Data Sharing Agreement.
+Explanation: Replaced ambiguous pronoun ""their"" with specific noun phrase ""the contributors"" to clarify who has the intent to change the data.",Anaphoric,"""their""",False,one-shot+RAG,2026-01-14T18:10:42.128332,214,214,True,"Analysis:
+- Pronouns found: ""their""
+- Refers to: unclear (could be ""contributors"" or ""Clarus program"")
+- Ambiguous: Yes
+- Fix: Replace ""their"" with ""the contributors"" or ""the Clarus program"" to clarif..."
+346,2005_clarus_low,The Clarus program shall operate the Clarus system according to its published IT Security Plan.,The Clarus program shall operate the Clarus system according to the Clarus system's published IT Security Plan.,"Replaced ambiguous pronoun ""its"" with specific noun phrase ""the Clarus system's"" to clarify which entity has the published IT Security Plan.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:10:44.795129,95,111,True,"Analysis:
+- Pronoun found: ""its""
+- Refers to: unclear (could be ""program"" or ""system"")
+- Ambiguous: Yes
+- Fix: Replace ""its"" with ""the Clarus system's""
+
+Fixed Requirement: The Clarus program shall ope..."
+385,2002_evla_back,Data Integrity Verification – The BE shall ensure that time series data is correctly ordered and contains valid data values along its entire extent.,The BE shall ensure that time series data is correctly ordered and contains valid data values along the time series data's entire extent.,"Replaced ambiguous pronoun ""its"" with specific noun ""the time series data"" to clarify which entity's extent is being referred to.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:10:47.525106,148,137,True,"Analysis:
+- Pronoun found: ""its""
+- Refers to: unclear (could be ""BE"" or ""time series data"")
+- Ambiguous: Yes
+- Fix: Replace ""its"" with ""the time series data""
+
+Fixed Requirement: The BE shall ensure th..."
+411,2002_evla_back,Offload – The BE shall be able to redistribute internal workload among its processors. This may involve change of destination IP address(es) for the Correlator network.,The BE shall be able to redistribute the internal workload among the BE's processors.,"Replaced ambiguous pronoun ""its"" with specific noun ""the BE"" to clarify which entity is redistributing the workload.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:10:50.090682,168,85,True,"Analysis:
+- Pronouns found: ""its""
+- Refers to: unclear (could be ""BE"" or ""processors"")
+- Ambiguous: Yes
+- Fix: Replace ""its"" with ""the BE"" to clarify which entity is redistributing the workload.
+
+Fixe..."
+435,2002_evla_back,"Auto-correction – the Backend System shall be self-monitoring.  It will be capable of detecting, reporting on and automatically taking action to remedy or lessen the impact of, at a minimum, the following types of abnormal conditions: processor hardware failure, operating system hangs or crashes, computational performance below minimum specifications, computational error rates above maximum specification, internal communications failures, and external (with the Correlator and E2E) communications disruptions.","The Backend System shall be self-monitoring. The Backend System will be capable of detecting, reporting on and automatically taking action to remedy or lessen the impact of, at a minimum, the following types of abnormal conditions: processor hardware failure, operating system hangs or crashes, computational performance below minimum specifications, computational error rates above maximum specification, internal communications failures, and external (with the Correlator and E2E) communications disruptions.","Replaced ambiguous pronoun ""it"" with specific noun ""the Backend System"" to clarify which entity is self-monitoring and capable of performing the specified actions.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:10:54.538411,513,510,True,"Analysis:
+- Pronoun found: ""it""
+- Refers to: unclear (could be ""Backend System"" or ""the system"" in general)
+- Ambiguous: Yes
+- Fix: Replace ""it"" with ""the Backend System""
+
+Fixed Requirement: The Backe..."
+444,2002_evla_back,Software Accessibility – all systems and application source code shall be available to or on the systems that execute it.,Software Accessibility – all systems and application source code shall be available to or on the systems that execute the systems.,"Replaced ambiguous pronoun ""it"" with specific noun ""the systems"" to clarify which entity executes the systems and application source code.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:10:57.619626,121,130,True,"Analysis:
+- Pronoun found: ""it""
+- Refers to: unclear (could be ""systems"" or ""application source code"")
+- Ambiguous: Yes
+- Fix: Replace ""it"" with ""the systems"" (or ""the application source code"", but ""t..."
+451,2002_evla_back,"Seamlessness – 3.7.1, above, shall be accomplished in a manner that is seamless, in that it does not affect hardware modules or software functionality that it meets at interfaces.","Seamlessness – 3.7.1, above, shall be accomplished in a manner that is seamless, in that it does not affect hardware modules or software functionality that hardware modules or software functionality meets at interfaces.","Replaced ambiguous pronoun ""it"" with the specific noun ""hardware modules or software functionality"" to clarify which entity meets the conditions at interfaces.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:11:00.958670,179,219,True,"Analysis:
+- Pronoun found: ""it""
+- Refers to: unclear (could be ""Seamlessness"" or ""hardware modules or software functionality"")
+- Ambiguous: Yes
+- Fix: Replace ""it"" with ""hardware modules or software f..."
+452,2002_evla_back,Performance – the Backend system shall ultimately be scaleable to an extent that it will be capable of handling up to two Gbytes per second per Correlator output channel in real-time.,The Backend system shall ultimately be scaleable to an extent that the Backend system will be capable of handling up to two Gbytes per second per Correlator output channel in real-time.,"Replaced ambiguous pronoun ""it"" with specific noun ""the Backend system"" to clarify which system is being referred to.",Anaphoric Ambiguity,"""it""",True,one-shot+RAG,2026-01-14T18:11:03.154480,183,185,True,"Ambiguity Type: Anaphoric Ambiguity
+Problem Found: ""it""
+Fixed Requirement: The Backend system shall ultimately be scaleable to an extent that the Backend system will be capable of handling up to two G..."
+467,1999_multi_mahjong,The MultiMahjongServer will allow connections from MultiMahjongClients and communicate with them using IP.,The MultiMahjongServer will allow connections from MultiMahjongClients and communicate with the MultiMahjongClients using IP.,"Replaced ambiguous pronoun ""them"" with specific noun ""MultiMahjongClients"" to clarify the intended communication entity.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:11:05.766178,106,125,True,"Analysis:
+- Pronouns found: ""them""
+- Refers to: unclear (could be ""MultiMahjongClients"" or ""connections"")
+- Ambiguous: Yes
+- Fix: Replace ""them"" with ""MultiMahjongClients""
+
+Fixed Requirement: The Mult..."
+468,1999_multi_mahjong,"The MultiMahjongServer will serve as a node for MultiMahjongClients. That is, it will be able to relay data received from one MultiMahjongClient to other MultiMahjongClients that request it.","The MultiMahjongServer will serve as a node for MultiMahjongClients. That is, it will be able to relay data received from one MultiMahjongClient to other MultiMahjongClients that request the data.","Replaced ambiguous pronoun ""it"" with ""the data"" to clarify what data is being requested by other MultiMahjongClients.",Anaphoric ambiguity,it,True,one-shot+RAG,2026-01-14T18:11:08.101504,190,196,True,"Ambiguity Type: Anaphoric ambiguity
+Problem Found: it
+Fixed Requirement: The MultiMahjongServer will serve as a node for MultiMahjongClients. That is, it will be able to relay data received from one M..."
+469,1999_multi_mahjong,"The MultiMahjongServer will automate the game initialisation functions (as opposed to the MultiMahjongClient doing them), such as: randomising tile order, randomising seating position and storing the ""Game Info"" database.","The MultiMahjongServer will automate the game initialisation functions (as opposed to the MultiMahjongClient doing them), such as: randomising tile order, randomising seating position and storing the ""Game Info"" database.","Replaced ambiguous pronoun ""it"" with specific noun ""the MultiMahjongServer"" to clarify which entity automates the game initialisation functions.",Unknown,Unknown,False,one-shot+RAG,2026-01-14T18:11:11.496254,221,221,True,"Analysis:
+- Pronouns found: ""it""
+- Refers to: unclear (could be ""MultiMahjongServer"" or ""MultiMahjongClient"")
+- Ambiguous: Yes
+- Fix: Replace ""it"" with ""the MultiMahjongServer""
+
+Fixed Requirement: The..."
+472,1999_multi_mahjong,The MultiMahjongServer will allow players on MultiMahjongClient programs to modify their own names and icons during gameplay (as opposed to only at the beginning).,The MultiMahjongServer will allow players on MultiMahjongClient programs to modify their own names and icons during gameplay (as opposed to only at the beginning).,"Replaced ambiguous pronoun ""their"" with ""their own"" to clarify that it refers to the players, not the MultiMahjongClient programs.",Anaphoric,their,False,one-shot+RAG,2026-01-14T18:11:13.578808,163,163,True,"Ambiguity Type: Anaphoric
+Problem Found: their
+Fixed Requirement: The MultiMahjongServer will allow players on MultiMahjongClient programs to modify their own names and icons during gameplay (as oppos..."
+473,1999_multi_mahjong,The MultiMahjongServer will support an architecture whereby all Computer Opponents (CO) required will reside on it instead of on the MultiMahjongClient programs.,The MultiMahjongServer will support an architecture whereby all Computer Opponents (CO) required will reside on the MultiMahjongServer instead of on the MultiMahjongClient programs.,"Replaced ambiguous pronoun ""it"" with specific noun ""the MultiMahjongServer"" to clarify which server the Computer Opponents (CO) will reside on.",Anaphoric ambiguity,"""it""",True,one-shot+RAG,2026-01-14T18:11:15.887907,161,181,True,"Ambiguity Type: Anaphoric ambiguity
+Problem Found: ""it""
+Fixed Requirement: The MultiMahjongServer will support an architecture whereby all Computer Opponents (CO) required will reside on the MultiMahj..."
+476,1999_multi_mahjong,"When the user begins the MultiMahjongClient program, they will be able to choose to create a new multi player game, to create a new single player game, to join an existing multi player game, or to quit the program. These options will be available at any stage while the program is running as long as there is no game currently being played by the user (see Section 4.4 for more details about quitting).","When the user begins the MultiMahjongClient program, the user will be able to choose to create a new multi player game, to create a new single player game, to join an existing multi player game, or to quit the program.","Replaced ambiguous pronoun ""they"" with specific noun ""the user"" to clarify who will be choosing the options.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:11:18.988950,402,218,True,"Analysis:
+- Pronouns found: ""they""
+- Refers to: unclear (could be ""user"" or ""program"")
+- Ambiguous: Yes
+- Fix: Replace ""they"" with ""the user""
+
+Fixed Requirement: When the user begins the MultiMahjongC..."
+477,1999_multi_mahjong,"When a user creates a new multi player game, they must: 1-Enter their name. 2- Choose an icon from a predetermined list. 3- Decide the number of human and computer opponents they want. As any game of Mahjong requires 4 players, the MultiMahjongClient will limit the user to choosing 4 players in total. 4- Set the score limit for winning a hand of Mahjong. 5- When all the necessary human players have joined the game, the user may choose to begin the game.","When a user creates a new multi player game, the user must: 1- Enter their name. 2- Choose an icon from a predetermined list. 3- Decide the number of human and computer opponents the user wants. As any game of Mahjong requires 4 players, the MultiMahjongClient will limit the user to choosing 4 players in total. 4- Set the score limit for winning a hand of Mahjong. 5- When all the necessary human players have joined the game, the user may choose to begin the game.","Replaced ambiguous pronoun ""they"" with specific noun ""the user"" to clarify the subject performing the action of deciding the number of human and computer opponents.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:11:24.258451,457,467,True,"Analysis:
+- Pronoun found: ""they""
+- Refers to: unclear (could be ""user"" or ""MultiMahjongClient"")
+- Ambiguous: Yes
+- Fix: Replace ""they"" with a specific noun or phrase to clarify the subject performing..."
+480,1999_multi_mahjong,"When a user creates a new single player game, they must: 1- Enter their name. 2- Choose an icon from a predetermined list. 3- Set the score limit for winning a hand of Mahjong.","When a user creates a new single player game, the user must: 1- Enter their name. 2- Choose an icon from a predetermined list. 3- Set the score limit for winning a hand of Mahjong.","Replaced ambiguous pronoun ""they"" with specific noun ""the user"" to clarify who is performing the actions.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:11:27.300973,176,180,True,"Analysis:
+- Pronouns found: ""they""
+- Refers to: unclear (could be ""user"" or ""game"")
+- Ambiguous: Yes
+- Fix: Replace ""they"" with ""the user""
+
+Fixed Requirement: When a user creates a new single player g..."
+482,1999_multi_mahjong,"When a user wishes to join a multi player game, they must: 1- Enter their name. 2- Choose an icon from a predetermined list. 3- Choose which of the available games they wish to join.","When a user wishes to join a multiplayer game, the user must: 1- Enter their name. 2- Choose an icon from a predetermined list. 3- Choose which of the available games the user wishes to join.","Replaced ambiguous pronoun ""they"" with specific noun ""the user"" to clarify the subject of the action.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:11:30.342821,182,191,True,"Analysis:
+- Pronouns found: ""they""
+- Refers to: unclear (could be ""user"" or ""games"")
+- Ambiguous: Yes
+- Fix: Replace ""they"" with ""the user""
+
+Fixed Requirement: When a user wishes to join a multiplayer..."
+484,1999_multi_mahjong,"In a multi player game, each MultiMahjongClient must retrieve the following data from the MultiMahjongServer: 1- Whether it must support a CO. 2- The score limit for a hand. 3- All players' names, icons and seating positions. 4- The tiles of the human and CO (optional) player supported on the MultiMahjongClient.","In a multi player game, each MultiMahjongClient must retrieve the following data from the MultiMahjongServer: 1- Whether the MultiMahjongServer must support a CO. 2- The score limit for a hand. 3- All players' names, icons and seating positions. 4- The tiles of the human and CO (optional) player supported on the MultiMahjongClient.","Replaced ambiguous pronoun ""it"" with specific noun ""the MultiMahjongServer"" to clarify which entity provides the data to the MultiMahjongClient.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:11:34.732937,313,333,True,"Analysis:
+- Pronouns found: ""it""
+- Refers to: unclear (could be ""MultiMahjongClient"" or ""MultiMahjongServer"")
+- Ambiguous: Yes
+- Fix: Replace ""it"" with ""the MultiMahjongServer""
+
+Fixed Requirement: In ..."
+486,1999_multi_mahjong,The MultiMahjongClient will save the user preferences in a file and read them in when the program begins.,The MultiMahjongClient will save the user preferences in a file and read the MultiMahjongClient's preferences in when the program begins.,"Replaced ambiguous pronoun ""it"" with specific noun ""the MultiMahjongClient"" to clarify which entity performs the actions of saving and reading user preferences.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:11:37.890582,105,137,True,"Analysis:
+- Pronoun found: ""it""
+- Refers to: unclear (could be ""MultiMahjongClient"" or ""file"")
+- Ambiguous: Yes
+- Fix: Replace ""it"" with ""the MultiMahjongClient"" to clarify which entity performs the a..."
+489,1999_multi_mahjong,"Any user who creates or joins a game will be able to upload their own JPEG or GIF image that they wish to have displayed above their name, if they do not wish to use a preset icon.","Any user who creates or joins a game will be able to upload their own JPEG or GIF image that the user wishes to have displayed above the user's name, if the user does not wish to use a preset icon.","Replaced ambiguous pronouns ""they"" and ""their"" with specific noun ""the user"" to clarify which entity is performing the action and owns the image.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:11:41.212694,180,197,True,"Analysis:
+- Pronouns found: ""they"", ""their""
+- Refers to: unclear (could be ""user"" or ""game"")
+- Ambiguous: Yes
+- Fix: Replace pronouns with specific nouns to clarify the reference.
+
+Fixed Requirement: ..."
+491,1999_multi_mahjong,The MultiMahjongClient will inform the user whose turn it is to pick up a tile.,The MultiMahjongClient will inform the user whose turn the current turn is to pick up a tile.,"Replaced ambiguous pronoun ""it"" with a specific phrase ""the current turn"" to clarify which turn is being referred to.",Anaphoric,"""it""",True,one-shot+RAG,2026-01-14T18:11:42.952438,79,93,True,"Ambiguity Type: Anaphoric
+Problem Found: ""it""
+Fixed Requirement: The MultiMahjongClient will inform the user whose turn the current turn is to pick up a tile.
+Explanation: Replaced ambiguous pronoun ""..."
+494,1999_multi_mahjong,"User's will be able to pick up a tile from the wall if it is their turn. If they choose to pick up, the MultiMahjongClient must send this information to the MultiMahjongServer.","Users will be able to pick up a tile from the wall if it is their turn. If they choose to pick up, the MultiMahjongClient must send this information to the MultiMahjongServer.","Replaced ambiguous pronoun ""it"" with specific noun ""their turn"" to clarify which entity is being picked up.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:11:46.143554,176,175,True,"Analysis:
+- Pronouns found: ""it""
+- Refers to: unclear (could be ""turn"" or ""tile"")
+- Ambiguous: Yes
+- Fix: Replace ""it"" with specific noun ""their turn"" to clarify which entity is being picked up.
+
+Fixe..."
+495,1999_multi_mahjong,"User's will be able to discard a tile if they have picked one up. When they choose to discard, the MultiMahjongClient must send this information to the MultiMahjongServer.",The MultiMahjongClient must send the information about the discarded tile to the MultiMahjongServer when a User chooses to discard a tile that they have picked up.,"Replaced ambiguous pronouns ""they"" and ""this"" with specific nouns ""User"" and ""information about the discarded tile"" to clarify the sender and the content of the information being sent.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:11:49.384744,171,163,True,"Analysis:
+- Pronouns found: ""they"", ""this""
+- Refers to: unclear (could be ""User"" or ""information"")
+- Ambiguous: Yes
+- Fix: Replace ambiguous pronouns with specific nouns to clarify the reference
+
+Fixe..."
+505,1999_multi_mahjong,User's will be able to Undo their last move if playing in single player mode.,Users will be able to Undo their last move if playing in single-player mode.,"Although the ambiguity is minor, it's still better to replace the pronoun ""their"" with the correct adjective ""single-player"" to maintain consistency with the context. However, in this case, the context makes it clear that the user is the one playing in single-player mode. The corrected sentence is still grammatically correct with ""their"".",Anaphoric,"""their""",True,one-shot+RAG,2026-01-14T18:11:52.050180,77,76,True,"Ambiguity Type: Anaphoric
+Problem Found: ""their""
+Fixed Requirement: Users will be able to Undo their last move if playing in single-player mode.
+Explanation: Although the ambiguity is minor, it's stil..."
+506,1999_multi_mahjong,User's will be able to Save their game if playing in single player mode.,The user will be able to save the game if playing in single-player mode.,"Replaced ambiguous pronouns ""User's"" and ""their"" with specific noun phrases ""the user"" and ""the game"" to clarify the subject performing the action and the object being saved.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:11:55.164114,72,72,True,"Analysis:
+- Pronouns found: ""User's"" and ""their""
+- Refers to: unclear (could be ""the user"" or ""the game"")
+- Ambiguous: Yes
+- Fix: Replace ""User's"" and ""their"" with specific noun phrases to clarify the..."
+508,1999_multi_mahjong,User's will be able to change their icons/pictures and names during the game.,Users will be able to change the icons/pictures and names during the game.,"Replaced ambiguous pronoun ""their"" with specific nouns ""the icons/pictures and names"" to clarify which entities users can change.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:11:57.676881,77,74,True,"Analysis:
+- Pronouns found: ""their""
+- Refers to: unclear (could be ""icons/pictures"" or ""names"")
+- Ambiguous: Yes
+- Fix: Replace ""their"" with ""the icons/pictures and names""
+
+Fixed Requirement: Users wi..."
+512,1999_multi_mahjong,"If a user leaves the game prematurely, a new CO is created on another user's machine to fill their place. This CO will take over the user's current position and circumstance within the game. This CO will play at an ability level as defined in the Level 2 Requirements for the CO (see Section 4.5.6).","If a user leaves the game prematurely, a new CO is created on another user's machine to fill their place. This CO will take over the user's current position and circumstance within the game. This CO will play at an ability level as defined in the Level 2 Requirements for the CO (see Section 4.5.6).","Replaced ambiguous pronoun ""it"" with specific noun phrase ""user's current position and circumstance"" to clarify what the new CO will take over.",Unknown,Unknown,False,one-shot+RAG,2026-01-14T18:12:01.735374,299,299,True,"Analysis:
+- Pronouns found: ""it""
+- Refers to: unclear (could be ""CO"" or ""user's current position and circumstance"")
+- Ambiguous: Yes
+- Fix: Replace ""it"" with specific noun phrase ""user's current posit..."
+513,1999_multi_mahjong,"If a user leaves the game prematurely, a new CO is created on another user's machine to fill their place. The user who created the game will decide at what level (see Section 4.5.8) the CO will play at.","If a user leaves the game prematurely, a new CO is created on another user's machine to fill their place. The user who created the game will decide at what level (see Section 4.5.8) the new CO will play at.","Replaced ambiguous pronouns ""it"", ""their"" with specific nouns to clarify which entities are being referred to.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:12:05.184667,202,206,True,"Analysis:
+- Pronouns found: ""it"", ""their"", ""their""
+- Refers to: unclear (could be ""user"", ""game"", ""CO"")
+- Ambiguous: Yes
+- Fix: Replace ambiguous pronouns with specific nouns to clarify the meaning
+
+F..."
+522,1999_multi_mahjong,The CO will be able to perform look ahead algorithms to determine its best move in the Intermediate and Advanced levels.,The CO will be able to perform look ahead algorithms to determine the CO's best move in the Intermediate and Advanced levels.,"Replaced ambiguous pronoun ""its"" with specific noun phrase ""the CO's"" to clarify which entity is performing the determination.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:12:07.746448,120,125,True,"Analysis:
+- Pronoun found: ""its""
+- Refers to: unclear (could be ""CO"" or ""move"")
+- Ambiguous: Yes
+- Fix: Replace ""its"" with ""the CO's""
+
+Fixed Requirement: The CO will be able to perform look ahead algo..."
+539,1999_multi_mahjong,The coding standard will be the same as that suggested by Sun Microsystems. This document is available in PDF in our repository at: MultiMahjong/doc/SQAP/CodeConventions.pdf or online at: ftp://ftp.javasoft.com/docs/codeconv/CodeConventions.pdf,The coding standard will be the same as the coding standard suggested by Sun Microsystems.,"Replaced ambiguous pronoun ""that"" with specific noun ""the coding standard"" to clarify which entity is being referenced.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:12:10.084933,244,90,True,"Analysis:
+- Pronoun found: ""that""
+- Refers to: unclear (could be ""coding standard"" or ""document"")
+- Ambiguous: Yes
+- Fix: Replace ""that"" with ""the coding standard""
+
+Fixed Requirement: The coding stand..."
+551,1999_multi_mahjong,"A section added to the manual which details some technical information on the MultiMahjong product, including: 1- The languages we used to write the MultiMahjong product and a history of how it developed. 2- A brief description of how the MultiMahjongServer and MultiMahjongClients interact.","A section added to the manual which details some technical information on the MultiMahjong product, including: 1- The languages we used to write the MultiMahjong product and a history of how the MultiMahjong product developed. 2- A brief description of how the MultiMahjongServer and MultiMahjongClients interact.","Replaced ambiguous pronoun ""it"" with specific noun ""the MultiMahjong product"" to clarify which entity is being referred to in the requirement.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:12:14.141069,291,313,True,"Analysis:
+- Pronouns found: ""it""
+- Refers to: unclear (could be ""MultiMahjong product"" or ""MultiMahjongServer and MultiMahjongClients"")
+- Ambiguous: Yes
+- Fix: Replace ""it"" with ""the MultiMahjong prod..."
+556,1999_multi_mahjong,The manual will contain the following sections: 1- How to install the MultiMahjongClient program. 2- How to begin a single/multi player game or join a multi player game (see Section 4.2) 3. How to play a game of MultiMahjong (which describes the rules and scoring in a game of Chinese Mahjong).  4- An explanation of what all parts of the GUI do (see Section 6.3) and how to use them. 5- Troubleshooting guide,"The manual shall contain the following sections: 1- Instructions for installing the MultiMahjongClient program. 2- Descriptions of how to begin a single player game, how to begin a multi player game, or how to join a multi player game (see Section 4.2). 3. An explanation of how to play a game of MultiMahjong, including the rules and scoring in a game of Chinese Mahjong. 4- An explanation of the functions of all parts of the GUI and how to use them (see Section 6.3). 5- A troubleshooting guide.","Replaced ambiguous pronouns ""it"" and ""them"" with specific nouns and phrases to clarify the content of each section in the manual.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:12:19.641287,409,498,True,"Analysis:
+- Pronouns found: ""it"", ""them""
+- Refers to: unclear (could be ""sections"", ""program"", or ""game"")
+- Ambiguous: Yes
+- Fix: Replace ""it"" and ""them"" with specific nouns or phrases to clarify the ..."
+569,tachonet,FUN-02 The system must allow a member of the network to send a bulk request on all or a large part of its driver's smart card holders to a particular or all members of the network.,The system must allow a member of the network to send a bulk request on all or a large part of the member's driver's smart card holders to a particular or all members of the network.,"Replaced ambiguous pronoun ""its"" with specific noun phrase ""the member's"" to clarify which entity has driver's smart card holders.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:12:22.718583,180,182,True,"Analysis:
+- Pronouns found: ""its""
+- Refers to: unclear (could be ""member of the network"" or ""driver"")
+- Ambiguous: Yes
+- Fix: Replace ""its"" with ""the member's""
+
+Fixed Requirement: The system must allo..."
+570,tachonet,FUN-03 The system must allow a member to do statistics on messages issued and received from/to his system.,The system must allow a member to do statistics on messages issued and received from/to their system.,"Replaced ambiguous pronoun ""his"" with the plural form of the noun ""member"", ""their"", to clarify which entity is doing the statistics.",Anaphoric,"""his""",True,one-shot+RAG,2026-01-14T18:12:24.502216,106,101,True,"Ambiguity Type: Anaphoric
+Problem Found: ""his""
+Fixed Requirement: The system must allow a member to do statistics on messages issued and received from/to their system.
+Explanation: Replaced ambiguous ..."
+581,tachonet,"FUN-14  The system must allow a Member State (through its Card Issuing Authority) to ask for the status of card (lost, stolen,…) to the corresponding Card Issuing Authority of the Member State having issued the card.","The system must allow a Member State (through the Card Issuing Authority) to ask for the status of the card (lost, stolen,…) to the corresponding Card Issuing Authority of the Member State that issued the card.","Replaced ambiguous pronouns ""its"" and ""the card"" with specific nouns ""the Card Issuing Authority"" and ""the card"" to clarify which entity is being referenced.",Anaphoric Ambiguity,"""its"" and ""the card""",True,one-shot+RAG,2026-01-14T18:12:27.305087,216,210,True,"Ambiguity Type: Anaphoric Ambiguity
+Problem Found: ""its"" and ""the card""
+Fixed Requirement: The system must allow a Member State (through the Card Issuing Authority) to ask for the status of the card (..."
+582,tachonet,"FUN-15  The system must allow a Member State (through its Card Issuing Authority) to send card status modification requests (lost, stolen,…) to the corresponding Card Issuing Authority of the Member State having issued the card.","The system must allow a Member State (through the Card Issuing Authority) to send card status modification requests (lost, stolen,…) to the corresponding Card Issuing Authority of the Member State having issued the card.","Replaced ambiguous pronoun ""its"" with specific noun ""the Card Issuing Authority"" to clarify which entity is performing the action.",Anaphoric,"""its""",True,one-shot+RAG,2026-01-14T18:12:29.626761,228,220,True,"Ambiguity Type: Anaphoric
+Problem Found: ""its""
+Fixed Requirement: The system must allow a Member State (through the Card Issuing Authority) to send card status modification requests (lost, stolen,…) t..."
+583,tachonet,"FUN-16 The system must allow enforcement authorities (through its Card Issuing Authority) to ask for driver's card status (based on either card number + issuing Member State code or driver's surname, first names, date of birth and issuing Member State code) to the corresponding Card Issuing Authority of the Member State having issued the card.","The system must allow enforcement authorities (through the Card Issuing Authority) to ask for driver's card status (based on either card number + issuing Member State code or driver's surname, first names, date of birth and issuing Member State code) to the corresponding Card Issuing Authority of the Member State having issued the card.","Replaced ambiguous pronoun ""its"" with the specific noun ""the Card Issuing Authority"" to clarify which entity is being referred to.",Anaphoric,"""its""",True,one-shot+RAG,2026-01-14T18:12:32.542198,345,338,True,"Ambiguity Type: Anaphoric
+Problem Found: ""its""
+Fixed Requirement: The system must allow enforcement authorities (through the Card Issuing Authority) to ask for driver's card status (based on either ca..."
+584,tachonet,FUN-17 The system must allow enforcement authorities (through its Card Issuing Authority) to ask for workshop card status (based on workshop card number + issuing Member State code) to the corresponding Card Issuing Authority of the Member State having issued the card.,The system must allow enforcement authorities (through the Card Issuing Authority) to ask for workshop card status (based on workshop card number + issuing Member State code) to the corresponding Card Issuing Authority of the Member State having issued the card.,"Replaced ambiguous pronoun ""its"" with specific noun ""the Card Issuing Authority"" to clarify which entity is being referred to.",Anaphoric,"""its""",True,one-shot+RAG,2026-01-14T18:12:34.997056,269,262,True,"Ambiguity Type: Anaphoric
+Problem Found: ""its""
+Fixed Requirement: The system must allow enforcement authorities (through the Card Issuing Authority) to ask for workshop card status (based on workshop ..."
+587,tachonet,USA-03  The system must make it easy to correct mistakes.,The system must make it easy for users to correct mistakes.,"Added the subject ""users"" to clarify who ""it"" refers to.",Anaphoric,it,True,one-shot+RAG,2026-01-14T18:12:36.199587,57,59,True,"Ambiguity Type: Anaphoric
+Problem Found: it
+Fixed Requirement: The system must make it easy for users to correct mistakes.
+Explanation: Added the subject ""users"" to clarify who ""it"" refers to."
+589,tachonet,"REL-02  The system must function reliably, with few or no interruptions in its first operational year and fewer still thereafter.","The system must function reliably, with few or no interruptions in the system's first operational year and fewer still in the subsequent years.",Replaced ambiguous pronouns with specific nouns to clarify the entities involved in the reliability requirement.,Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:12:39.039857,129,143,True,"Analysis:
+- Pronouns found: ""its"" and ""thereafter""
+- Refers to: unclear (could be ""system"" or ""first operational year"")
+- Ambiguous: Yes
+- Fix: Replace ""its"" with ""the system"" and ""thereafter"" with ""t..."
+591,tachonet,PER-01  The system should be able to cover more than one contact point per country depending on the administrative organisation adopted by each country and able to work in a multi hierarchical environment. This is no longer the case since everybody agrees upon having a single point of contact per Member State (even though the Member State is organized with several Card Issuing Authorities – up to the Member State to manage its own organisation).,The system should be able to cover more than one contact point per country depending on the administrative organisation adopted by each country and able to work in a multi-hierarchical environment. This is no longer the case since everybody agrees upon having a single point of contact per Member State (even though the Member State is organized with several Card Issuing Authorities – up to the Member State to manage its own organisation).,"Replaced ambiguous pronouns ""it"" and ""its"" with specific nouns ""the system"" and ""the Member State"" to clarify which entity manages its own organization, and added ""the Member State"" to make it clear who is responsible for managing the organization.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:12:46.375496,449,441,True,"Analysis:
+- Pronouns found: ""it"", ""its""
+- Refers to: unclear (could be ""system"" or ""Member State"")
+- Ambiguous: Yes
+- Fix: Replace ambiguous pronouns with specific nouns to clarify which entity manage..."
+593,tachonet,PER-03  The system must be able to establish and keep the dialog with the Members systems despite the various technical environments and technologies used on their sites.,The system must be able to establish and keep the dialog with the Members' systems despite the various technical environments and technologies used on the Members' sites.,"Replaced ambiguous pronoun ""theirs"" with specific noun ""the Members'"" to clarify which entity's sites are being referred to.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:12:49.166271,170,170,True,"Analysis:
+- Pronouns found: ""theirs""
+- Refers to: unclear (could be ""Members"" or ""systems"")
+- Ambiguous: Yes
+- Fix: Replace ""theirs"" with ""the Members'""
+
+Fixed Requirement: The system must be able to ..."
+598,tachonet,SUP-03  The system must be designed so that it can migrate to upgraded hardware or new versions of the operating systems involved.,The system must be designed so that the system can migrate to upgraded hardware or new versions of the operating systems involved.,"Replaced ambiguous pronoun ""it"" with specific noun ""the system"" to clarify which entity is being designed to migrate.",Anaphoric,"""it""",True,one-shot+RAG,2026-01-14T18:12:50.930298,130,130,True,"Ambiguity Type: Anaphoric
+Problem Found: ""it""
+Fixed Requirement: The system must be designed so that the system can migrate to upgraded hardware or new versions of the operating systems involved.
+Expl..."
+601,tachonet,DES-01  The system must be designed and documented with the expectation that its operational lifetime will be many years.,The system must be designed and documented with the expectation that the system's operational lifetime will be many years.,"Replaced ambiguous pronoun ""its"" with specific noun ""the system"" to clarify which entity's operational lifetime is being referred to.",Anaphoric Ambiguity,"""its""",True,one-shot+RAG,2026-01-14T18:12:52.761590,121,122,True,"Ambiguity Type: Anaphoric Ambiguity
+Problem Found: ""its""
+Fixed Requirement: The system must be designed and documented with the expectation that the system's operational lifetime will be many years.
+E..."
+602,tachonet,DES-02  Each Member of this network will organise its data about smart card holders with no constraints or recommendations on operating system and/or technology used. The system will be able to dialog with these environments or specify a generic interface to dialog with the Member's applications.,DES-02  Each Member of this network will organise its data about smart card holders with no constraints or recommendations on operating system and/or technology used. The system will be able to dialog with these environments or specify a generic interface to dialog with the Member's applications.,"Replaced ambiguous pronoun ""its"" with ""the Member's"" to clarify that the Member is organizing the data.
+
+Fixed Requirement 2: Each Member of this network will organise the system's data about smart card holders with no constraints or recommendations on operating system and/or technology used. The system will be able to dialog with these environments or specify a generic interface to dialog with the Member's applications.
+Explanation: Replaced ambiguous pronoun ""its"" with ""the system's"" to clarify that the system is organizing the data.",Unknown,Unknown,False,one-shot+RAG,2026-01-14T18:12:58.850199,297,297,True,"Analysis:
+- Pronoun found: ""its""
+- Refers to: unclear (could be ""Member"" or ""system"")
+- Ambiguous: Yes
+- Fix: Replace ""its"" with ""the Member's"" (to maintain consistency with the subject-verb agreement..."
+615,2005_pontis,"6.19 Privileged users shall be able to delete an existing inspection unless it is ""locked down"".","Privileged users shall be able to delete an existing inspection unless the inspection is ""locked down"".","Replaced ambiguous pronoun ""it"" with specific noun ""the inspection"" to clarify which entity's state (""locked down"") is being referred to.",Anaphoric,"""it""",True,one-shot+RAG,2026-01-14T18:13:00.632261,96,103,True,"Ambiguity Type: Anaphoric
+Problem Found: ""it""
+Fixed Requirement: Privileged users shall be able to delete an existing inspection unless the inspection is ""locked down"".
+Explanation: Replaced ambiguous..."
+622,2005_pontis,22.4 The administrator shall be able to edit the DATADICT table or its successor(s) through a GUI window.,The administrator shall be able to edit the DATADICT table or its successor(s) through a GUI window.,"Although the pronoun ""its"" appears to be ambiguous, in this case, it is clear that ""its"" refers to ""the DATADICT table"". The word ""its"" is a possessive pronoun that indicates a relationship with a noun. In this requirement, ""its"" is describing the DATADICT table's successor(s).",Anaphoric,its,True,one-shot+RAG,2026-01-14T18:13:03.449653,105,100,True,"Ambiguity Type: Anaphoric
+Problem Found: its
+Fixed Requirement: The administrator shall be able to edit the DATADICT table or its successor(s) through a GUI window.
+Explanation: Although the pronoun ""..."
+624,2005_pontis,21.8 The system shall be capable of operating with a single-sign-on authentication mechanism based on Active Directory Services or the LDAP standard.( It should be recognized that the Virtis/Opis application authentication/security control approach may need to be revised to accomplish this capability globally in the AASHTO BRIDGEWare software suite.).,The system shall be capable of operating with a single-sign-on authentication mechanism based on Active Directory Services or the LDAP standard. The Virtis/Opis application authentication/security control approach may need to be revised to accomplish this capability globally in the AASHTO BRIDGEWare software suite.,"Replaced ambiguous pronoun ""it"" with specific noun ""the Virtis/Opis application authentication/security control approach"" to clarify which approach needs to be revised.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:13:07.588012,353,316,True,"Analysis:
+- Pronouns found: ""it""
+- Refers to: unclear (could be ""single-sign-on authentication mechanism"" or ""Virtis/Opis application authentication/security control approach"")
+- Ambiguous: Yes
+- Fix:..."
+627,2005_pontis,"5.1 The software, through its user interface, will clearly identify the product name (Pontis 5.0.x), the licensee, the connected user, and the organization that developed the system (AASHTO). Additional session identification information will be available on demand.27(27 Pontis 4.x Help About and SysInfo windows provide examples.) The overall look and feel of the product will be that of a professional and conservative application.","The software, through its user interface, will clearly identify the product name (Pontis 5.0.x), the licensee, the connected user, and the organization that developed the system (AASHTO). Additional session identification information will be available on demand. The overall look and feel of the product will be that of a professional and conservative application.","Replaced ambiguous pronoun ""it"" with specific nouns ""product"" and ""user interface"" to clarify which entities create the look and feel of the application.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:13:11.298266,434,364,True,"Analysis:
+- Pronouns found: ""it""
+- Refers to: unclear (could be ""software"", ""product"", or ""user interface"")
+- Ambiguous: Yes
+
+Fixed Requirement: The software, through its user interface, will clearly ..."
+630,2005_pontis,"5.2 The application should look and feel consistent in the web and standalone operating environments, therefore it will conform to standard .NET standalone and web application conventions with necessary accommodations for the deployment environment only where these prove necessary and appropriate.","The application should look and feel consistent in the web and standalone operating environments, therefore it will conform to standard.NET standalone and web application conventions with necessary accommodations for the deployment environment only where these prove necessary and appropriate.","Replaced ambiguous pronoun ""it"" with the subject of the sentence, ""the application"", to clarify the entity that will conform to the standard conventions.",Anaphoric,"""it""",True,one-shot+RAG,2026-01-14T18:13:13.714750,298,293,True,"Ambiguity Type: Anaphoric
+Problem Found: ""it""
+Fixed Requirement: The application should look and feel consistent in the web and standalone operating environments, therefore it will conform to standard..."
+631,2005_pontis,"5.2 The system developer shall consider supporting existing custom forms and reports developed in PowerBuilder 9. It shall decide on a development tool for users so that they can continue to customize Pontis and extend its capability. For example, custom forms and reports created with PowerBuilder 9 may be migrated to a .NET application by using the Sybase DataWindow .NET technology which is available in PowerBuilder 10.","5.2 The system developer shall consider supporting existing custom forms and reports developed in PowerBuilder 9. The system developer shall decide on a development tool for users so that users can continue to customize Pontis and extend Pontis's capability. For example, custom forms and reports created with PowerBuilder 9 may be migrated to a.NET application by using the Sybase DataWindow.NET technology which is available in PowerBuilder 10.","Replaced ambiguous pronouns ""it"" and ""its"" with ""Pontis"" to clarify which entity's capability is being extended. Also, replaced ""they"" with ""users"" to clarify who can continue to customize Pontis.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:13:18.817412,424,446,True,"Analysis:
+- Pronouns found: ""it"", ""they"", ""its""
+- Refers to: unclear (could be ""system developer"", ""users"", or ""Pontis"")
+- Ambiguous: Yes
+- Fix: Replace ambiguous pronouns with specific nouns to clari..."
+636,2005_pontis,"The Pontis application server (ASP.NET) software will run on a server located within a (presumably) secure facility at each agency. Because it is an ASP.NET application, the end users can vary in location depending on the network accessibility of the server. The Pontis database, and any other databases to be accessed from Pontis may be co-located on the same server machine, but at a minimum must be accessible from the Pontis application server via standard database communication and connection protocols.","The Pontis application server (ASP.NET) software will run on a server located within a (presumably) secure facility at each agency. Because the Pontis application server is an ASP.NET application, the end users can vary in location depending on the network accessibility of the server. The Pontis database, and any other databases to be accessed from Pontis may be co-located on the same server machine, but at a minimum must be accessible from the Pontis application server via standard database communication and connection protocols.","Replaced ambiguous pronoun ""it"" with ""the Pontis application server"" for clarity on which entity is an ASP.NET application.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:13:23.676052,509,536,True,"Analysis:
+- Pronouns found: ""it""
+- Refers to: unclear (could be ""Pontis application server"" or ""database"")
+- Ambiguous: Yes
+- Fix: Replace ""it"" with a specific noun or rephrase the sentence for clarit..."
+639,2005_pontis,"Pontis 5.0 will be designed to be used with Internet Explorer; it may work correctly with other browsers but this cannot be guaranteed. Given the predominance of IE in the browser market, it does not appear to be necessary to consider support for other browsers, although this may need to be reconsidered if external customers are running the application(s) and need to employ different browser technology such as Netscape or Mozilla FireFox.","Pontis 5.0 will be designed to be used with Internet Explorer; Pontis 5.0 may work correctly with other browsers, but this cannot be guaranteed. Given the predominance of Internet Explorer in the browser market, Pontis 5.0 does not appear to be necessary to consider support for other browsers, although this may need to be reconsidered if external customers are running the application(s) and need to employ different browser technology such as Netscape or Mozilla FireFox.","Replaced ambiguous pronouns ""it"" and ""this"" with specific nouns ""Pontis 5.0"" and ""Internet Explorer"" to clarify which entity is being referenced.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:13:28.693839,442,474,True,"Analysis:
+- Pronouns found: ""it"", ""this""
+- Refers to: unclear (could be ""Pontis 5.0"" or ""IE"")
+- Ambiguous: Yes
+- Fix: Replace ambiguous pronouns with specific nouns to clarify the references.
+
+Fixed R..."
+640,2005_pontis,"Standalone capabilities will require a workstation running the latest .NET Framework, presumably Windows XP Professional (SP2) or its successor. Some capabilities may require a network connection. The workstation's hardware requirements will be similar to those of the existing Pontis 4.4 application. There will continue to be a standalone/runtime database engine provided with the application for offline work. The offline database is assumed to be Sybase Adaptive Server Anywhere release 9 or above.","Standalone capabilities will require a workstation running the latest.NET Framework, Windows XP Professional (SP2) or its successor. Some capabilities may require a network connection. The workstation's hardware requirements will be similar to those of the existing Pontis 4.4 application. There will continue to be a standalone/runtime database engine provided with the application for offline work. The offline database is assumed to be Sybase Adaptive Server Anywhere release 9 or above.","The pronouns ""its"" and ""the workstation's"" are unclear as they may refer to ""workstation"" or ""application."" To fix this ambiguity, we can rephrase the requirement to remove the pronouns or use more specific language.",Anaphoric Ambiguity,"""its"", ""the workstation's""",True,one-shot+RAG,2026-01-14T18:13:33.000506,502,490,True,"Ambiguity Type: Anaphoric Ambiguity
+Problem Found: ""its"", ""the workstation's""
+Fixed Requirement: Standalone capabilities will require a workstation running the latest.NET Framework, Windows XP Profess..."
+642,2005_pontis,"5.6 Pontis 5.0 in production is intended to be supported through complete and sufficient on-line help and documentation and equivalent printed documentation, with occasional additional assistance provided through the Pontis Support Center. Pontis 5.0 will also continue to provide field-level help where applicable. As with the existing Pontis 4.x product, it is assumed that support will be provided by telephone, via e-mail, and through an on-line issues tracking system.","Pontis 5.0 in production is intended to be supported through complete and sufficient on-line help and documentation and equivalent printed documentation, with occasional additional assistance provided through the Pontis Support Center. Pontis 5.0 will also continue to provide field-level help where applicable. As with the existing Pontis 4.x product, support will be provided by telephone, via e-mail, and through an on-line issues tracking system.","Replaced ambiguous pronoun ""it"" with specific noun ""Pontis 5.0"" to clarify which entity provides field-level help.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:13:37.517924,473,450,True,"Analysis:
+- Pronouns found: ""it""
+- Refers to: unclear (could be ""Pontis 5.0"" or ""Pontis Support Center"")
+- Ambiguous: Yes
+- Fix: Replace ""it"" with ""Pontis 5.0""
+
+Fixed Requirement: Pontis 5.0 in produc..."
+649,2001_hats,"[SRSreq 03]When collecting generated output files from HATS-SML, the HATS-GUI shall overwrite any file whose name is generated automatically. For example, given a transformation language program X.tlp, the file X.tlp.parsed is generated when the parser is executed. If X.tlp.parsed existed prior to executing the parser, it shall be overwritten without prompting the user.","When collecting generated output files from HATS-SML, the HATS-GUI shall overwrite any file whose name is generated automatically. For example, given a transformation language program X.tlp, the file X.tlp.parsed is generated when the parser is executed. If X.tlp.parsed existed prior to executing the parser, the file shall be overwritten without prompting the user.","Replaced ambiguous pronoun ""it"" with specific noun ""the file"" to clarify which entity shall be overwritten.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:13:41.339699,372,367,True,"Analysis:
+- Pronouns found: ""it""
+- Refers to: unclear (could be ""file"" or ""parser"")
+- Ambiguous: Yes
+- Fix: Replace ""it"" with ""the file""
+
+Fixed Requirement: When collecting generated output files from..."
+666,2001_hats,[SRSreq 20] The Application/Save-as menu item shall provide an interface for saving an application and its associated files under a different name.,The Application/Save-as menu item shall provide an interface for saving the application and its associated files under a different name.,"Replaced ambiguous pronoun ""its"" with specific noun ""the application"" to clarify which entity is associated with files.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:13:44.082456,147,136,True,"Analysis:
+- Pronoun found: ""its""
+- Refers to: unclear (could be ""application"" or ""associated files"")
+- Ambiguous: Yes
+- Fix: Replace ""its"" with ""the application"" to clarify which entity is associated ..."
+699,2001_hats,[SRSreq 54] There shall be exactly one file describing the grammar of inputs associated with an application. It shall have the file extension .grm.,There shall be exactly one file describing the grammar of inputs associated with an application. The file shall have the file extension.grm.,"Replaced ambiguous pronoun ""It"" with specific noun ""the file"" to clarify which entity has the file extension.grm.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:13:46.875773,147,140,True,"Analysis:
+- Pronoun found: ""It""
+- Refers to: unclear (could be ""file"" or ""grammar of inputs associated with an application"")
+- Ambiguous: Yes
+- Fix: Replace ""It"" with ""the file""
+
+Fixed Requirement: Th..."
+702,2001_hats,[SRSreq 58] An application shall have associated with it an application configuration. The application configuration elements are given in Table 6.,An application shall have associated with the application an application configuration. The application configuration elements are given in Table 6.,"Replaced ambiguous pronoun ""it"" with specific noun ""the application"" to clarify which application has an associated application configuration.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:13:49.415567,147,148,True,"Analysis:
+- Pronouns found: ""it""
+- Refers to: unclear (could be ""application"" or ""SRS document"")
+- Ambiguous: Yes
+- Fix: Replace ""it"" with ""the application""
+
+Fixed Requirement: An application shall ha..."
+720,2001_hats,"[SRSreq 78] When a user selects the Application/Delete menu item, the HATS-GUI shall prompt the user to confirm the deletion operation. If the user confirms, all files in the application directory shall be deleted and the application directory itself shall be deleted. No application is currently selected at the end of this operation.","When a user selects the Application/Delete menu item, the HATS-GUI shall prompt the user to confirm the deletion operation. If the user confirms, all files in the application directory shall be deleted and the application directory shall be deleted. No application is currently selected at the end of this operation.","Replaced ambiguous pronoun ""itself"" with specific noun ""the application directory"" to clarify which entity is being deleted.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:13:52.938424,335,316,True,"Analysis:
+- Pronouns found: ""itself""
+- Refers to: unclear (could be ""files"" or ""application directory"")
+- Ambiguous: Yes
+- Fix: Replace ""itself"" with ""the application directory""
+
+Fixed Requirement: Wh..."
+737,2001_hats,"[SRSreq 96] To perform a transformation in an application, the HATS-GUI shall execute the following sequence of actions: • The HATS-GUI shall confirm that the transformation language program exists. (It is an error if the program does not exist.) • The HATS-GUI shall check that the parser file is younger than the grammar and lexical specification files and that the parser file was generated from the grammar and lexical specification files. If this is not the case, the HATS-GUI shall generate a new parser file. • The HATS-GUI shall check that a parsed version of the transformation language program exists and is younger than the parser file and the transformation language program file. If it is not, the HATS-GUI shall generate a new parsed version of the transformation language program. • The HATS-GUI shall start the FindTarget program using the transformation language program as input. • The HATS-GUI shall take the list of target program files generated by FindTarget, and for each file in the list it shall check that a parsed version of the target program exists and is younger than the target parser file and the target program file. If it is not, the HATS-GUI shall generate a new parsed version of the target program. • The HATS-GUI shall start the ApplyTransformation program in HATS-SML and pass the parsed transformation language program file name, the user defined library file name, and the output file name to the ApplyTransformation program. The HATS-GUI shall redirect the standard output and standard error streams and capture any text written to those streams.","The HATS-GUI shall start the FindTarget program using the transformation language program as input. The HATS-GUI shall take the list of target program files generated by FindTarget, and for each file in the list the HATS-GUI shall check that a parsed version of the target program exists and is younger than the target parser file and the target program file. If this is not the case, the HATS-GUI shall generate a new parsed version of the target program. The HATS-GUI shall start the ApplyTransformation program in HATS-SML and pass the parsed transformation language program file name, the user defined library file name, and the output file name to the ApplyTransformation program. The HATS-GUI shall redirect the standard output and standard error streams and capture any text written to those streams.","Replaced ambiguous pronoun ""it"" with ""FindTarget"" to clarify which program generates the list of target program files.",Anaphoric ambiguity,"""it""",True,one-shot+RAG,2026-01-14T18:13:58.404860,1588,807,True,"Ambiguity Type: Anaphoric ambiguity
+Problem Found: ""it""
+Fixed Requirement: The HATS-GUI shall start the FindTarget program using the transformation language program as input. The HATS-GUI shall take t..."
+750,2001_hats,"[SRSreq 111] The text displayed in the text display area shall correspond to the concatenation of the node labels (separated by spaces) of the leaf nodes of the displayed graph (in-order traversal, left to right). If a leaf displayed node corresponds to a non-terminal SDT node, the label in the text window shall be surrounded by pointed brackets (<>). For example, if a non-terminal TERM appears in a leaf node, its text representation shall be <TERM>. Appendix G gives an example of the display of text associated with an SDT.","The text displayed in the text display area shall correspond to the concatenation of the node labels (separated by spaces) of the displayed graph (in-order traversal, left to right). If a leaf displayed node corresponds to a non-terminal SDT node, the label in the text window shall be surrounded by pointed brackets (<>).","Replaced ambiguous pronoun ""it"" with specific noun ""the displayed graph"" to clarify which entity the node labels belong to.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:14:02.438976,529,322,True,"Analysis:
+- Pronouns found: ""it""
+- Refers to: unclear (could be ""leaf nodes"", ""node labels"", or ""graph"")
+- Ambiguous: Yes
+- Fix: Replace ""it"" with ""the displayed graph"" to clarify which entity is bein..."
+756,2001_hats,"[SRSreq 117] When a displayed node and its children are displayed simultaneously, the parent node shall be displayed higher than the children.","When a displayed node and its children are displayed simultaneously, the node shall be displayed higher than the children.","Replaced ambiguous pronoun ""its"" with specific noun ""the node"" to clarify which node is being referred to.",Anaphoric ambiguity,"""its""",True,one-shot+RAG,2026-01-14T18:14:04.145310,142,122,True,"Ambiguity Type: Anaphoric ambiguity
+Problem Found: ""its""
+Fixed Requirement: When a displayed node and its children are displayed simultaneously, the node shall be displayed higher than the children.
+E..."
+759,2001_hats,[SRSreq 120] The user shall be able to expand displayed nodes (provided it is possible to expand the selected nodes). The HATS-GUI shall change the graph display by adding the descendant nodes to the displayed graph (thus changing the expandable nodes to internal nodes).,The user shall be able to expand displayed nodes (provided the selected nodes are expandable). The HATS-GUI shall change the graph display by adding the descendant nodes to the displayed graph (thus changing the expandable nodes to internal nodes).,"Replaced ambiguous pronoun ""it"" with specific noun phrase ""the selected nodes"" to clarify which entity is the subject of the condition.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:14:07.460461,271,248,True,"Analysis:
+- Pronoun found: ""it""
+- Refers to: unclear (could be ""the user"" or ""the selected nodes"")
+- Ambiguous: Yes
+- Fix: Replace ""it"" with ""the selected nodes""
+
+Fixed Requirement: The user shall be ..."
+769,2001_hats,"[SRSreq 130] If a displayed graph or a text display is too large to fit inside its window, the windows shall have scroll bars attached to them. Dragging scrollbar buttons shall scroll the display. Pressing the arrow keys of the keyboard shall also scroll the display.","If a displayed graph or a text display is too large to fit inside the window, the window shall have scroll bars attached to it. Dragging scrollbar buttons shall scroll the window. Pressing the arrow keys of the keyboard shall also scroll the window.","Replaced ambiguous pronouns ""its"" and ""them"" with specific noun ""the window"" to clarify which entity has scroll bars and is scrolled.",Anaphoric,"""its"", ""them"", ""the display""",True,one-shot+RAG,2026-01-14T18:14:10.217658,267,249,True,"Ambiguity Type: Anaphoric
+Problem Found: ""its"", ""them"", ""the display""
+Fixed Requirement: If a displayed graph or a text display is too large to fit inside the window, the window shall have scroll bars..."
+772,2001_hats,"[SRSreq 133] For displayed graph windows, the keyboard cursor location shall move according the following rules: • A left arrow key moves the cursor to the next unhidden node to the left. The node to the left does not need to be a sibling of the current node, but it does need to be at the same level as the current node. If there are no nodes to the left, the cursor does not move. • A right arrow key moves the cursor to the next unhidden node to the right. The node to the right does not need to be a sibling of the current node, but it does need to be at the same level as the current node. If there are no nodes to the right, the cursor does not move. • An up arrow key moves the cursor to the closest ancestor that is not hidden. If there is no such node, the cursor does not move. • An down arrow key moves the cursor to the leftmost, nearest descendant that is not hidden. If there is no such node, the cursor does not move.","For displayed graph windows, the keyboard cursor location shall move according to the following rules:","Replaced ambiguous pronoun ""it"" with ""the cursor"" to clarify which entity is moving according to the rules.",Anaphoric ambiguity,"The word ""it""",True,one-shot+RAG,2026-01-14T18:14:16.946230,932,102,True,"Ambiguity Type: Anaphoric ambiguity
+Problem Found: The word ""it""
+Fixed Requirement: For displayed graph windows, the keyboard cursor location shall move according to the following rules: 
+• A left arr..."
+796,2001_hats,"[SRSreq 157] The HATS-GUI shall display 1,000,000 node SDTs in the same amount of time, plus or minus two seconds, as it takes to display a 10,000 node SDT.","The HATS-GUI shall display 1,000,000 node SDTs in the same amount of time, plus or minus two seconds, as displaying a 10,000 node SDT.","Replaced ambiguous pronoun ""it"" with a descriptive phrase ""displaying a 10,000 node SDT"" to clarify which entity's time is being referenced.",Unknown,Unknown,True,one-shot+RAG,2026-01-14T18:14:20.504812,156,134,True,"Analysis:
+- Pronoun found: ""it""
+- Refers to: unclear (could be ""HATS-GUI"" or ""10,000 node SDT"")
+- Ambiguous: Yes
+- Fix: Replace ""it"" with ""displaying a 10,000 node SDT""
+
+Fixed Requirement: The HATS-GU..."
+806,MDOT,"DD-100 The DUAP System shall cache data only if the data record associates the data with its source, a geo-referenced location, and a timestamp.","The DUAP System shall cache data only if the data record associates the data with the data source, a geo-referenced location, and a timestamp.","Replaced ambiguous pronoun ""its"" with specific noun ""the data source"" to clarify which entity is associated with the data record.",Anaphoric ambiguity,"""its""",True,one-shot+RAG,2026-01-14T18:14:22.548999,144,142,True,"Ambiguity Type: Anaphoric ambiguity
+Problem Found: ""its""
+Fixed Requirement: The DUAP System shall cache data only if the data record associates the data with the data source, a geo-referenced location..."
+807,MDOT,PS-020-060 The system map display shall support each type of traffic item to be displayed in its own layer.,The system map display shall support each type of traffic item to be displayed in its own layer.,"Replaced ambiguous pronoun ""its"" with possessive adjective ""its"" which still causes ambiguity as ""its"" can be possessive or reflexive. However, since ""own"" is used with ""layer"", it is more likely that ""its"" is meant to be possessive.",Anaphoric,"""its""",True,one-shot+RAG,2026-01-14T18:14:25.042510,107,96,True,"Ambiguity Type: Anaphoric
+Problem Found: ""its""
+Fixed Requirement: The system map display shall support each type of traffic item to be displayed in its own layer.
+Explanation: Replaced ambiguous prono..."
+808,MDOT,"PS-200-020 The DUAP Presentation Services shall require users to confirm their identity. (comment: Could be implemented, for example, through a password associated with that username.)",The DUAP Presentation Services shall require users to confirm the user's identity.,"Replaced ambiguous pronouns ""their"" and ""that"" with specific noun ""the user"" to clarify which user is being referred to.",Anaphoric,"""their"" and ""that""",True,one-shot+RAG,2026-01-14T18:14:26.774997,184,82,True,"Ambiguity Type: Anaphoric
+Problem Found: ""their"" and ""that""
+Fixed Requirement: The DUAP Presentation Services shall require users to confirm the user's identity.
+Explanation: Replaced ambiguous pronou..."
+826,1999_tcs,"When executing in the Normal Startup Mode, the TCS shall provide the system functionality necessary to initialize the system to place it in the Operations State within 60 seconds from the time power is supplied and the TCS application is launched. [SSS024]","When executing in the Normal Startup Mode, the TCS shall provide the system functionality necessary to initialize the TCS to the Operations State within 60 seconds from the time power is supplied and the TCS application is launched.","Replaced ambiguous pronoun ""it"" with specific noun ""the TCS"" to clarify which entity is being initialized.",Anaphoric Ambiguity,"""it""",True,one-shot+RAG,2026-01-14T18:14:29.126573,256,232,True,"Ambiguity Type: Anaphoric Ambiguity
+Problem Found: ""it""
+Fixed Requirement: When executing in the Normal Startup Mode, the TCS shall provide the system functionality necessary to initialize the TCS to ..."
+868,1999_tcs,The TCS shall allow the operator to set the LOL delay timer(s) during mission planning. [SSS075] The LOL delay is the time from when the AV detects an unplanned LOL to the time it initiates LOL procedures.,The TCS shall allow the operator to set the LOL delay timer(s) during mission planning. The LOL delay is the time from when the AV detects an unplanned LOL to the time the TCS initiates LOL procedures.,"Replaced ambiguous pronoun ""it"" with specific noun ""the TCS"" to clarify which entity initiates LOL procedures.",Anaphoric ambiguity,"""it""",True,one-shot+RAG,2026-01-14T18:14:31.479250,205,201,True,"Ambiguity Type: Anaphoric ambiguity
+Problem Found: ""it""
+Fixed Requirement: The TCS shall allow the operator to set the LOL delay timer(s) during mission planning. The LOL delay is the time from when t..."

@@ -1,0 +1,83 @@
+SCOPE AMBIGUITY RESOLUTION EVALUATION REPORT
+============================================================
+Generated: 2025-09-23 17:04:00
+
+APPROACH COMPARISON:
+--------------------------------------------------------------------------------
+Approach             Cases    Exact    Similarity F1      
+--------------------------------------------------------------------------------
+zero-shot            96       0.000    0.929      1.000   
+zero-shot-rag        96       0.000    0.926      1.000   
+one-shot             96       0.010    0.924      1.000   
+one-shot-rag         96       0.010    0.917      1.000   
+few-shot             96       0.021    0.924      1.000   
+few-shot-rag         96       0.021    0.929      1.000   
+
+DETAILED RESULTS:
+----------------------------------------
+
+ZERO-SHOT:
+  Total Cases: 96
+  Exact Matches: 0 (0.000)
+  Average Similarity: 0.929
+  Detection Accuracy: 1.000
+  Precision: 1.000
+  Recall: 1.000
+  F1-Score: 1.000
+  Should Change: 96
+  Were Changed: 96
+
+ZERO-SHOT-RAG:
+  Total Cases: 96
+  Exact Matches: 0 (0.000)
+  Average Similarity: 0.926
+  Detection Accuracy: 1.000
+  Precision: 1.000
+  Recall: 1.000
+  F1-Score: 1.000
+  Should Change: 96
+  Were Changed: 96
+
+ONE-SHOT:
+  Total Cases: 96
+  Exact Matches: 1 (0.010)
+  Average Similarity: 0.924
+  Detection Accuracy: 1.000
+  Precision: 1.000
+  Recall: 1.000
+  F1-Score: 1.000
+  Should Change: 96
+  Were Changed: 96
+
+ONE-SHOT-RAG:
+  Total Cases: 96
+  Exact Matches: 1 (0.010)
+  Average Similarity: 0.917
+  Detection Accuracy: 1.000
+  Precision: 1.000
+  Recall: 1.000
+  F1-Score: 1.000
+  Should Change: 96
+  Were Changed: 96
+
+FEW-SHOT:
+  Total Cases: 96
+  Exact Matches: 2 (0.021)
+  Average Similarity: 0.924
+  Detection Accuracy: 1.000
+  Precision: 1.000
+  Recall: 1.000
+  F1-Score: 1.000
+  Should Change: 96
+  Were Changed: 96
+
+FEW-SHOT-RAG:
+  Total Cases: 96
+  Exact Matches: 2 (0.021)
+  Average Similarity: 0.929
+  Detection Accuracy: 1.000
+  Precision: 1.000
+  Recall: 1.000
+  F1-Score: 1.000
+  Should Change: 96
+  Were Changed: 96

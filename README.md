@@ -1,138 +1,97 @@
-# Software Requirements Ambiguity Resolution Using Large Language Models
+# Ambiguity Resolution Artifact
 
-This repository accompanies the paper:
+This repository contains the cleaned implementation, datasets, and expected outputs for ambiguity-resolution experiments over software requirements.
 
-> **Software Requirements Ambiguity Resolution Using Large Language Models**
+The updated version includes the new data folders for anaphoric ambiguity and RAG, in addition to the original scope, structural, and vagueness experiments.
 
-It provides a unified **Chain-of-Thought (CoT)** framework for resolving four
-types of ambiguity in natural-language software requirements — **anaphoric**,
-**structural**, **vagueness**, and **scope** — using **Llama 3.1-8B-Instruct**,
-with optional **Retrieval-Augmented Generation (RAG)**.
-
----
-
-##  Highlights
-
-- Unified prompt-engineering framework with type-specific CoT reasoning.
-- Three prompting strategies: **zero-shot**, **one-shot**, **few-shot**.
-- Optional **RAG** using `all-MiniLM-L6-v2` embeddings + ChromaDB.
-- Evaluation with Exact Match, BLEU-1/2/3/4, Semantic Similarity, and
-  manual judgements.
-- 411 expert-annotated ambiguity instances spanning four ambiguity types.
+## Tasks included
 
 
----
+1. **Anaphoric ambiguity resolution**
+2. **Scope ambiguity resolution**
+3. **Structural ambiguity resolution**
+4. **Vagueness ambiguity resolution**
 
-## Installation
+The experiments evaluate zero-shot, one-shot, few-shot, and, where available, RAG-enhanced variants.
 
-### 1. Clone and create a Python environment
+
+```
+
+## Setup
+
+Python 3.10 is recommended.
 
 ```bash
-git clone <repo-url> requirements-ambiguity-llm
-cd requirements-ambiguity-llm
-python3 -m venv .venv
+python3.10 -m venv .venv
 source .venv/bin/activate
-pip install -r code/requirements.txt
+pip install --upgrade pip
+pip install -r requirements.txt
+python scripts/setup_nltk_data.py
+python scripts/check_environment.py
 ```
 
-### 2. Authenticate with Hugging Face (for Llama 3.1)
+The full experiments use `meta-llama/Llama-3.1-8B-Instruct`. You may need Hugging Face access to that model.
 
-Llama 3.1 is a gated model. Request access on the
-[model page](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct), then:
+## Quick smoke test
 
 ```bash
-huggingface-cli login
+bash scripts/smoke_test.sh
 ```
 
-### 3. (One-time) download NLTK data used by BLEU smoothing
+This checks imports, required files, and Python syntax. It does not load the LLaMA model.
+
+## Run experiments
+
+Run one experiment:
 
 ```bash
-python -c "import nltk; nltk.download('punkt')"
+bash scripts/run_anaphoric.sh
+bash scripts/run_anaphoric_rag.sh
+bash scripts/run_scope.sh
+bash scripts/run_structural.sh
+bash scripts/run_vagueness.sh
 ```
 
----
-
-##  Hardware requirements
-
-- NVIDIA GPU with **≥ 40 GB VRAM** (e.g. A100-40GB) for Llama 3.1-8B in
-  `bfloat16`.
-- Runs on CPU too, but will be very slow.
-- ~5 GB disk space for model weights.
-
----
-
-
-##  Running an experiment
-
-Each ambiguity type has its own script. All accept the same CLI flags.
+Run all experiments:
 
 ```bash
-cd code
-
-# Few-shot, no RAG (default)
-python anaphoric.py --csv ../data/anaphoric.csv
-
-# Zero-shot with RAG
-python structural.py --approach zero-shot --use-rag \
-                     --csv ../data/structural.csv \
-                     --srs-path ../srs_documents
-
-# Few-shot + RAG
-python vagueness.py --approach few-shot --use-rag \
-                    --csv ../data/vagueness.csv
+bash scripts/run_all.sh
 ```
 
-### Reproduce all 24 configurations from the paper
+Equivalent Make targets are available:
 
 ```bash
-bash code/run_all.sh
+make smoke
+make anaphoric
+make anaphoric-rag
+make scope
+make structural
+make vagueness
+make all
 ```
 
-This runs **4 ambiguity types × 3 prompting strategies × 2 (with/without RAG)**.
+## Expected outputs
 
-Outputs land in `results/<ambiguity_type>/`:
+Reference outputs from the uploaded runs are stored in:
 
-- `<type>_results_<approach>[_rag].csv` — per-instance predictions and metrics
-- `<type>_log_<approach>[_rag].txt`     — full run log + summary
+```text
+results/expected/
+├── anaphoric/
+├── scope/
+├── structural/
+└── vagueness/
+```
 
----
+New runs generate output inside each experiment folder. Generated logs, ChromaDB folders, and run-output directories are ignored by `.gitignore`.
 
-##  Model configuration
+## Cleaning decisions
 
-These defaults match §Experimental Setup of the paper:
+This repository intentionally excludes generated and machine-specific files:
 
-| Hyperparameter         | Value                                |
-|------------------------|--------------------------------------|
-| Model                  | `meta-llama/Llama-3.1-8B-Instruct`   |
-| Precision              | `bfloat16`                           |
-| Temperature            | 0.1                                  |
-| Top-p                  | 0.9                                  |
-| Max new tokens         | 512                                  |
-| Repetition penalty     | 1.1                                  |
-| Max input (zero-shot)  | 2048 tokens                          |
-| Max input (one-shot)   | 2560 tokens                          |
-| Max input (few-shot)   | 3584 tokens                          |
-| Embedding model        | `all-MiniLM-L6-v2`                   |
-| RAG index              | ChromaDB (cosine, HNSW)              |
-| Retrieved chunks       | 3 (≤ 200 tokens each)                |
-| Random seed            | 42                                   |
-
----
-
-##  Evaluation metrics
-
-Automatic metrics computed per instance:
-
-- **Exact Match** (case-insensitive, whitespace-normalised)
-- **BLEU-1 / BLEU-2 / BLEU-3 / BLEU-4** (NLTK, `method1` smoothing)
-- **Semantic Similarity** (cosine of `all-MiniLM-L6-v2` embeddings)
-
----
-
-
-##  License
-
-- **Code** — [MIT](LICENSE)
-- **Data** — [CC BY 4.0](LICENSE-DATA) (with attribution to the PURE corpus
-  and the multi-label ambiguity-detection dataset cited in the paper)
+- `.DS_Store` and `__MACOSX`
+- `__pycache__` and `.pyc` files
+- ChromaDB SQLite/index files
+- local virtual environments
+- run logs
+- local `nltk_data` cache files
 

@@ -1,0 +1,46 @@
+UNIFIED VAGUENESS RESOLUTION EVALUATION REPORT
+Approach: ZEROSHOT_RAG
+================================================================================
+
+OVERALL METRICS:
+Exact Match Score: 0.0000
+BLEU-1 Score: 0.3649
+BLEU-2 Score: 0.2888
+BLEU-3 Score: 0.2476
+BLEU-4 Score: 0.2135
+Semantic Similarity: 0.7388
+Classification Accuracy: 0.9406
+Classification Precision: 0.0000
+Classification Recall: 0.0000
+Classification F1-Score: 0.0000
+
+DETECTION STATISTICS:
+Ground Truth Vague: 101
+Predicted Vague: 95
+Total Requirements: 101
+
+SAMPLE EXACT MATCHES:
+
+SAMPLE EXACT MISMATCHES:
+
+Mismatch 1 (ID: 1222):
+  Ground Truth: The TCS HCI shall provide for separation, grouping, and visual coding of multiple categories of aler...
+  Prediction:   The TCS HCI shall provide for the separation, grouping, and visual coding of at least three distinct...
+
+Mismatch 2 (ID: 461):
+  Ground Truth: During single processor failure or network component failure, the Backend System shall continue crit...
+  Prediction:   The system shall continue operations at a minimum of 75% capacity during any single processor failur...
+
+Mismatch 3 (ID: 1264):
+  Ground Truth: The TCS system shall be capable of being de-configured from sea transport configuration, ground tran...
+  Prediction:   The TCS system shall be capable of being de-configured from sea, ground, as well as air transport an...
+
+Mismatch 4 (ID: 998):
+  Ground Truth: The TCS shall export and disseminate data in the following formats to selected external C4I systems ...
+  Prediction:   The TCS shall export and disseminate formatted NITF 2.0 files, digital imagery (if applicable), form...
+
+Mismatch 5 (ID: 693):
+  Ground Truth: [SRSreq 48] The HATS-GUI shall interact with the HOST OS to find files in directories using standard...
+  Prediction:   The HATS-GUI shall interact with the HOST OS to find files in directories, and it shall not open mor...
+
+Report generated: 2025-08-29T06:36:21.880262

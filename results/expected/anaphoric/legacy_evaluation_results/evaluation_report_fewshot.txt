@@ -1,0 +1,69 @@
+ANAPHORIC AMBIGUITY RESOLUTION EVALUATION REPORT
+Approach: FEWSHOT
+================================================================================
+
+OVERALL METRICS:
+Exact Match Score: 0.0000
+BLEU-1 Score: 0.8637
+BLEU-2 Score: 0.8360
+BLEU-3 Score: 0.8068
+BLEU-4 Score: 0.7743
+Semantic Similarity: 0.9888
+Classification Accuracy: 0.0088
+Classification Precision: 1.0000
+Classification Recall: 0.0088
+Classification F1-Score: 0.0174
+
+SAMPLE COMPARISONS:
+
+Example 1 (ID: 1):
+  Exact Match: ✗
+  Ground Truth: The Clarus system shall be able to base the Clarus system's quality checking process on historical e...
+  Prediction:   The Clarus system shall be able to base its quality checking process on historical environmental dat...
+
+Example 2 (ID: 2):
+  Exact Match: ✗
+  Ground Truth: The Clarus system shall be able to use multiple algorithms for the Clarus system's quality checking ...
+  Prediction:   The Clarus system shall be able to use multiple algorithms for its quality checking process....
+
+Example 3 (ID: 3):
+  Exact Match: ✗
+  Ground Truth: The CAS shall be configurable to allow new observation types to be implemented as the new observatio...
+  Prediction:   The CAS shall be configurable to allow new observation types to be implemented as they become availa...
+
+Example 4 (ID: 4):
+  Exact Match: ✗
+  Ground Truth: The Clarus system shall record statistics about the Clarus system's operation....
+  Prediction:   The Clarus system shall record statistics about its operation....
+
+Example 5 (ID: 5):
+  Exact Match: ✗
+  Ground Truth: CS shall collect environmental data based on CS's configured schedule....
+  Prediction:   CS shall collect environmental data based on its configured schedule....
+
+Example 6 (ID: 6):
+  Exact Match: ✗
+  Ground Truth: CS shall be able to be implemented to collect new observation types as the new observation types bec...
+  Prediction:   CS shall be able to be implemented to collect new observation types as they become available....
+
+Example 7 (ID: 7):
+  Exact Match: ✗
+  Ground Truth: CS shall be able to dynamically adjust CS's retrieval schedules when environmental data is expected ...
+  Prediction:   CS shall be able to dynamically adjust its retrieval schedules when environmental data is expected t...
+
+Example 8 (ID: 8):
+  Exact Match: ✗
+  Ground Truth: The Clarus system shall process data as the data are received....
+  Prediction:   The Clarus system shall process data as they are received....
+
+Example 9 (ID: 9):
+  Exact Match: ✗
+  Ground Truth: CS shall process environmental data as the environmental data are received....
+  Prediction:   CS shall process environmental data as they are received....
+
+Example 10 (ID: 10):
+  Exact Match: ✗
+  Ground Truth: The Clarus system shall be able to communicate with environmental sensor stations through the Clarus...
+  Prediction:   The Clarus system shall be able to communicate with environmental sensor stations through its collec...
+
+Report generated: 2025-07-23T04:53:37.564453

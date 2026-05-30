@@ -1,0 +1,35 @@
+ANAPHORIC AMBIGUITY - RAG EVALUATION REPORT
+================================================================================
+Generated: 2026-01-14 18:20:22
+
+OVERALL RANKINGS (by Semantic Similarity):
+--------------------------------------------------------------------------------
+3. few-shot + RAG            | Sim: 0.9623 | BLEU: 0.8222 | EM: 25.4%
+1. zero-shot + RAG           | Sim: 0.9613 | BLEU: 0.8073 | EM: 15.8%
+2. one-shot + RAG            | Sim: 0.9609 | BLEU: 0.7879 | EM: 18.4%
+
+================================================================================
+DETAILED METRICS:
+================================================================================
+
+few-shot + RAG
+  Evaluated: 114
+  Exact Match: 29 (25.4%)
+  BLEU: 0.8222 ± 0.2050
+  Similarity: 0.9623 ± 0.0662
+  Change Rate: 98.2%
+
+zero-shot + RAG
+  Evaluated: 114
+  Exact Match: 18 (15.8%)
+  BLEU: 0.8073 ± 0.1712
+  Similarity: 0.9613 ± 0.1071
+  Change Rate: 92.1%
+
+one-shot + RAG
+  Evaluated: 114
+  Exact Match: 21 (18.4%)
+  BLEU: 0.7879 ± 0.2053
+  Similarity: 0.9609 ± 0.0623
+  Change Rate: 93.0%
+

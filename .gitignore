@@ -1,39 +1,47 @@
-# Python
+# OS/editor files
+.DS_Store
+__MACOSX/
+.vscode/
+.idea/
+
+# Python caches
 __pycache__/
 *.py[cod]
-*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
 .venv/
 venv/
 env/
-.ipynb_checkpoints/
+*_env/
+structural_env/
 
-# Experiment artifacts
-results/
-chroma_db_*/
-*.log
-*.tmp
-
-# HuggingFace / model caches
+# Model/cache data
 .cache/
-*.safetensors
+*.sqlite3
 *.bin
+*.pickle
+chroma_db*/
+experiments/**/chroma_db*/
+nltk_data/
 
-# OS / editor
-.DS_Store
-.idea/
-.vscode/
-*.swp
-
-# LaTeX build artifacts
-*.aux
-*.bbl
-*.blg
+# Generated logs and large run outputs
 *.log
-*.out
-*.toc
-*.synctex.gz
-*.fls
-*.fdb_latexmk
-*.lof
-*.lol
-*.lot
+*_log*.txt
+analysis_log_*.txt
+fixing_log.txt
+output_*.txt
+experiments/**/evaluation_results/
+experiments/**/evaluation_results_*/
+experiments/**/scope_evaluation_results*/
+experiments/**/structural_evaluation_results*/
+experiments/**/vagueness_evaluation_results*/
+experiments/**/evaluation_vagueness/
+experiments/**/*_results_*.csv
+experiments/**/*_evaluation_*.png
+experiments/**/*_evaluation_*.md
+
+# Keep expected uploaded outputs committed
+!results/expected/**
